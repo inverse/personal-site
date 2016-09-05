@@ -1,0 +1,28 @@
+nav {
+    text-align: right;
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+
+        a {
+            padding: 10px;
+            display: inline-block;
+            border-radius: 5px;
+
+            &:hover {
+                text-decoration: none;
+                background: $gray-5;
+                color: white;
+            }
+        }
+    }
+
+    .active {
+        background: $gray-3;
+        color: white;
+    }
+}

@@ -1,0 +1,31 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Malachi Soord
+tagline:             In a beautiful place out in the country
+url:                 http://malachisoord.com
+paginate:            1
+baseurl:             ""
+
+# Assets
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Malachi Soord
+  url:               http://malachisoord.com
+  email:             me@malachisoord.com
+
+
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-gravatar 
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
