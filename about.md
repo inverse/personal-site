@@ -13,7 +13,7 @@ He has experience with languages including Java, Android, C#, ASP.NET, PHP, mySQ
 
 ## Curriculum Vitae
 
-You can obtain a copy of his CV or contact him via any of the methods listed on the page.
+You can obtain a copy of his [Curriculum Vitae]({{ site.url }}/assets/doc/cv-malachi-soord.pdf) or contact him via any of the methods listed on the page.
 
 ## Contact
 
