@@ -20,14 +20,9 @@ nav {
 
             &:hover {
                 text-decoration: none;
-                background: $gray-5;
+                background: $gray-3;
                 color: white;
             }
         }
-    }
-
-    .active {
-        background: $gray-3;
-        color: white;
     }
 }
