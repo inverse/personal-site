@@ -1,13 +1,12 @@
 nav {
     text-align: right;
-    border-top:2px dashed $gray-2;
-    border-bottom:2px dashed $gray-2;
-    background: $gray-1;
+    background: $nav-color;
     margin-bottom:1em;
+    padding:0 0.5em;
 
     ul {
         list-style: none;
-        margin:0.5em 0;
+        margin-bottom: 0.5em;
         padding:0;
     }
 
@@ -15,15 +14,24 @@ nav {
         display: inline-block;
 
         a {
-            padding: 10px;
+            font-size: 1.25em;
+            padding: 5px;
+            margin:5px 0;
             display: inline-block;
             border-radius: 5px;
+            color: white;
 
             &:hover {
                 text-decoration: none;
-                background: $gray-3;
-                color: white;
+                background: $nav-hover;
             }
         }
     }
+}
+
+@media (max-width: 30em) { 
+    nav {
+        margin:0 -1.5em;
+        padding:0 1.5em;
+        }
 }

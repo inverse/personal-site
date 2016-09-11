@@ -5,12 +5,6 @@ title: About
 
 Malachi Soord is a Software Engineer based in Berlin. He has found his passion in web and mobile application development along with the standards and technologies surrounding these fields.
 
-He attends technological events and talks when he can and in his spare time enjoys cycling, and exploring his local surroundings.
-
-## Skills
-
-He has experience with languages including PHP, Java, Android, C#, ASP.NET, mySQL, MSSQL, CSS3, HTML5, XML, XSD, JavaScript and is an avid fan of frameworks such as Symfony, Foundation, and more recently Silex.
-
 ## Curriculum Vitae
 
 You can obtain a copy of his [Curriculum Vitae](/assets/doc/cv-malachi-soord.pdf) by clicking the link.
