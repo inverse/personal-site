@@ -7,7 +7,8 @@ tagline:             In a beautiful place out in the country
 url:                 http://malachisoord.com
 paginate:            1
 baseurl:             ""
-
+analytics_id:        UA-15939659-3
+disqus:              malachisoord
 # Assets
 sass:
   sass_dir:          _sass
@@ -18,8 +19,6 @@ author:
   name:              Malachi Soord
   url:               http://malachisoord.com
   email:             me@malachisoord.com
-
-
 
 # Gems
 gems:
