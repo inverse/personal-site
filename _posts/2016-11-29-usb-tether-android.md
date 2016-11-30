@@ -27,3 +27,9 @@ Once enabled you should be online.
 ## Notes
 
 Asuming your device is connected to WiFi this connection will be used. Otherwise your cellular network will be used so be warned.
+
+## Futher reading
+
+- [Android Tethering - Arch Linux Wiki][0]
+
+[0]:https://wiki.archlinux.org/index.php/android_tethering
