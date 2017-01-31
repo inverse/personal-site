@@ -40,3 +40,8 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+
+
+# Bundler
+vendor/
+.bundle
