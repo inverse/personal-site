@@ -16,7 +16,7 @@ This article will cover my experience with setting it up on a Raspberry PI, spec
 
 - Raspberry PI 2+ (however will run on 1, but performance would be limited)
 - Micro SDCard
-- 2a USB adaptor (or powered USB port)
+- 2a USB adaptor (or powered USB po)
 - HDMI cable
 - A HDMI compatible display
 - USB keyboard
