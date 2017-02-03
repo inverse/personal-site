@@ -46,16 +46,16 @@ The first thing you will want to do is configure the network of the device. If y
 
 # Remotes
 
-Kodi is designed to be operated without a keyboard and there are many other ways to interact with it.
+Kodi is designed to be operated without a keyboard and there are many ways to interact with it.
 
 Firstly, if you are connected to a TV which supports HDMI CEC you should be able to use your remote to navigate. You may need to enable this on your device, check with your manufacturer manual for instructions.
 
-There are many Kodi remotes available for Android. However the two I have experience with are:
+Also there are many Kodi remotes available for Android. The two I have experience with are:
 
 - [Yatse][8]
 - [Kore][9] (Offical Kodi app)
 
-Both are pretty feature rich, however Yatse feels more intuitive and provides some additional functionality such as local media playback. However this requires the paid unlock.
+Both are pretty feature rich, however Yatse feels more intuitive and provides some additional functionality such as local media playback. But this requires the paid unlock.
 
 # Further Reading
 
