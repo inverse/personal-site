@@ -57,7 +57,7 @@ Also there are many Kodi remotes available for Android. The two I have experienc
 
 Both are pretty feature rich, however Yatse feels more intuitive and provides some additional functionality such as local media playback. But this requires the paid unlock.
 
-# Further Reading
+# Further reading
 
 - [OSMC Raspberry Pi FAQ][4]
 
