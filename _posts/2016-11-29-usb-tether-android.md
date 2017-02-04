@@ -1,6 +1,6 @@
 ---
 layout: post
-title: USB Tether Android Device
+title: USB tether Android device
 comments: true
 tags:
   - Linux
