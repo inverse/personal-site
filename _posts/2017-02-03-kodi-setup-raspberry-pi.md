@@ -8,43 +8,43 @@ tags:
   - Linux
 ---
 
-[Kodi][0] is an open source peice of software designed for providing you with a media center experience for your video, music, pictures, amoungst other things. 
+[Kodi][0] is an open source peice of software designed to provide a media center experience for your video, music, pictures, and applications. It runs of many different platforms including, Linux, OS X, Windows, and Android.
 
-It runs of many different platforms including, Linux, OS X, Windows, and Android.
-
-This article will cover my experience with setting it up on a Raspberry PI, specifically using the [OSMC][1] pre-built distribution. 
+This article will cover my experience setting up a media center like experience, specifically using the [OSMC][1] pre-built distribution. 
 
 # Requirements
 
-- Raspberry PI 2+ (however will run on 1, but performance would be limited)
+- Raspberry PI 2+
 - Micro SDCard
-- 2a USB adaptor (or powered USB po)
 - HDMI cable
-- A HDMI compatible display
+- A HDMI compatible TV
 - USB keyboard
 
-# Versions
+# Kodi flavours
 
-There are a few pre-made distributions designed to run on the Raspberry PI and other hardware including:
+There are a few pre-made distributions designed to run on the Raspberry PI including:
 
 - [OSMC][1]
 - [OpenELEC][2]
 - [LibreELEC][3]
 
-However you could always opt to set things up on the distribution of your choice by compiling from source or using one of the pre-built Kodi binaries.
+However you could always opt to set things up on the distribution of your choice by compiling from source or using one of the pre-built Kodi [binaries][11].
 
 # Installing
 
 1. First download the latest available [disk image version][5] of OSMC for the Pi. 
 2. Once downloaded extract the gz file using your favourite unarchiver. 
 3. Next write the img to your SDCard. The official Raspberry Pi site [covers this well][6].
-4. Connect power adaptor, HDMI cable, freshly imaged SDCard into the Pi and wait for boot. And that's it.
+4. Connect power adaptor, HDMI cable, freshly imaged SDCard into the Pi and wait for the first boot to finish.
+5. And that's it :) 
 
 # Setting things up
 
+## Internet connectivity
+
 The first thing you will want to do is configure the network of the device. If you are connecting via Ethernet you can skip this step as it _should_ be already configured but for WiFI connectivity, or additional network configurations you will want to navigate to the "My OSMC" settings screen. For detailed instructions on this visit the [dedicated wiki][7].
 
-# Remotes
+## Remotes
 
 Kodi is designed to be operated without a keyboard and there are many ways to interact with it.
 
@@ -60,6 +60,7 @@ Both are pretty feature rich, however Yatse feels more intuitive and provides so
 # Further reading
 
 - [OSMC Raspberry Pi FAQ][4]
+- [Kodi Wiki][12]
 
 [0]: https://kodi.tv/
 [1]: https://osmc.tv/
@@ -72,3 +73,5 @@ Both are pretty feature rich, however Yatse feels more intuitive and provides so
 [8]: https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree
 [9]: https://play.google.com/store/apps/details?id=org.xbmc.kore
 [10]: https://en.wikipedia.org/wiki/Consumer_Electronics_Control
+[11]: https://kodi.tv/download/
+[12]: http://kodi.wiki/
