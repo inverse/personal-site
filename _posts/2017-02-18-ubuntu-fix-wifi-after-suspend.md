@@ -10,14 +10,13 @@ tags:
   - wifi
 ---
 
-I'm running a fresh instrall Ubuntu Gnome 16.10 and I noticed that whenever I put the laptop in suspend I was unable to connect to my WiFi network upon resume. 
+I'm running a fresh install Ubuntu Gnome 16.10 on my XPS 15 and I noticed that whenever I put the laptop in suspend I was unable to connect to my WiFi network upon resume. 
 
 Looking online it appears that I am not alone with this [problem][0]. Following the discussion found that restarting the network-manager service fixed this.
 
 `sudo systemctl restart network-manager.service`
 
 You can automate this by creating a new systemd service which calls this whenever coming out of suspend, hibernate, or hybrid sleep. 
-
 
 First create the new service by `sudo nano /etc/systemd/system/wifi-resume.service` and pasting the following content:
 
