@@ -21,7 +21,7 @@ You can automate this by creating a new systemd service which calls this wheneve
 First create the new service by `sudo nano /etc/systemd/system/wifi-resume.service` and pasting the following content:
 
 ```
-Unit]
+[Unit]
 Description=Restart NetworkManager at resume
 After=suspend.target
 After=hibernate.target
