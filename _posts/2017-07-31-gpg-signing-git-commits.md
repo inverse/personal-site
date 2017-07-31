@@ -16,13 +16,13 @@ This article will cover how to setup GPG and configure it to sign your git commi
 
 ## Generating your own GPG key
 
-Keys can be generated either from the command line or by levarging GUI applications.
+Keys can be generated either from the command line or by leveraging GUI applications.
 
 The command line tool for GPG should come installed by default on Ubuntu. However if it's not provided you should be able to install it by running:
 
 `sudo apt install gnupg`
 
-To generate a key run following the on screen instructions.
+To generate a key run the below command and follow the on screen instructions.
 
 `gpg --gen-key`
 
