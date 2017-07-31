@@ -28,17 +28,15 @@ To generate a key run the below command and follow the on screen instructions.
 
 Like with SSH keys it's recommended to use a passphrase to add an extra layer of security. 
 
-Once generated you're done!
-
-To list the keys registered you can run:
+Once setup you can list the keys registeren.
 
 `gpg --list-keys`
 
-or to edit call
+If you want to modify an existing key run
 
 `gpg --edit-key <id>`
 
-where <id> is displayed when calling the list command or during creation.
+where `<id>` is replace with your ID that is displayed after key creation creation or when calling the list command.
 
 ### Useful tools
 
