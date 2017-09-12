@@ -42,6 +42,8 @@ where `<id>` is replace with your ID that is displayed after key creation creati
 
 - [Seahorse][5] - a GNOME application for managing encryption keys
 - [GNU Privacy Assistant][6] - a GUI for the GnuPG
+- [OpenPGP Applet][7] - a GNOME application for easy signing/decrypting messages
+- [Mailvelope]][8] - A simple Chrome extension for signing/decrypting emails
 
 ## Usage within git
 
@@ -71,3 +73,5 @@ or globally by running
 [4]: https://help.ubuntu.com/community/GnuPrivacyGuardHowto
 [5]: https://wiki.gnome.org/Apps/Seahorse/
 [6]: https://www.gnupg.org/related_software/gpa/
+[7]: https://openpgp-applet.alioth.debian.org/web/
+[8]: https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke?hl=en
