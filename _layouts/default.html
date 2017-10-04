@@ -58,33 +58,35 @@
     <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
     <script>
 
-      let coinHiveToggle = document.getElementById('coinHiveToggle');
+      if (typeof Coinhive != 'undefined') {
+          let coinHiveToggle = document.getElementById('coinHiveToggle');
 
-      coinHiveToggle.addEventListener('click', function() {
-        let coinHiveEnabled = !getCoinHiveEnabled();
-        localStorage.setItem('coinHiveEnabled', coinHiveEnabled);
-        initMining(coinHiveEnabled);        
-      });
+          coinHiveToggle.addEventListener('click', function() {
+              let coinHiveEnabled = !getCoinHiveEnabled();
+              localStorage.setItem('coinHiveEnabled', coinHiveEnabled);
+              initMining(coinHiveEnabled);
+          });
 
 
-      let coinHiveEnabled = getCoinHiveEnabled();
+          let coinHiveEnabled = getCoinHiveEnabled();
 
-      initMining(coinHiveEnabled);
+          initMining(coinHiveEnabled);
 
-      function getCoinHiveEnabled() {
-        let coinHiveEnabled =localStorage.getItem('coinHiveEnabled') || 'true';
-        return coinHiveEnabled == 'true';
-      }
+          function getCoinHiveEnabled() {
+              let coinHiveEnabled = localStorage.getItem('coinHiveEnabled') || 'true';
+              return coinHiveEnabled == 'true';
+          }
 
-      function initMining(coinHiveEnabled) {
-        if (coinHiveEnabled) {
-          var miner = new CoinHive.Anonymous('{{ site.coin_hive_id }}');
-          miner.start();
-          coinHiveToggle.innerHTML = 'Disable';
+          function initMining(coinHiveEnabled) {
+              if (coinHiveEnabled) {
+                  var miner = new CoinHive.Anonymous('{{ site.coin_hive_id }}');
+                  miner.start();
+                  coinHiveToggle.innerHTML = 'Disable';
 
-        } else {
-          coinHiveToggle.innerHTML = 'Enable';
-        }
+              } else {
+                  coinHiveToggle.innerHTML = 'Enable';
+              }
+          }
       }
 
     </script>
