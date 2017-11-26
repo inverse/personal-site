@@ -56,6 +56,8 @@
 
       let coinHiveToggle = document.getElementById('coinHiveToggle');
 
+      let miner = new CoinHive.Anonymous('{{ site.coin_hive_id }}');
+
       coinHiveToggle.addEventListener('click', function() {
           let coinHiveEnabled = !getCoinHiveEnabled();
           localStorage.setItem('coinHiveEnabled', coinHiveEnabled);
@@ -74,11 +76,10 @@
 
       function initMining(coinHiveEnabled) {
           if (coinHiveEnabled) {
-              var miner = new CoinHive.Anonymous('{{ site.coin_hive_id }}');
               miner.start();
               coinHiveToggle.innerHTML = 'Disable Mining';
-
           } else {
+              miner.stop();
               coinHiveToggle.innerHTML = 'Enable Mining';
           }
       }
