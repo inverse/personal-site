@@ -14,3 +14,14 @@ footer {
   margin-bottom: 2rem;
   text-align: center;
  }
+
+.wrapper {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper .item {
+	text-align:center;
+}
