@@ -20,8 +20,14 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  margin: 40px 0;
 }
 
 .wrapper .item {
-	text-align:center;
+  text-align:center;
+  transition: all .2s ease-in-out;
+}
+
+.wrapper .item:hover {
+  transform: scale(1.3);
 }
