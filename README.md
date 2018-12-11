@@ -6,8 +6,10 @@ My personal site based on [Poole][0].
 
 ### Requirements
 
-- Ruby + dev (`apt install ruby ruby-dev`)
-- Bundler (`gem install bundler`)
+- Ruby
+  - Ubuntu `apt install ruby ruby-dev`
+  - Arch `pacman -S ruby`
+- Bundler `gem install bundler --path ~/.gem`
 
 ### Steps
 
