@@ -22,7 +22,7 @@ author:
   email:             me@malachisoord.com
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
