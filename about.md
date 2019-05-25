@@ -3,7 +3,11 @@ layout: page
 title: About
 ---
 
-Malachi Soord is a Software Engineer based in Berlin. He has found his passion in web and mobile application development along with the standards and technologies surrounding these fields.
+Malachi Soord is a Software Engineer based in Berlin who is currently working @ [GetYourGuide](https://www.getyourguide.com). He has found his passion in web and mobile application development along with the standards and technologies surrounding these fields.
+
+# This Blog
+
+This blog is a place for him to write about semi-technical topics. 
 
 ## Curriculum Vitae
 
