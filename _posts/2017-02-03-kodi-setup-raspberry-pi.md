@@ -74,4 +74,4 @@ Both are pretty feature rich, however Yatse feels more intuitive and provides so
 [9]: https://play.google.com/store/apps/details?id=org.xbmc.kore
 [10]: https://en.wikipedia.org/wiki/Consumer_Electronics_Control
 [11]: https://kodi.tv/download/
-[12]: http://kodi.wiki/
+[12]: https://kodi.wiki/
