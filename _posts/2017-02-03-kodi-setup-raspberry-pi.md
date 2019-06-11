@@ -32,7 +32,7 @@ However you could always opt to set things up on the distribution of your choice
 
 # Installing
 
-1. First download the latest available [disk image version][5] of OSMC for the Pi. 
+1. First download the latest available [disk image version][5] of OSMC for your PI version. 
 2. Once downloaded extract the gz file using your favourite unarchiver. 
 3. Next write the img to your SDCard. The official Raspberry Pi site [covers this well][6].
 4. Connect power adaptor, HDMI cable, freshly imaged SDCard into the Pi and wait for the first boot to finish.
@@ -48,14 +48,14 @@ The first thing you will want to do is configure the network of the device. If y
 
 Kodi is designed to be operated without a keyboard and there are many ways to interact with it.
 
-Firstly, if you are connected to a TV which supports HDMI CEC you should be able to use your remote to navigate. You may need to enable this on your device, check with your manufacturer manual for instructions.
+Firstly, if you are connected to a TV which supports HDMI CEC you should be able to use your TV's remote to navigate. You may need to enable this on your device, check with your manufacturer manual for instructions.
 
 Also there are many Kodi remotes available for Android. The two I have experience with are:
 
 - [Yatse][8]
 - [Kore][9] (Offical Kodi app)
 
-Both are pretty feature rich, however Yatse feels more intuitive and provides some additional functionality such as local media playback. But this requires the paid unlock.
+Both are pretty feature rich, however Yatse feels more intuitive and provides some additional functionality such as local media playback. But this requires the paid in app purchase.
 
 # Further reading
 

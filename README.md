@@ -9,11 +9,11 @@ My personal site based on [Poole][0].
 - Ruby
   - Ubuntu `apt install ruby ruby-dev`
   - Arch `pacman -S ruby`
-- Bundler `gem install bundler --path ~/.gem`
+- Bundler `gem install bundler`
 
 ### Steps
 
-- `bundle install`
+- `bundle install --path ~/.gem`
 - `bundle exec jekyll serve`
 
 ### Creating Content
