@@ -64,7 +64,7 @@ Both are pretty feature rich, however Yatse feels more intuitive and provides so
 
 [0]: https://kodi.tv/
 [1]: https://osmc.tv/
-[2]: http://openelec.tv/
+[2]: https://openelec.tv/
 [3]: https://libreelec.tv/
 [4]: https://osmc.tv/wiki/raspberry-pi/frequently-asked-questions/
 [5]: https://osmc.tv/download/
