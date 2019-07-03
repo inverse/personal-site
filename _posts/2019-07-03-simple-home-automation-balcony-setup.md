@@ -13,13 +13,12 @@ One thing we recently extended in our setup was to include a very simple balcony
 
 # Parts
 
-- [Drip irrogation kit](https://www.amazon.de/exec/obidos/ASIN/B07H3LCB52/hexagon05-21/)
+- [Drip irrigation kit](https://www.amazon.de/exec/obidos/ASIN/B07H3LCB52/hexagon05-21/)
 - [12V adaptor](https://www.amazon.de/exec/obidos/ASIN/B019IHQND8/hexagon05-21/)
 - [Pump](https://www.amazon.de/exec/obidos/ASIN/B07L89V1N6/hexagon05-21/)
 - [Smart plug](https://www.amazon.de/exec/obidos/ASIN/B07D5V139R/hexagon05-21/)
 - [Water container](https://www.amazon.de/exec/obidos/ASIN/B001QEQZCQ/hexagon05-21/)
 - [Hose adaptor](https://www.amazon.de/exec/obidos/ASIN/B007L37976/hexagon05-21/)
-
 
 # Setup
 
