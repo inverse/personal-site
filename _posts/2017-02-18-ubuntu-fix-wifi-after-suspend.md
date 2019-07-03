@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu Fix Wifi after suspend
+title: Ubuntu Wifi fix after suspend
 comments: true
 tags: 
   - linux
