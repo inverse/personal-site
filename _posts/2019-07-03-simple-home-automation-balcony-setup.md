@@ -22,7 +22,9 @@ One thing we recently extended in our setup was to include a very simple balcony
 
 # Setup
 
-The setup with these components was straight forward, with the components pretty much connecting and screwing together and just working. The only complicated thing was flashing custom firmware onto the smart plug as I wanted to have a purely offline setup. I went with [espurna][3] for this but you could also try [esphome][4] which provides a nice API and easy YAML configuration.
+The setup with these components was straight forward, with the components pretty much connecting and screwing together and just working.
+
+The only complicated thing was flashing custom firmware onto the smart plug as I wanted to have a purely offline setup. I went with [espurna][3] for this but you could also try [esphome][4] which provides a nice API and easy YAML configuration.
 
 ## Home Assistant configuration
 
@@ -111,7 +113,9 @@ balcony_water_max:
 
 # Improvements
 
-As the title says this setup is _very_ basic right now and gives no feedback on the water remaining in the tank, the moisture in the soil, or outside air temperature, All these points are things I would love to improve in the future, especially the first point.
+As the title says this setup is _very_ basic right now and gives no feedback on the water remaining in the tank, the moisture in the soil, or outside air temperature.
+
+All these points are things I would love to improve in the future, especially the first point.
 
 # Photos
 
