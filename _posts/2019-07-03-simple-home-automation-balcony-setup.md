@@ -74,10 +74,10 @@ balcony_water_max:
   - service: script.balcony_water_start
 
 - alias: 'Balcony water automatic (stop)'
-  trigger: 
+  trigger:
   - platform: event
     event_type: timer.finished
-    event_data: 
+    event_data:
       entity_id: timer.balcony_water
   action:
   - service: switch.turn_off
@@ -99,10 +99,10 @@ balcony_water_max:
     entity_id: timer.balcony_water_max
 
 - alias: 'Balcony water manual (stop)'
-  trigger: 
+  trigger:
   - platform: event
     event_type: timer.finished
-    event_data: 
+    event_data:
       entity_id: timer.balcony_water_max
   action:
   - service: switch.turn_off
