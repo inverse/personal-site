@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9d3d8828-c3f5-4150-b051-15f707c14ae9/deploy-status)](https://app.netlify.com/sites/malachisoord/deploys)
 
-My personal site based on [Poole][0].
+My personal site based on [Poole][0], running on [Netify][2].
 
 ## Setup
 
@@ -48,3 +48,4 @@ or specify a specific date on which to publish it
 
 [0]: http://getpoole.com/
 [1]: https://github.com/jekyll/jekyll-compose
+[2]: https://www.netlify.com
