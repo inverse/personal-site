@@ -1,24 +1,24 @@
 # Permalinks
-permalink:           pretty
+permalink: pretty
 
 # Setup
-title:               Malachi Soord
-tagline:             In a beautiful place out in the country
-url:                 https://www.malachisoord.com
-paginate:            5
-baseurl:             ""
-analytics_id:        UA-15939659-3
-disqus:              malachisoord
+title: Malachi Soord
+tagline: In a beautiful place out in the country
+paginate: 5
+analytics_id: UA-15939659-3
+disqus: malachisoord
+timezone: Europe/Berlin
+
 # Assets
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 # About/contact
 author:
-  name:              Malachi Soord
-  url:               http://malachisoord.com
-  email:             me@malachisoord.com
+  name: Malachi Soord
+  url: http://malachisoord.com
+  email: me@malachisoord.com
 
 # Gems
 plugins:
