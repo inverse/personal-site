@@ -7,9 +7,11 @@ tags:
 - balcony
 date: 2019-07-03 22:20 +0200
 ---
-I've been getting into some home automation for our apartment for a while ever since my father got us a Alexa device to play with. Since then we expanded our setup to include smart plugs, Philips Hue lighting. Leveraging [Home Assistant][0] to bring it all together into a unified platform and more control.
+I've been getting into some home automation for our apartment for a while ever since my father got us an Amazon Alexa device to call home with. Since then we expanded our setup to include smart plugs, and Philips Hue lighting. While on their own these produces can work well on their own. 
 
-One thing we recently extended in our setup was to include a very simple balcony watering system that can be controlled remotely and automated via timers and other triggers.
+The real power comes when leveraging a product such as [Home Assistant][0] to bring it all together into a unified platform and more control.
+
+One thing we recently introduced in our setup was to include a very simple balcony watering system that can be controlled remotely and automated via timers and other triggers.
 
 # Parts
 
