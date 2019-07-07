@@ -13,6 +13,8 @@ The real power comes when leveraging a product such as [Home Assistant][0] to br
 
 One thing we recently introduced in our setup was to include a very simple balcony watering system that can be controlled remotely and automated via timers and other triggers.
 
+This post documents the equipment required outside of the standard Home Assistant setup and the configuration required to get going.
+
 # Parts
 
 - [Drip irrigation kit](https://www.amazon.de/exec/obidos/ASIN/B07H3LCB52/hexagon05-21/)
