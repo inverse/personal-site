@@ -3,19 +3,19 @@ layout: page
 title: About
 ---
 
-Malachi Soord is a Software Engineer based in Berlin who is currently working @ [GetYourGuide](https://www.getyourguide.com). He has found his passion in web and mobile application development along with the standards and technologies surrounding these fields.
+Hi! I'm Malachi Soord, a Software Engineer based in Berlin who is currently working @ [GetYourGuide](https://www.getyourguide.com).
 
-# This Blog
+# This blog
 
-This blog is a place for him to write about semi-technical topics. 
+This blog is a place for me to write about semi-technical topics.
 
 ## Curriculum Vitae
 
-You can obtain a copy of his [Curriculum Vitae](/assets/doc/cv-malachi-soord.pdf) by clicking the link.
+You can obtain a copy of my [Curriculum Vitae](/assets/doc/cv-malachi-soord.pdf).
 
 ## Contact
 
-He can be contacted via <a href="mailto:{{site.author.email}}">email</a> or by checking him out on:
+I can be contacted via <a href="mailto:{{site.author.email}}">email</a> or by visiting my profiles on:
 
 <div class="wrapper">
 	<div class="item">
