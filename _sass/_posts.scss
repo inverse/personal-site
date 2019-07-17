@@ -35,6 +35,16 @@
   color: #9a9a9a;
 }
 
+.post-tags {
+  margin-bottom: 2rem;
+}
+
+.post-tag {
+  display: inline-block;
+  padding: .5rem;
+  background: $gray-2;
+}
+
 
 // Related posts
 .related {

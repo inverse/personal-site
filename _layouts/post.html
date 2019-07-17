@@ -10,6 +10,15 @@ layout: default
   </div>
 </article>
 
+{% if page.tags != empty %}
+<div class="post-tags">
+    <h1 class="post-tags">Tags</h1>
+  {% for tag in page.tags %}
+    <span class="post-tag">{{ tag }}</span>
+  {% endfor %}
+</div>
+{% endif %}
+
 {% if site.related_posts != empty %}
 <aside class="related">
   <h3>Related posts</h3>

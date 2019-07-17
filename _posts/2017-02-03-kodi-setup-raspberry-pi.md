@@ -3,9 +3,9 @@ layout: post
 title: Kodi setup Raspberry Pi
 comments: true
 tags:
-  - Kodi
-  - Media
-  - Linux
+  - kodi
+  - linux
+  - raspberry-pi
 ---
 
 [Kodi][0] is an open source peice of software designed to provide a media center experience for your video, music, pictures, and applications. It runs of many different platforms including, Linux, OS X, Windows, and Android.

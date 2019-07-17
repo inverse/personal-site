@@ -5,7 +5,6 @@ comments: true
 tags: 
   - linux
   - ubuntu
-  - ubuntu-gnome
   - dell-xps-15
   - wifi
 ---
