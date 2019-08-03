@@ -37,6 +37,7 @@ The automation currently consists of 3 parts.
 - A daily watering schedule which is triggered based on the time
 - Secondary schedule, triggered by time and temperature forecast
 - Manual invocation and automatic off after defined duration
+- Safety mechanism to ensure switch is off, for cases when reboot occurs during watering cycle.
 
 For the first one I also decided to use [Push Bullet][2] to notify my devices when it was triggered, I wanted this to be notified easily whilst on vacation.
 
@@ -112,6 +113,18 @@ balcony_water_max:
       entity_id: timer.balcony_water_max
   action:
   - service: switch.turn_off
+    entity_id: switch.socket_balcony
+
+
+
+
+- alias: 'Ensure balcony is off on reboot'
+  initial_state: 'on'
+  trigger:
+    - platform: homeassistant
+      event: start
+  action:
+    service: switch.turn_off
     entity_id: switch.socket_balcony
 ```
 
