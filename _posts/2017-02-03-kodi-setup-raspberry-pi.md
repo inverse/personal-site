@@ -10,7 +10,7 @@ tags:
 
 [Kodi][0] is an open source peice of software designed to provide a media center experience for your video, music, pictures, and applications. It runs of many different platforms including, Linux, OS X, Windows, and Android.
 
-This article will cover my experience setting up a media center like experience, specifically using the [OSMC][1] pre-built distribution. 
+This article will cover my experience setting up a media center like experience, specifically using the [OSMC][1] pre-built distribution.
 
 # Requirements
 
@@ -32,11 +32,11 @@ However you could always opt to set things up on the distribution of your choice
 
 # Installing
 
-1. First download the latest available [disk image version][5] of OSMC for your PI version. 
-2. Once downloaded extract the gz file using your favourite unarchiver. 
+1. First download the latest available [disk image version][5] of OSMC for your PI version.
+2. Once downloaded extract the gz file using your favourite unarchiver.
 3. Next write the img to your SDCard. The official Raspberry Pi site [covers this well][6].
 4. Connect power adaptor, HDMI cable, freshly imaged SDCard into the Pi and wait for the first boot to finish.
-5. And that's it :) 
+5. And that's it :)
 
 # Setting things up
 

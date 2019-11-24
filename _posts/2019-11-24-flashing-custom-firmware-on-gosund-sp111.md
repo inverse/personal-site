@@ -8,6 +8,7 @@ tags:
 - smart-plug
 date: 2019-11-24 21:00 +0100
 ---
+
 We have some older generation [Teckin SP22][4]'s which I previously flashed with [Espurna][1]. They have since changed the model
 making it harder to flash due to the removal of the 4 screws on the back. Some people online reported some levels of success using [Tuya Convert]
 [2], but I wanted something that I could flash via serial.
@@ -18,8 +19,8 @@ To flash this device you will need:
 
 - [FTDI Adaptor](https://www.amazon.de/exec/obidos/ASIN/B01N9RZK6I/hexagon05-21/)
 - [Female to male jumper wires](https://www.amazon.de/exec/obidos/ASIN/B07K8PVKBP/hexagon05-21/)
-- [Mini USB cable](https://www.amazon.de/exec/obidos/ASIN/B00NH13S44/hexagon05-21/)
-- [Small Philips head screwdriver](https://www.amazon.de/exec/obidos/ASIN/B07Q3TDMK2/hexagon05-21/) 
+- [Minidate: 2019-11-24 21:00 +0100date: 2019-11-24 21:00 +0100 USB cable](https://www.amazon.de/exec/obidos/ASIN/B00NH13S44/hexagon05-21/)
+- [Small Philips head screwdriver](https://www.amazon.de/exec/obidos/ASIN/B07Q3TDMK2/hexagon05-21/)
 
 There are several custom firmwares available for these ESP8266 based devices, including:
 
@@ -27,7 +28,7 @@ There are several custom firmwares available for these ESP8266 based devices, in
 - [Tasmota][5]
 - [esphome][6]
 
-This time I went with Tasmota as it was well documented, has a big community, and I wanted to try something different. 
+This time I went with Tasmota as it was well documented, has a big community, and I wanted to try something different.
 
 # Preparing the device
 
@@ -35,19 +36,21 @@ To be able to flash the device you must first remove a single screw which can be
 
 ![Gosund SP111 closed back](/assets/img/posts/gesund-sp111-closed-back.jpg)
 
-Once losened you should be able pop off the top, around the translucent rim. 
+Once losened you should be able pop off the top, around the translucent rim.
 
 ![Gosund SP111 closed back](/assets/img/posts/gesund-sp111-open.jpg)
 
-As you can see from the diagram there are the soldering points exposed which we must connect the relevent jumper cables too. 
+As you can see from the diagram there are the soldering points exposed which we must connect the relevent jumper cables too.
 
 
-| FTDI   | Gosund | 
+| FTDI   | Gosund |
 |--------|--------|
 | `3.3v` | `3.3v` |
-| `GND`  | `GND`  | 
+| `GND`  | `GND`  |
 | `RX`   | `TX`   |
 | `TX`   | `RX`   |
+
+This table describes the way in which you should connect the devise to the FTDI.
 
 
 ![Gosund SP111 open atached](/assets/img/posts/gesund-sp111-open-attached.jpg)

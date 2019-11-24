@@ -2,7 +2,7 @@
 layout: post
 title: GPG signing git commits
 comments: true
-tags: 
+tags:
   - linux
   - ubuntu
   - gpg
@@ -27,7 +27,7 @@ To generate a key run the below command and follow the on screen instructions.
 
 `gpg --gen-key`
 
-Like with SSH keys it's recommended to use a passphrase to add an extra layer of security. 
+Like with SSH keys it's recommended to use a passphrase to add an extra layer of security.
 
 Once setup you can list the keys registered.
 

@@ -7,7 +7,7 @@ tags:
 - home-assistant
 date: 2019-07-03 22:20 +0200
 ---
-I've been getting into some home automation for our apartment for a while ever since my father got us an Amazon Alexa device to call home with. Since then we expanded our setup to include smart plugs, and Philips Hue lighting. While on their own these produces can work well on their own. 
+I've been getting into some home automation for our apartment for a while ever since my father got us an Amazon Alexa device to call home with. Since then we expanded our setup to include smart plugs, and Philips Hue lighting. While on their own these produces can work well on their own.
 
 The real power comes when leveraging a product such as [Home Assistant][0] to bring it all together into a unified platform and more control.
 
