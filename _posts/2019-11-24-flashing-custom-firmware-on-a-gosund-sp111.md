@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Flashing custom firmware on Gosund SP111
+title: Flashing custom firmware on a Gosund SP111
 comments: true
 tags:
 - home-automation
