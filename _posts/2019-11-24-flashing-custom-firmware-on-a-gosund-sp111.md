@@ -38,7 +38,7 @@ To be able to flash the device you must first remove a single screw which can be
 
 Once losened you should be able pop off the top, around the translucent rim.
 
-![Gosund SP111 closed back](/assets/img/posts/gesund-sp111-open.jpg)
+![Gosund SP111 open](/assets/img/posts/gesund-sp111-open.jpg)
 
 As you can see from the diagram there are the soldering points exposed which we must connect the relevent jumper cables too.
 
