@@ -10,16 +10,16 @@ date: 2019-11-24 21:00 +0100
 ---
 
 We have some older generation [Teckin SP22][4]'s which I previously flashed with [Espurna][1]. They have since changed the model
-making it harder to flash due to the removal of the 4 screws on the back. Some people online reported some levels of success using [Tuya Convert]
+making it harder to flash due to the removal of the 4 screws on the back. People online reported some levels of success using [Tuya Convert]
 [2], but I wanted something that I could flash via serial.
 
-This lead me to looking into alternatives and eventually lead me to the [Gosund SP111][3] due to it also featuring power reading capabilities and higher load rating.
+This lead me to looking into alternatives, eventually leading me to the [Gosund SP111][3] due to it also featuring power reading capabilities and higher load rating.
 
 To flash this device you will need:
 
 - [FTDI Adaptor](https://www.amazon.de/exec/obidos/ASIN/B01N9RZK6I/hexagon05-21/)
 - [Female to male jumper wires](https://www.amazon.de/exec/obidos/ASIN/B07K8PVKBP/hexagon05-21/)
-- [Minidate: 2019-11-24 21:00 +0100date: 2019-11-24 21:00 +0100 USB cable](https://www.amazon.de/exec/obidos/ASIN/B00NH13S44/hexagon05-21/)
+- [Mini USB cable](https://www.amazon.de/exec/obidos/ASIN/B00NH13S44/hexagon05-21/)
 - [Small Philips head screwdriver](https://www.amazon.de/exec/obidos/ASIN/B07Q3TDMK2/hexagon05-21/)
 
 There are several custom firmwares available for these ESP8266 based devices, including:
