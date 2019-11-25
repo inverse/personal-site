@@ -9,7 +9,7 @@ tags:
 - mqtt
 date: 2019-11-25 22:06 +0100
 ---
-Leading on from a previous post regarding [Flashing custom firmware onto Gosund SP111]({% post_url 2019-11-24-flashing-custom-firmware-on-a-gosund-sp111 %}) devices. 
+Leading on from a previous post regarding [Flashing custom firmware onto Gosund SP111]({% post_url 2019-11-24-flashing-custom-firmware-on-a-gosund-sp111 %}) devices.
 
 This post explains how to connect devices running [Tasmota][3] to [Home Assistant][1], allowing both control and integrating sensors if your device has power sensing capabilities such as the [Gosund SP111][0].
 
@@ -48,7 +48,7 @@ In your home-assistant configuration under `switch:` you can now configure your 
 
 ```
 
-Replacing `socket_7` with the name of your device, and `socket-7` with the topic you configured earlier. 
+Replacing `socket_7` with the name of your device, and `socket-7` with the topic you configured earlier.
 
 You can retrieve this information on the information page on Tasmota.
 
