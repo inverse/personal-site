@@ -16,7 +16,7 @@ My personal site based on [Poole][0], running on [Netify][2].
 ### Steps
 
 - `bundle install --path ~/.gem`
-- `bundle exec jekyll serve`
+- `bundle exec jekyll serve --drafts`
 
 ### Creating Content
 
