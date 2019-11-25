@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Connecting Tasmota to Home Assistant
+comments: true
 tags:
 - home-automation
 - tasmota
