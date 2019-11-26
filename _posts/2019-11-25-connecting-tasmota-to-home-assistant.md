@@ -80,6 +80,27 @@ To understand what kind of information is being published you can view the raw m
 - [MQTT Explorer][4]
 - [MQTTLens][6]
 
+# Displaying sensor stats
+
+If you're using Lovelace as a frontend for your setup I can recommend the [Mini Graph Card][8] extension by [@kalkih][9]. It provides various minimalistic and customisable cards that can be useful for displaying metrics and sensor statistics. 
+
+For example you can plot your kWh metics as configured above.
+
+![Lovelace Power Graphi](/assets/img/posts/ha-lovelace-power-graph.png)
+
+Follow the [installation instructions][10] and then configure your view with a card like below.
+
+```yaml
+  - type: custom:mini-graph-card
+    name: Socket Power
+    icon: mdi:flash
+    entities: 
+      - entity: sensor.socket_7_energy
+        name:  Window Lights
+      - entity: sensor.socket_8_energy
+        name: Living Room Lights
+```
+
 # Useful reading
 
 - [Hassio Docs - Template Sensor][5]
@@ -93,3 +114,6 @@ To understand what kind of information is being published you can view the raw m
 [5]: https://www.home-assistant.io/integrations/template/
 [6]: https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm?hl=en
 [7]: https://tasmota.github.io/docs/#/Home
+[8]: https://github.com/kalkih/mini-graph-card
+[9]: https://github.com/kalkih
+[10]: https://github.com/kalkih/mini-graph-card#install
