@@ -58,7 +58,7 @@ balcony_water_max:
   duration: '00:02:00'
 ```
 
-### automation.yaml
+Next configure the following automations.
 
 ```yaml
 - alias: 'Balcony water automatic (start)'

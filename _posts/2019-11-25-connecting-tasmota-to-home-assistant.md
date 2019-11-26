@@ -61,16 +61,16 @@ Place the following under `sensor:` within your Home Assistant configuration.
 
 ```yaml
 - name: socket_7_energy
-  platform: mqtt
-  state_topic: "tele/socket-7/SENSOR"
-  value_template: '{% raw %}{{ value_json["ENERGY"]["Total"] }}{% endraw %}'
-  unit_of_measurement: kWh
+platform: mqtt
+state_topic: "tele/socket-7/SENSOR"
+value_template: '{% raw %}{{ value_json["ENERGY"]["Total"] }}{% endraw %}'
+unit_of_measurement: kWh
 
 - name: socket_7_power
-  platform: mqtt
-  state_topic: "tele/socket-7/SENSOR"
-  value_template: '{% raw %}{{ value_json["ENERGY"]["Power"]" }}{% endraw %}'
-  unit_of_measurement: W
+platform: mqtt
+state_topic: "tele/socket-7/SENSOR"
+value_template: '{% raw %}{{ value_json["ENERGY"]["Power"] }}{% endraw %}'
+unit_of_measurement: W
 ```
 
 Replacing the `name` values with something meaningful to you, and `socket-7` with the topic you configured earlier.
