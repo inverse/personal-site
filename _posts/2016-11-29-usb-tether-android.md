@@ -3,10 +3,10 @@ layout: post
 title: USB tether Android device
 comments: true
 tags:
-  - linux
-  - android
-  - usb
-  - tips
+- linux
+- android
+- usb
+- tips
 ---
 
 I've been playing around with some linux live distributions recently but the main problem I had was the inability to have network support with the majority of them due to my WiFi broadcom chip not being supported out of the box.

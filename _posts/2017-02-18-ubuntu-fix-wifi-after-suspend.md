@@ -3,10 +3,10 @@ layout: post
 title: Ubuntu Wifi fix after suspend
 comments: true
 tags:
-  - linux
-  - ubuntu
-  - dell-xps-15
-  - wifi
+- linux
+- ubuntu
+- dell-xps-15
+- wifi
 ---
 
 I'm running a fresh install Ubuntu Gnome 16.10 on my XPS 15 and I noticed that whenever I put the laptop in suspend I was unable to connect to my WiFi network upon resume.

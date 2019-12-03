@@ -5,7 +5,6 @@ comments: true
 tags:
 - home-automation
 - home-assistant
-
 date: 2019-07-03 22:20 +0200
 ---
 I've been getting into some home automation for our apartment for a while, ever since my father got us an Amazon Alexa device to call home with. Since then we expanded our setup to include smart plugs, Philips Hue lighting, and some Broadlink IR controllers. 
