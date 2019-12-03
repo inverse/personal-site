@@ -3,10 +3,10 @@ layout: post
 title: GPG signing git commits
 comments: true
 tags:
-  - linux
-  - ubuntu
-  - gpg
-  - security
+- linux
+- ubuntu
+- gpg
+- security
 ---
 
 GNU Privacy Guard (GnuPG or GPG) is the free and open source implementation of the [OpenPGP protocol][3], that allows you to encrypt and sign your data and communication.
