@@ -13,9 +13,7 @@ I wanted a unified way to visualise the daily and monthly energy usage of these 
 
 Home Assistant provides a [Utility Meter][0] component that allows exactly that behaviour, with the granularity of even providing peak and off-peak tariffs if your energy provider offer such.
 
-The problem however is this operates on a single entity and the devices that I had configured are exposed individually.
-
-e.g. this is how Espurna and Tasmota expose them when manually configured.
+The problem however is this operates on a single entity and the devices that I have configured are exposed individually. e.g. this is how Espurna and Tasmota expose them when manually configured.
 
 ```yaml
 
