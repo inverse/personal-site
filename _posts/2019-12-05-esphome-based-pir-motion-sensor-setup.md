@@ -10,7 +10,7 @@ date: 2019-12-05 21:49 +0100
 ---
 Previously we had used the [Hue Motion Sensors][0] in our apartment to provide some automation for lighting control which work great, albeit a bit expensive.
 
-I wanted to extend our setup for our bedroom and since we already had an [ESP32 NodeMCU][1] device running [ESPHome][2] with a [DHT22][3] Sensor collecting temperature and humidity metrics I looked into extending this with another sensor for motion sensing. 
+I wanted to extend our setup for our bedroom and since we already had an [ESP32 NodeMCU][1] device running [ESPHome][2] with a [DHT22][3] Sensor collecting temperature and humidity metrics I looked into extending this with another sensor for motion sensing.
 
 This led me to to discovering some basic [PIR Motion Sensors][4] which can easily be hooked up and report back if motion is detected.
 
@@ -28,7 +28,7 @@ This led me to to discovering some basic [PIR Motion Sensors][4] which can easil
 
 ESPHome is an awesome platform that allows you to easily scaffold out IOT projects with a few lines of YAML.
 
-Below is the configuration for our ESP device in our bedroom. 
+Below is the configuration for our ESP device in our bedroom.
 
 ```yaml
 esphome:
@@ -95,7 +95,7 @@ and entering the IP/Host of your device.
 
 ![Home Assistant ESPHome integration](/assets/img/posts/ha-esphome-integration.png)
 
-Once configured, you will have a `binary_sensor` configured which can be used in automation. 
+Once configured, you will have a `binary_sensor` configured which can be used in automation.
 
 Since our setup is in our bedroom we do not want to have the lighting coming on when we move at night so added an input boolean which gets enabled when we activate our bedtime routine.
 
@@ -169,7 +169,7 @@ bedtime:
 
 I didn't want to leave the ESP32 device exposed so build a very rudimentary case out of a tupperware box.
 
-Cutting a hole on the front for the PIR sensor, using a hot glue gun to keep it fixed. As well as a small hole in the bottom for power, and one on the side for the DHT22 sensor. 
+Cutting a hole on the front for the PIR sensor, using a hot glue gun to keep it fixed. As well as a small hole in the bottom for power, and one on the side for the DHT22 sensor.
 
 To block out as much light from the LED on the ESP32 I cut some cardboard to shape.
 
