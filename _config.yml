@@ -8,6 +8,8 @@ paginate: 5
 analytics_id: UA-15939659-3
 disqus: malachisoord
 timezone: Europe/Berlin
+url: https://www.malachisoord.com
+
 
 # Assets
 sass:
