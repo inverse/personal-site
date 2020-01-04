@@ -49,6 +49,9 @@
       gtag('config', '{{ site.analytics_id }}');
     </script>
     {% endif %}
+    {% if site.adsense_id %}
+    <script data-ad-client="{{ site.adsense_id }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    { endif }
     <script defer src="https://use.fontawesome.com/releases/v5.11.0/js/all.js"></script>
   </body>
 </html>
