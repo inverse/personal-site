@@ -12,17 +12,22 @@ We have a couple [Hue Motion Sensors][0] in our apartment to provide some automa
 
 I wanted to extend our setup for our bedroom and since we already had an [ESP32 NodeMCU][1] device running [ESPHome][2] with a [DHT22][3] Sensor collecting temperature and humidity metrics.
 
-This led me to to discovering some basic [PIR Motion Sensors][4] which can easily be hooked up and report back if motion is detected.
+This led me to to discovering some basic [PIR Motion Sensors][11] which can easily be hooked up and report back if motion is detected.
 
 # Parts
 
 - [ESP32 NodeMCU][1]
-- [PIR Motion Sensor][4]
+- ~~[HC-SR501 PIR Motion Sensor][4]~~
+- [AM312 PIR Motion Sensor][11]
 - [Jumper cables][5]
 - [Micro USB power cable][8]
 - [Hot gue gun][6] (Optional)
 - [DHT22 sensor][3] (Optional)
 - [Tupperware box][7] (Optional)
+
+Since writing this blog post I have since replaced the HC-SR501 sensor with a [AM312][11] due to the amount false positives that I was getting. As you can see from the screenshot below it dramatically reduced this. The only downside I have seen so far is the lack of customisation with sensitivity and trigger interval but it has worked flawlessly in the location we have it positioned. 
+
+![AM312 Upgrade](/assets/img/posts/am312-ha-upgrade.jpg)
 
 ## Configuring ESPHome
 
@@ -189,3 +194,4 @@ To block out as much light from the LED on the ESP32 I cut some cardboard to sha
 [8]: https://www.amazon.de/exec/obidos/ASIN/B07232M876/hexagon05-21/
 [9]: https://esphome.io/guides/getting_started_command_line.html
 [10]: https://esphome.io/guides/faq.html?highlight=secrets
+[11]: https://www.amazon.de/exec/obidos/ASIN/B07RJQMD9G/hexagon05-21/
