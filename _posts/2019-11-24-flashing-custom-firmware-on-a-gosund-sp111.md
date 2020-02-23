@@ -92,12 +92,12 @@ _where `sonoff.bin` is the [latest Tasmota build][9]._
 
 Once finished, disconnect cables and assemble device. Follow the [official documentation][8] from here regarding setting up the device.
 
-# Additional info
+## Template
 
-I noticed that the LED was always on no matter if the device is on or off. To fix this others reported pasting the following value into the console of the web UI.
+Here is the device template that I used to confgure the device:
 
 ```
-SetOption3 0
+{"NAME":"Gosund SP111 V","GPIO":[57,255,56,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}
 ```
 
 # Further reading
