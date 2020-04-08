@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Washing Machine Power Usage
+title: Washing Machine Cycle Notifications
 date: 2020-04-08 21:16 +0200
 ---
 
