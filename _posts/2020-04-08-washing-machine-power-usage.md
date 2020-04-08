@@ -4,9 +4,9 @@ title: Washing Machine Power Usage
 date: 2020-04-08 21:16 +0200
 ---
 
-In this post I will explain how I hooked up our normal washing machine to provide some power usage insights such as sending notifications that include the cycle time and power consumption.
+In this post I will explain how I hooked up our normal washing machine to provide some power usage insights, such as sending notifications that include the cycle time and power consumption.
 
-I'm using [Home Assistant][0] and leveraging [Node-Red][1] installed via as an addon to provide the automation layer. By leveraging the addon it provides seemless integration to query entities and trigger services.
+I'm using [Home Assistant][0] and leveraging [Node-Red][1] installed via an addon to provide the automation layer. By leveraging the addon it provides seemless integration to query entities and trigger services.
 
 For this setup I used a [Gosund SP111][7] but you could any smart plug that you can feed the data into Home Assistant.
 
@@ -47,7 +47,7 @@ _You could probably achieve similiar behaviour in Nodered but I wanted to keep t
 
 ## Notification Side
 
-For the notification side I opted to use Telegram since it's easy to work with, free, doesn't involve me installing another app as I use it daily, and is pretty rich for other capabilities such as sending videos and images.  
+For the notification side I opted to use the [Telegram integration][8] since it's easy to work with, free, doesn't involve me installing another app as I use it daily, and is pretty rich for other capabilities such as sending videos and images.  
 
 ## Setting up Node-Red
 
@@ -63,7 +63,7 @@ For this automation you will need to setup 3 nodes.
 
 ### State node
 
-This is the input node that would be 
+This is the input node that is used to kick things off. It matches the the `sensor.washing_machine_state` entity and is setup as a bool sensor to output only on state cange.
 
 
 ### Function node
@@ -124,4 +124,5 @@ The Data for the sevice call consisted of this JSON structure:
 [4]: https://www.youtube.com/watch?v=3AR432bguOY
 [5]: https://www.youtube.com/watch?v=SuoSXVqjyfc
 [6]: https://tasmota.github.io/docs/
-[5]: https://www.amazon.de/exec/obidos/ASIN/B07PRF28SR/hexagon05-21/
+[7]: https://www.amazon.de/exec/obidos/ASIN/B07PRF28SR/hexagon05-21/
+[8]: https://www.home-assistant.io/integrations/telegram_bot 
