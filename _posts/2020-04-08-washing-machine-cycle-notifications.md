@@ -2,6 +2,11 @@
 layout: post
 title: Washing Machine Cycle Notifications
 date: 2020-04-08 21:16 +0200
+comments: true
+tags:
+- home-automation
+- home-assistant
+- node-red
 ---
 
 In this post I will explain how I hooked up our normal washing machine to provide some power usage insights, such as sending notifications that include the cycle time and power consumption.
