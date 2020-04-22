@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+gem 'rake'
+gem 'html-proofer'
+
 gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'jekyll-gist'
