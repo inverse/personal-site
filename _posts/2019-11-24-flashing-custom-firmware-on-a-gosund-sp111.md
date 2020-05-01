@@ -108,7 +108,7 @@ Here is the device template that I used to confgure the device:
 [0]: https://www.bastelbunker.de/gosund-sp111-mit-tasmota/
 [1]: https://github.com/xoseperez/espurna
 [2]: https://github.com/ct-Open-Source/tuya-convert
-[3]: https://www.amazon.de/exec/obidos/ASIN/B07PRF28SR/hexagon05-21/
+[3]: https://www.amazon.de/exec/obidos/ASIN/B085Q5ZR33/hexagon05-21/
 [4]: https://www.amazon.de/exec/obidos/ASIN/B07CDCYLQ6/hexagon05-21/
 [5]: https://github.com/arendst/Tasmota/
 [6]: https://esphome.io/

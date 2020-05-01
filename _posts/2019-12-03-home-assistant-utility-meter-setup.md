@@ -157,7 +157,7 @@ An alternative approach which would complement this setup would be to publish yo
 [2]: https://grafana.com/
 [3]: https://github.com/arendst/Tasmota/
 [4]: https://github.com/xoseperez/espurna
-[5]: https://www.amazon.de/exec/obidos/ASIN/B07PRF28SR/hexagon05-21/
+[5]: https://www.amazon.de/exec/obidos/ASIN/B085Q5ZR33/hexagon05-21/
 [6]: https://www.amazon.de/exec/obidos/ASIN/B07CDCYLQ6/hexagon05-21/
 [7]: https://www.home-assistant.io/integrations/template/
 [8]: https://github.com/kalkih/mini-graph-card
