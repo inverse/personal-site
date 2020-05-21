@@ -129,5 +129,5 @@ The Data for the sevice call consisted of this JSON structure:
 [4]: https://www.youtube.com/watch?v=3AR432bguOY
 [5]: https://www.youtube.com/watch?v=SuoSXVqjyfc
 [6]: https://tasmota.github.io/docs/
-[7]: https://www.amazon.de/exec/obidos/ASIN/B085Q5ZR33/hexagon05-21/
+[7]: https://affiliate.malachisoord.com/t/940fc6b7-d20a-46d7-b6bb-2f6bdcaaed7b
 [8]: https://www.home-assistant.io/integrations/telegram_bot 

@@ -106,7 +106,7 @@ Follow the [installation instructions][10] and then configure your view with a c
 - [Hassio Docs - Template Sensor][5]
 - [Tasmota Docs][7]
 
-[0]: https://www.amazon.de/exec/obidos/ASIN/B085Q5ZR33/hexagon05-21/
+[0]: https://affiliate.malachisoord.com/t/940fc6b7-d20a-46d7-b6bb-2f6bdcaaed7b
 [1]: https://www.home-assistant.io/
 [2]: https://www.home-assistant.io/docs/mqtt/
 [3]: https://github.com/arendst/Tasmota/

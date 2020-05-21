@@ -141,7 +141,7 @@ bedtime:
   - condition: state
     entity_id: sun.sun
     state: 'below_horizon'
-  action:
+  action:B085Q5ZR33
   - service: light.turn_on
     entity_id: light.bedroom
   - service: switch.turn_on
@@ -183,15 +183,15 @@ To block out as much light from the LED on the ESP32 I cut some cardboard to sha
 ![PIR setup open front](/assets/img/posts/pir-setup-open-front.jpg)
 
 
-[0]: https://www.amazon.de/exec/obidos/ASIN/B0748NCMNW/hexagon05-21/
-[1]: https://www.amazon.de/exec/obidos/ASIN/B071P98VTG/hexagon05-21/
+[0]: https://affiliate.malachisoord.com/t/8f989f1b-1708-4903-9f1f-2813ce3432c1
+[1]: https://affiliate.malachisoord.com/t/fd3c736b-3c34-4107-abd7-f1e3d2ae3dd3
 [2]: https://esphome.io/
-[3]: https://www.amazon.de/exec/obidos/ASIN/B01DB8JH4M/hexagon05-21/
-[4]: https://www.amazon.de/exec/obidos/ASIN/B07V9GFHFW/hexagon05-21/
-[5]: https://www.amazon.de/exec/obidos/ASIN/B074P726ZR/hexagon05-21/
-[6]: https://www.amazon.de/exec/obidos/ASIN/B06VWT71FG/hexagon05-21/
-[7]: https://www.amazon.de/exec/obidos/ASIN/B0000AN4CI/hexagon05-21/
-[8]: https://www.amazon.de/exec/obidos/ASIN/B07232M876/hexagon05-21/
+[3]: https://affiliate.malachisoord.com/t/5604e2ce-adf8-4331-9592-749bfcf2b164
+[4]: https://affiliate.malachisoord.com/t/a73db71f-c7cf-4754-bb86-492854e292cf
+[5]: https://affiliate.malachisoord.com/t/4022f71a-0f33-41e9-82bd-a00f0bfd7774
+[6]: https://affiliate.malachisoord.com/t/2830ba84-043b-48d9-8b01-87101952b734
+[7]: https://affiliate.malachisoord.com/t/101a7f1a-28c1-4c3a-9ecc-a7e288c5e28a
+[8]: https://affiliate.malachisoord.com/t/14b7dc59-c7ad-4d5d-a52c-472bbdffbee2
 [9]: https://esphome.io/guides/getting_started_command_line.html
 [10]: https://esphome.io/guides/faq.html?highlight=secrets
-[11]: https://www.amazon.de/exec/obidos/ASIN/B07RJQMD9G/hexagon05-21/
+[11]: https://affiliate.malachisoord.com/t/5fe0ecca-c895-4f0e-acbd-049572e9e610

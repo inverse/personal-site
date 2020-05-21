@@ -17,10 +17,10 @@ This lead me to looking into alternatives, eventually leading me to the [Gosund 
 
 To flash this device, you will need:
 
-- [FTDI Adaptor](https://www.amazon.de/exec/obidos/ASIN/B01N9RZK6I/hexagon05-21/)
-- [Female to male jumper wires](https://www.amazon.de/exec/obidos/ASIN/B07K8PVKBP/hexagon05-21/)
-- [Mini USB cable](https://www.amazon.de/exec/obidos/ASIN/B00NH13S44/hexagon05-21/)
-- [Small Philips head screwdriver](https://www.amazon.de/exec/obidos/ASIN/B07Q3TDMK2/hexagon05-21/)
+- [FTDI Adaptor](https://affiliate.malachisoord.com/t/20cb7a7d-1157-4823-b181-9ecedf82ef21)
+- [Female to male jumper wires](https://affiliate.malachisoord.com/t/b3af143d-1206-460a-98e9-d309ef8b846a)
+- [Mini USB cable](https://affiliate.malachisoord.com/t/bb7ee6e6-6dc5-4dcf-91c0-cc1b755b4a03)
+- [Small Philips head screwdriver](https://affiliate.malachisoord.com/t/8bf9d6f3-d5e7-4aef-b09a-7b6e1d36f98c)
 
 There are several custom firmwares available for these ESP8266 based devices, including:
 
@@ -108,8 +108,8 @@ Here is the device template that I used to confgure the device:
 [0]: https://www.bastelbunker.de/gosund-sp111-mit-tasmota/
 [1]: https://github.com/xoseperez/espurna
 [2]: https://github.com/ct-Open-Source/tuya-convert
-[3]: https://www.amazon.de/exec/obidos/ASIN/B085Q5ZR33/hexagon05-21/
-[4]: https://www.amazon.de/exec/obidos/ASIN/B07CDCYLQ6/hexagon05-21/
+[3]: https://affiliate.malachisoord.com/t/940fc6b7-d20a-46d7-b6bb-2f6bdcaaed7b
+[4]: https://affiliate.malachisoord.com/t/cb945e08-9e4f-40d2-8870-23ff9012cad0 
 [5]: https://github.com/arendst/Tasmota/
 [6]: https://esphome.io/
 [7]: https://github.com/espressif/esptool

@@ -17,12 +17,12 @@ This post documents the equipment required outside of the standard Home Assistan
 
 # Parts
 
-- [Drip irrigation kit](https://www.amazon.de/exec/obidos/ASIN/B07H3LCB52/hexagon05-21/)
-- [12V adaptor](https://www.amazon.de/exec/obidos/ASIN/B019IHQND8/hexagon05-21/)
-- [Pump](https://www.amazon.de/exec/obidos/ASIN/B07L89V1N6/hexagon05-21/)
-- [Smart plug](https://www.amazon.de/exec/obidos/ASIN/B07D5V139R/hexagon05-21/)
-- [Water container](https://www.amazon.de/exec/obidos/ASIN/B001QEQZCQ/hexagon05-21/)
-- [Hose adaptor](https://www.amazon.de/exec/obidos/ASIN/B007L37976/hexagon05-21/)
+- [Drip irrigation kit](https://affiliate.malachisoord.com/t/3e8d53b5-b834-4447-9953-22b3d3aa3baf)
+- [12V adaptor](https://affiliate.malachisoord.com/t/38954035-52fd-4c9e-b7d6-7d7d4a3234a4)
+- [12V Pump](https://affiliate.malachisoord.com/t/1fb92780-2e57-4122-b8fd-78d81fc70ca4)
+- [Smart plug](https://affiliate.malachisoord.com/t/cb945e08-9e4f-40d2-8870-23ff9012cad0)
+- [Water container](https://affiliate.malachisoord.com/t/96598d3c-4ee5-474f-b131-754474503a89)
+- [Hose adaptor](https://affiliate.malachisoord.com/t/e31a5f87-940d-461b-8cc3-bf00d52ec309 )
 
 # Setup
 
