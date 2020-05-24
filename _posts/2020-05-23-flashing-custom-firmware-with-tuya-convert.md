@@ -1,0 +1,64 @@
+---
+layout: post
+title: "Flashing Gosund SP111 with Tuya-Convert"
+date: 2020-05-23 22:06 +0200
+tags:
+- home-automation
+- smart-plug
+---
+
+In a previous post titled [Flashing custom firmware on Gosund SP111 devices]({% post_url 2019-11-24-flashing-custom-firmware-on-a-gosund-sp111 %}) I wrote about how I achieved this by connecting the device to a serial connection.
+
+Having purchased what I believed to be the same product turned out to be the lower rated 2300W and look slightly older generation from the PCB which would have made it more difficult to flash without soldering.
+
+This lead me to try using  [Tuya-Convert][0] - A solution that does not even require you to disassemble your smart device. 
+
+While their repo describes how you can achieve this using a docker based solution I didn't have much luck with the inbuilt WiFi adaptor on my laptop so opted for the raspberry PI based solution.
+
+# Requirements
+
+- [Raspberry PI 3B+][1]
+- [micro SDCard][2]
+- [Gosund SP111][3]
+- Another device with Wifi, either your phone, or laptop
+
+# Setup
+
+## Setting up the OS
+
+Flash [Rasbian][4] or something similiar to the micro SDCard and wait for it to boot. 
+
+Once booted you will need to setup WiFi on your device. Follow the [official instructions][5] on how to do this.
+
+Next install git to enable you clone the repo down easily.
+
+```bash
+sudo apt install git
+```
+
+## Setting up Tuya-Convert
+
+To avoid having to deal with SSH keys on your PI it's simply enough to just clone the repo down over HTTPS.
+https://github.com/web-scrobbler/web-scrobbler
+## Flashing the device
+
+Once the previous step has finished you can now start the flashing process by executing:
+
+```bashhttp://affiliate.malachisoord.com/t/27d86c77-e3e8-4e21-abc9-2be97e2003b4
+### Tasmota Template
+
+Once flashed I changed the template to configure the GPIO pins correctly to enable me to use the device properly:
+
+```
+{"NAME":"Gosund SP111 V","GPIO":[57,255,56,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}
+```
+
+
+[0]: https://github.com/ct-Open-Source/tuya-convert
+[1]: http://affiliate.malachisoord.com/t/c373281f-2a9e-42af-bc1e-db0f01ae12b1
+[2]: http://affiliate.malachisoord.com/t/27d86c77-e3e8-4e21-abc9-2be97e2003b4
+[3]: https://affiliate.malachisoord.com/t/940fc6b7-d20a-46d7-b6bb-2f6bdcaaed7b
+[4]: https://www.raspberrypi.org/downloads/raspbian/
+[5]: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+[6]: https://tasmota.github.io/docs/#/Home
+[7]: https://github.com/xoseperez/espurna

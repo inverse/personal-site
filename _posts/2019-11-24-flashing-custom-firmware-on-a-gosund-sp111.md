@@ -15,6 +15,8 @@ making it harder to flash due to the removal of the 4 screws on the back. People
 
 This lead me to looking into alternatives, eventually leading me to the [Gosund SP111][3] due to it also featuring power reading capabilities and higher load rating.
 
+> **Note** Be sure to get the higher rated 3500W (15A) version as they container the newer PCB that provides such ease of flashing.
+
 To flash this device, you will need:
 
 - [FTDI Adaptor](https://affiliate.malachisoord.com/t/20cb7a7d-1157-4823-b181-9ecedf82ef21)
@@ -94,7 +96,7 @@ Once finished, disconnect cables and assemble device. Follow the [official docum
 
 ## Template
 
-Here is the device template that I used to confgure the device:
+Here is the device template that I used to configure the device:
 
 ```
 {"NAME":"Gosund SP111 V","GPIO":[57,255,56,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}
