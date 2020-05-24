@@ -2,6 +2,7 @@
 layout: post
 title: "Flashing custom firmware with Tuya-Convert"
 date: 2020-05-23 22:06 +0200
+comments: true
 tags:
 - home-automation
 - smart-plug
