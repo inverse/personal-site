@@ -39,12 +39,28 @@ sudo apt install git
 ## Setting up Tuya-Convert
 
 To avoid having to deal with SSH keys on your PI it's simply enough to just clone the repo down over HTTPS.
-https://github.com/web-scrobbler/web-scrobbler
+
+```bash
+git clone https://github.com/ct-Open-Source/tuya-convert.git
+cd tuya-convert
+./install_prereq.sh
+```
+
 ## Flashing the device
 
 Once the previous step has finished you can now start the flashing process by executing:
 
-```bashhttp://affiliate.malachisoord.com/t/27d86c77-e3e8-4e21-abc9-2be97e2003b4
+```bash
+./start_flash.sh
+```
+
+Tuya-Convert comes packages with [Tasmota][6] or [Espurna][7] but you can also use a different firmware to what is provided. Follow the on screen instructions be sure to put your device into pairing mode at the start of the process.
+
+## After flashing
+
+I opted to flash my device with Tasmota, which I then flashed the latest standard binary from their release page on Github. The reason being that 
+the bundled one is the minimal one and doesn't come with all the support for the sensors that the plug comes with. 
+
 ### Tasmota Template
 
 Once flashed I changed the template to configure the GPIO pins correctly to enable me to use the device properly:
@@ -55,8 +71,8 @@ Once flashed I changed the template to configure the GPIO pins correctly to enab
 
 
 [0]: https://github.com/ct-Open-Source/tuya-convert
-[1]: http://affiliate.malachisoord.com/t/c373281f-2a9e-42af-bc1e-db0f01ae12b1
-[2]: http://affiliate.malachisoord.com/t/27d86c77-e3e8-4e21-abc9-2be97e2003b4
+[1]: https://affiliate.malachisoord.com/t/c373281f-2a9e-42af-bc1e-db0f01ae12b1
+[2]: https://affiliate.malachisoord.com/t/27d86c77-e3e8-4e21-abc9-2be97e2003b4
 [3]: https://affiliate.malachisoord.com/t/940fc6b7-d20a-46d7-b6bb-2f6bdcaaed7b
 [4]: https://www.raspberrypi.org/downloads/raspbian/
 [5]: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
