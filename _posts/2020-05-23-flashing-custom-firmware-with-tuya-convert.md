@@ -61,8 +61,7 @@ Follow the on screen instructions be sure to put your device into pairing mode a
 
 ## After flashing
 
-I opted to flash my device with Tasmota, which I then flashed the latest standard binary from their release page on Github. The reason being that 
-the bundled one is the minimal one and doesn't come with all the support for the sensors that the plug comes with. 
+I opted to flash my device with Tasmota, which I then flashed the latest standard binary from their release page on Github via the web interface. The reason being that  the bundled one is the minimal one and doesn't come with all the support for the sensors that the plug comes with. 
 
 ### Tasmota Template
 
