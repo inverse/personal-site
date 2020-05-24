@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flashing Gosund SP111 with Tuya-Convert"
+title: "Flashing custom firmware with Tuya-Convert"
 date: 2020-05-23 22:06 +0200
 tags:
 - home-automation
@@ -11,9 +11,9 @@ In a previous post titled [Flashing custom firmware on Gosund SP111 devices]({% 
 
 Having purchased what I believed to be the same product turned out to be the lower rated 2300W and look slightly older generation from the PCB which would have made it more difficult to flash without soldering.
 
-This lead me to try using  [Tuya-Convert][0] - A solution that does not even require you to disassemble your smart device. 
+This lead me to try using [Tuya-Convert][0] - A solution that does not even require you to disassemble your smart device. 
 
-While their repo describes how you can achieve this using a docker based solution I didn't have much luck with the inbuilt WiFi adaptor on my laptop so opted for the raspberry PI based solution.
+While their repo describes how you can achieve this using a docker based solution I didn't have much luck with the inbuilt WiFi adaptor on my laptop so opted for the Raspberry PI based approach since I had one of these laying around spare.
 
 # Requirements
 
@@ -48,13 +48,15 @@ cd tuya-convert
 
 ## Flashing the device
 
+Tuya-Convert comes packages with [Tasmota][6] or [Espurna][7] but you can also use a different firmware to what is provided. 
+
 Once the previous step has finished you can now start the flashing process by executing:
 
 ```bash
 ./start_flash.sh
 ```
 
-Tuya-Convert comes packages with [Tasmota][6] or [Espurna][7] but you can also use a different firmware to what is provided. Follow the on screen instructions be sure to put your device into pairing mode at the start of the process.
+Follow the on screen instructions be sure to put your device into pairing mode at the start of the process.
 
 ## After flashing
 
