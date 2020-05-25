@@ -27,13 +27,14 @@ While their repo describes how you can achieve this using a docker based solutio
 
 ## Setting up the OS
 
-Flash [Rasbian][4] or something similiar to the micro SDCard and wait for it to boot. 
+Flash [Rasbian][4] onto the micro SDCard using [balena etcher][] connect your PI and wait for it to boot.
 
 Once booted you will need to setup WiFi on your device. Follow the [official instructions][5] on how to do this.
 
 Next install git to enable you clone the repo down easily.
 
 ```bash
+sudo apt update
 sudo apt install git
 ```
 
@@ -49,9 +50,7 @@ cd tuya-convert
 
 ## Flashing the device
 
-Tuya-Convert comes packages with [Tasmota][6] or [Espurna][7] but you can also use a different firmware to what is provided. 
-
-Once the previous step has finished you can now start the flashing process by executing:
+Tuya-Convert comes packages with [Tasmota][6] or [Espurna][7] but you can also use a different firmware which is explained during the flashing process. This is started by executing:
 
 ```bash
 ./start_flash.sh
@@ -61,7 +60,7 @@ Follow the on screen instructions be sure to put your device into pairing mode a
 
 ## After flashing
 
-I opted to flash my device with Tasmota, which I then flashed the latest standard binary from their release page on Github via the web interface. The reason being that  the bundled one is the minimal one and doesn't come with all the support for the sensors that the plug comes with. 
+I opted to flash my device with Tasmota, which I then flashed the latest standard binary from their release page on Github via the web interface. The reason being that the bundled one is the minimal one and doesn't come with all the support for all the sensors.
 
 ### Tasmota Template
 
@@ -80,3 +79,4 @@ Once flashed I changed the template to configure the GPIO pins correctly to enab
 [5]: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
 [6]: https://tasmota.github.io/docs/#/Home
 [7]: https://github.com/xoseperez/espurna
+[8]: https://www.balena.io/etcher/
