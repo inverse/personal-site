@@ -10,28 +10,28 @@ tags:
 
 In a previous post titled [Flashing custom firmware on Gosund SP111 devices]({% post_url 2019-11-24-flashing-custom-firmware-on-a-gosund-sp111 %}) I wrote about how I achieved this by connecting the device to a serial connection.
 
-Having purchased what I believed to be the same product turned out to be the lower rated 2300W and look slightly older generation from the PCB which would have made it more difficult to flash without soldering.
+Having purchased what I believed to be the same product turned out to be the lower rated 2300W and look slightly older generation from the PCB which  made it more difficult to flash without soldering due to only having solder pads.
 
-This lead me to try using [Tuya-Convert][0] - A solution that does not even require you to disassemble your smart device. 
+This lead me to try using [Tuya-Convert][0], a firmware replacement solution that does not even require you to disassemble your smart device. 
 
-While their repo describes how you can achieve this using a docker based solution I didn't have much luck with the inbuilt WiFi adaptor on my laptop so opted for the Raspberry PI based approach since I had one of these laying around spare.
+While their repo describes how you can achieve this using a docker based solution I didn't have much luck with the in-built WiFi adaptor on my laptop so opted for the Raspberry PI based approach since I had a spare one laying around.
 
 # Requirements
 
 - [Raspberry PI 3B+][1]
 - [micro SDCard][2]
 - [Gosund SP111][3]
-- Another device with Wifi, either your phone, or laptop
+- Another device with WiFi, e.g.Wi your phone, or laptop
 
 # Setup
 
 ## Setting up the OS
 
-Flash [Rasbian][4] onto the micro SDCard using [balena etcher][] connect your PI and wait for it to boot.
+Flash [Rasbian][4] onto the micro SDCard using [balena etcher][8] connect your PI and wait for it to boot.
 
 Once booted you will need to setup WiFi on your device. Follow the [official instructions][5] on how to do this.
 
-Next install git to enable you clone the repo down easily.
+Next install `git` to enable you clone the repo down easily.
 
 ```bash
 sudo apt update
@@ -50,7 +50,9 @@ cd tuya-convert
 
 ## Flashing the device
 
-Tuya-Convert comes packages with [Tasmota][6] or [Espurna][7] but you can also use a different firmware which is explained during the flashing process. This is started by executing:
+Tuya-Convert comes packages with [Tasmota][6] or [Espurna][7] but you can also use a different firmware which is explained during the flashing process.
+
+ To get going, start the flashing script:
 
 ```bash
 ./start_flash.sh
@@ -69,7 +71,6 @@ Once flashed I changed the template to configure the GPIO pins correctly to enab
 ```
 {"NAME":"Gosund SP111 V","GPIO":[57,255,56,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}
 ```
-
 
 [0]: https://github.com/ct-Open-Source/tuya-convert
 [1]: https://affiliate.malachisoord.com/t/c373281f-2a9e-42af-bc1e-db0f01ae12b1
