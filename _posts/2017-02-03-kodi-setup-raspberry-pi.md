@@ -8,13 +8,13 @@ tags:
 - raspberry-pi
 ---
 
-[Kodi][0] is an open source peice of software designed to provide a media center experience for your video, music, pictures, and applications. It runs of many different platforms including, Linux, OS X, Windows, and Android.
+[Kodi][0] is an open source piece of software designed to provide a media center experience for your video, music, pictures, and applications. It runs of many different platforms including Linux, MacOS, Windows, and Android.
 
-This article will cover my experience setting up a media center like experience, specifically using the [OSMC][1] pre-built distribution.
+This article will cover my experience setting up a media center like experience, specifically using the [OSMC][1] pre-built distribution on a Raspberry PI.
 
 # Requirements
 
-- Raspberry PI 2+
+- [Raspberry PI 2+][13]
 - Micro SDCard
 - HDMI cable
 - A HDMI compatible TV
@@ -75,3 +75,4 @@ Both are pretty feature rich, however Yatse feels more intuitive and provides so
 [10]: https://en.wikipedia.org/wiki/Consumer_Electronics_Control
 [11]: https://kodi.tv/download/
 [12]: https://kodi.wiki/
+[13]: https://affiliate.malachisoord.com/t/c373281f-2a9e-42af-bc1e-db0f01ae12b1
