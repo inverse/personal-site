@@ -8,11 +8,11 @@ tags:
 - chromeos
 ---
 
-I recently purchased my wife a [Lenovo IdeaPad Duet Chromebook][0] as a replacement for her aging Dell laptop. Since she mainly used it for surfing and light tasks it was a good choice from the reviews I read and at that price point.
+I recently purchased my wife a [Lenovo IdeaPad Duet Chromebook][0] as a replacement for her aging Dell laptop. Since she mainly using her laptop for surfing and light tasks it was a good choice from the reviews I read and at that price point.
 
 ChromeOS in it self is awesome and having full Play Store eco system at your fingers is great but I wanted to install some apps from [F-Droid][2] which lead me to search for a solution to sideload apps.
 
-Lots of the articles I read pointed to enabling developer mode which is something I didn't want to do because of X, y, and Z.
+Lots of the articles I read pointed to enabling developer mode which is something I didn't want to do because it requires resetting the device to factory default and it has the potential to void your warranty.
 
 This lead me to find a solution that didn't involve doing this.
 
