@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Side-loading Android Apps on ChromeOS
+title: Sideloading Android Apps on ChromeOS
 date: 2020-07-20 22:20 +0200
 comments: true
 tags:
