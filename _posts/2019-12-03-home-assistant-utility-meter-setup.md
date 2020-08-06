@@ -91,7 +91,7 @@ energy_total_usage_monthly:
   cycle: monthly
 ```
 
-# Visualising
+## Visualising
 
 Like in [previous posts]({% post_url 2019-11-25-connecting-tasmota-to-home-assistant %}), I highly recommend the [Mini Graph Card][8] extension by [@kalkih][9]. It provides various minimalistic and customisable cards that can be useful for displaying metrics and sensor statistics. 
 
@@ -141,13 +141,13 @@ Like in [previous posts]({% post_url 2019-11-25-connecting-tasmota-to-home-assis
       graph: bar
 ```
 
-# Next steps
+## Next steps
 
 While this easily gives you nice daily and monthly unified overviews the power consumption of your smart plugs it doesn't allow you to query other time frames or drill down by device, without exposing the stats for each sensor manually. 
 
 An alternative approach which would complement this setup would be to publish your sensor stats to [InfluxDB][1] and graph this data using [Grafana][2]. But that'll be for another post.
 
-# Further reading
+## Further reading
 
 - [Home Assistant - Utility meter][0]
 - [Home Assistant - Templating platform][7]

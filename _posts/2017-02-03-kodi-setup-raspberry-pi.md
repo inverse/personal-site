@@ -12,7 +12,7 @@ tags:
 
 This article will cover my experience setting up a media center like experience, specifically using the [OSMC][1] pre-built distribution on a Raspberry PI.
 
-# Requirements
+## Requirements
 
 - [Raspberry PI 2+][13]
 - Micro SDCard
@@ -20,7 +20,7 @@ This article will cover my experience setting up a media center like experience,
 - A HDMI compatible TV
 - USB keyboard
 
-# Kodi flavours
+## Kodi flavours
 
 There are a few pre-made distributions designed to run on the Raspberry PI including:
 
@@ -30,7 +30,7 @@ There are a few pre-made distributions designed to run on the Raspberry PI inclu
 
 However you could always opt to set things up on the distribution of your choice by compiling from source or using one of the pre-built Kodi [binaries][11].
 
-# Installing
+## Installing
 
 1. First download the latest available [disk image version][5] of OSMC for your PI version.
 2. Once downloaded extract the gz file using your favourite unarchiver.
@@ -38,13 +38,13 @@ However you could always opt to set things up on the distribution of your choice
 4. Connect power adaptor, HDMI cable, freshly imaged SDCard into the Pi and wait for the first boot to finish.
 5. And that's it :)
 
-# Setting things up
+## Setting things up
 
-## Internet connectivity
+### Internet connectivity
 
 The first thing you will want to do is configure the network of the device. If you are connecting via Ethernet you can skip this step as it _should_ be already configured but for WiFI connectivity, or additional network configurations you will want to navigate to the "My OSMC" settings screen. For detailed instructions on this visit the [dedicated wiki][7].
 
-## Remotes
+### Remotes
 
 Kodi is designed to be operated without a keyboard and there are many ways to interact with it.
 
@@ -57,7 +57,7 @@ Also there are many Kodi remotes available for Android. The two I have experienc
 
 Both are pretty feature rich, however Yatse feels more intuitive and provides some additional functionality such as local media playback. But this requires the paid in app purchase.
 
-# Further reading
+## Further reading
 
 - [OSMC Raspberry Pi FAQ][4]
 - [Kodi Wiki][12]

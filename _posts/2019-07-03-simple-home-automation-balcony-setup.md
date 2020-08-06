@@ -15,7 +15,7 @@ One thing we recently introduced in our setup was to include a very simple balco
 
 This post documents the equipment required outside of the standard Home Assistant setup and the configuration required to get going.
 
-# Parts
+## Parts
 
 - [Drip irrigation kit](https://affiliate.malachisoord.com/t/3e8d53b5-b834-4447-9953-22b3d3aa3baf)
 - [12V adaptor](https://affiliate.malachisoord.com/t/38954035-52fd-4c9e-b7d6-7d7d4a3234a4)
@@ -24,13 +24,13 @@ This post documents the equipment required outside of the standard Home Assistan
 - [Water container](https://affiliate.malachisoord.com/t/96598d3c-4ee5-474f-b131-754474503a89)
 - [Hose adaptor](https://affiliate.malachisoord.com/t/e31a5f87-940d-461b-8cc3-bf00d52ec309 )
 
-# Setup
+## Setup
 
 The setup with these components was straight forward, with the components pretty much connecting and screwing together and just working.
 
 The only complicated thing was flashing custom firmware onto the smart plug as I wanted to have a purely offline setup. I went with [espurna][3] for this but you could also try [esphome][4] which provides a nice API and easy YAML configuration.
 
-## Home Assistant configuration
+### Home Assistant configuration
 
 The automation currently consists of 3 parts.
 
@@ -41,7 +41,7 @@ The automation currently consists of 3 parts.
 
 For the first one I also decided to use [Push Bullet][2] to notify my devices when it was triggered, I wanted this to be notified easily whilst on vacation.
 
-### timers.yaml
+#### timers.yaml
 
 For this setup you will need to setup two timers
 
@@ -128,19 +128,19 @@ Next configure the following automations.
     entity_id: switch.socket_balcony
 ```
 
-# Improvements
+## Improvements
 
 As the title says this setup is _very_ basic right now and gives no feedback on the water remaining in the tank, the moisture in the soil, or outside air temperature.
 
 All these points are things I would love to improve in the future, especially the first point.
 
-# Photos
+## Photos
 
 ![Drip nozzle](/assets/img/posts/ha-balcony-1.jpg)
 ![Water storage](/assets/img/posts/ha-balcony-2.jpg)
 ![Setup](/assets/img/posts/ha-balcony-3.jpg)
 
-# Further reading
+## Further reading
 
 - [Andreas Gohr - Automated Plant Watering][1]
 

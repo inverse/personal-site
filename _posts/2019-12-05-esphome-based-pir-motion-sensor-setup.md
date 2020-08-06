@@ -14,7 +14,7 @@ I wanted to extend our setup for our bedroom and since we already had an [ESP32 
 
 This led me to to discovering some basic [PIR Motion Sensors][11] which can easily be hooked up and report back if motion is detected.
 
-# Parts
+## Parts
 
 - [ESP32 NodeMCU][1]
 - ~~[HC-SR501 PIR Motion Sensor][4]~~
@@ -88,7 +88,7 @@ Once flashed to the device ensuring that the `GPIO` pins are connected correctly
 ![ESPHome Bedroom WebUI](/assets/img/posts/esphome-bedroom-sensor-pir.png)
 
 
-# Configuring Home Assistant
+## Configuring Home Assistant
 
 Next lets hook this up to Home Assistant which is as easy as navigating to
 
@@ -170,7 +170,7 @@ bedtime:
       entity_id: input_boolean.bedtime
 ```
 
-# Finished product
+## Finished product
 
 I didn't want to leave the ESP32 device exposed so build a very rudimentary case out of a tupperware box.
 

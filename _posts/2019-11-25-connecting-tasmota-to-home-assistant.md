@@ -16,7 +16,7 @@ This post explains how to connect devices running [Tasmota][3] to [Home Assistan
 
 This post assumes that you have a working Home Assistant setup already configured with MQTT __without discovery enabled__. If you haven't already got this setup please follow their [official documentation][2].
 
-# Setting up the device
+## Setting up the device
 
 To start with ensure that you have configured MQTT on the device. To enable MQTT you must first go `Configuration -> Configure Other -> Check MQTT Enable`
 
@@ -28,9 +28,9 @@ Once enabled you can configure the device to connect to the MQTT broker that you
 
 Your device should reboot after saving, and from the console view you should be able to clearly see if there is an authentication or configuration issue.
 
-# Configuring home assistant
+## Configuring home assistant
 
-## Setting up switches
+### Setting up switches
 
 In your home-assistant configuration under `switch:` you can now configure your MQTT based device.
 
@@ -80,7 +80,7 @@ To understand what kind of information is being published you can view the raw m
 - [MQTT Explorer][4]
 - [MQTTLens][6]
 
-# Displaying sensor stats
+## Displaying sensor stats
 
 If you're using Lovelace as a frontend for your setup I can recommend the [Mini Graph Card][8] extension by [@kalkih][9]. It provides various minimalistic and customisable cards that can be useful for displaying metrics and sensor statistics. 
 
@@ -101,7 +101,7 @@ Follow the [installation instructions][10] and then configure your view with a c
         name: Living Room Lights
 ```
 
-# Useful reading
+## Useful reading
 
 - [Hassio Docs - Template Sensor][5]
 - [Tasmota Docs][7]

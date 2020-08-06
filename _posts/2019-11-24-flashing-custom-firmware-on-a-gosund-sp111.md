@@ -32,7 +32,7 @@ There are several custom firmwares available for these ESP8266 based devices, in
 
 This time I went with Tasmota as it was well documented, has a big community, and I wanted to try something different.
 
-# Preparing the device
+## Preparing the device
 
 To be able to flash the device you must first remove a single screw which can be done from the back of the device.
 
@@ -63,7 +63,7 @@ I ended up sharpening the male ends of the jumper cables slightly so that they w
 
 Here is the other end of the FTDI wired up showing the two cables wired to `GND` which will be used later for putting the device into flashing mode.
 
-# Flashing
+## Flashing
 
 For the flashing process I used [esptool][7] a simple well documented command line tool.
 
@@ -94,7 +94,7 @@ _where `sonoff.bin` is the [latest Tasmota build][9]._
 
 Once finished, disconnect cables and assemble device. Follow the [official documentation][8] from here regarding setting up the device.
 
-## Template
+### Template
 
 Here is the device template that I used to configure the device:
 
@@ -102,7 +102,7 @@ Here is the device template that I used to configure the device:
 {"NAME":"Gosund SP111 V","GPIO":[57,255,56,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}
 ```
 
-# Further reading
+## Further reading
 
 - [Gosund SP111 mit Tasmota][0]
 - [Tasmota][5]
