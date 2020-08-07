@@ -59,11 +59,13 @@ From here I was able to figure out the models that were used and the payloads to
 
 ## Python IOLITE client
 
-Since Home Assistant is written in Python I took it upon myself to write to client in Python. It's currently in WIP form buy available on [Github][8].
+Since Home Assistant is written in Python I took it upon myself to write to client in Python. It's currently in WIP form but available on [Github][8].
 
-The OAuth communication and token refreshing is in place and basic models for communication but the whole async websocket communication needs to be built out.
+The OAuth communication with token refreshing is in place. Along with basic models for communication.
 
-Feel free to contribute too!
+However the whole async websocket communication needs to be built out and then plugged into Home Assistant to be able to work seemlessly.
+
+Feel free to contribute :)
 
 ## Further reading
 
