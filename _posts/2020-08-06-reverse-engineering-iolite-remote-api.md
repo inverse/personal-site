@@ -63,7 +63,7 @@ Since Home Assistant is written in Python I took it upon myself to write to clie
 
 The OAuth communication with token refreshing is in place. Along with basic models for communication.
 
-However the whole async websocket communication needs to be built out and then plugged into Home Assistant to be able to work seemlessly.
+However the whole async websocket communication needs to be built out and then plugged into Home Assistant to be able to work seamlessly.
 
 Feel free to contribute :)
 
