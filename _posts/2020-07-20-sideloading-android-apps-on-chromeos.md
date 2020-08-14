@@ -16,10 +16,6 @@ Lots of the articles I read pointed to enabling developer mode which is somethin
 
 This lead me to find a solution that didn't involve doing this.
 
-## Requirements
-
-- [Lenovo IdeaPad Duet Chromebook][0]
-
 ## Steps
 
 ### Setup Linux (Beta)
