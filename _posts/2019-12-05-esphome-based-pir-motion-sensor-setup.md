@@ -25,7 +25,7 @@ This led me to to discovering some basic [PIR Motion Sensors][11] which can easi
 - [DHT22 sensor][3] (Optional)
 - [Tupperware box][7] (Optional)
 
-Since writing this blog post I have since replaced the HC-SR501 sensor with a [AM312][11] due to the amount false positives that I was getting. As you can see from the screenshot below it dramatically reduced this. The only downside I have seen so far is the lack of customisation with sensitivity and trigger interval but it has worked flawlessly in the location we have it positioned. 
+Since writing this blog post I have since replaced the HC-SR501 sensor with a [AM312][11] due to the amount false positives that I was getting. As you can see from the screenshot below it dramatically reduced this. The only downside I have seen so far is the lack of customisation with sensitivity and trigger interval but it has worked flawlessly in the location we have it positioned.
 
 ![AM312 Upgrade](/assets/img/posts/am312-ha-upgrade.jpg)
 
@@ -87,12 +87,11 @@ Once flashed to the device ensuring that the `GPIO` pins are connected correctly
 
 ![ESPHome Bedroom WebUI](/assets/img/posts/esphome-bedroom-sensor-pir.png)
 
-
 ## Configuring Home Assistant
 
 Next lets hook this up to Home Assistant which is as easy as navigating to
 
-```
+```text
 Configuration -> Integrations -> + (Bottom left) -> ESPHome
 ```
 
@@ -181,7 +180,6 @@ To block out as much light from the LED on the ESP32 I cut some cardboard to sha
 ![PIR setup open back](/assets/img/posts/pir-setup-open-back.jpg)
 
 ![PIR setup open front](/assets/img/posts/pir-setup-open-front.jpg)
-
 
 [0]: https://affiliate.malachisoord.com/t/8f989f1b-1708-4903-9f1f-2813ce3432c1
 [1]: https://affiliate.malachisoord.com/t/fd3c736b-3c34-4107-abd7-f1e3d2ae3dd3

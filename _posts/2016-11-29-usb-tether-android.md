@@ -13,8 +13,7 @@ I've been playing around with some linux live distributions recently but the mai
 
 Thankfully I found that USB tethering via an Android device worked flawlessly and I was able to get online. To set this up first connect your device via a USB cable and on the device go to:
 
-
-```
+```text
 Settings > Wireless & Networks > More > Tethering & portable hotspot > Other
 ```
 

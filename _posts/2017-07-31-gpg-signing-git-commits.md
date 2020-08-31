@@ -76,4 +76,3 @@ or globally by running
 [6]: https://www.gnupg.org/related_software/gpa/
 [7]: https://openpgp-applet.alioth.debian.org/web/
 [8]: https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke?hl=en
-

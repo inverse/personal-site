@@ -7,7 +7,7 @@ tags:
 - home-assistant
 date: 2019-12-03 22:36 +0100
 ---
-In our house we have a few older generation [Teckin SP22][6]'s running [Espurna][4] and newer [Gosund SP111][5] running [Tasmota][3] that all publish their energy statistics via MQTT to Home Assistant. 
+In our house we have a few older generation [Teckin SP22][6]'s running [Espurna][4] and newer [Gosund SP111][5] running [Tasmota][3] that all publish their energy statistics via MQTT to Home Assistant.
 
 I wanted a unified way to visualise the daily and monthly energy usage of these devices to better grasp how much energy we are consuming.
 
@@ -143,7 +143,7 @@ Like in [previous posts]({% post_url 2019-11-25-connecting-tasmota-to-home-assis
 
 ## Next steps
 
-While this easily gives you nice daily and monthly unified overviews the power consumption of your smart plugs it doesn't allow you to query other time frames or drill down by device, without exposing the stats for each sensor manually. 
+While this easily gives you nice daily and monthly unified overviews the power consumption of your smart plugs it doesn't allow you to query other time frames or drill down by device, without exposing the stats for each sensor manually.
 
 An alternative approach which would complement this setup would be to publish your sensor stats to [InfluxDB][1] and graph this data using [Grafana][2]. But that'll be for another post.
 
@@ -158,7 +158,7 @@ An alternative approach which would complement this setup would be to publish yo
 [3]: https://github.com/arendst/Tasmota/
 [4]: https://github.com/xoseperez/espurna
 [5]: https://affiliate.malachisoord.com/t/940fc6b7-d20a-46d7-b6bb-2f6bdcaaed7b
-[6]: https://affiliate.malachisoord.com/t/cb945e08-9e4f-40d2-8870-23ff9012cad0 
+[6]: https://affiliate.malachisoord.com/t/cb945e08-9e4f-40d2-8870-23ff9012cad0
 [7]: https://www.home-assistant.io/integrations/template/
 [8]: https://github.com/kalkih/mini-graph-card
 [9]: https://github.com/kalkih

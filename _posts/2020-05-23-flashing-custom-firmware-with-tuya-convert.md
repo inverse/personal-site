@@ -16,16 +16,16 @@ This lead me to try using [Tuya-Convert][0], a firmware replacement solution tha
 
 While their repo describes how you can achieve this using a docker based solution I didn't have much luck with the in-built WiFi adaptor on my laptop so opted for the Raspberry PI based approach since I had a spare one laying around.
 
-# Requirements
+## Requirements
 
 - [Raspberry PI 3B+][1]
 - [micro SDCard][2]
 - [Gosund SP111][3]
 - Another device with WiFi, e.g.Wi your phone, or laptop
 
-# Setup
+## Setup
 
-## Setting up the OS
+### Setting up the OS
 
 Flash [Rasbian][4] onto the micro SDCard using [balena etcher][8] connect your PI and wait for it to boot.
 
@@ -38,7 +38,7 @@ sudo apt update
 sudo apt install git
 ```
 
-## Setting up Tuya-Convert
+### Setting up Tuya-Convert
 
 To avoid having to deal with SSH keys on your PI it's simply enough to just clone the repo down over HTTPS.
 
@@ -48,7 +48,7 @@ cd tuya-convert
 ./install_prereq.sh
 ```
 
-## Flashing the device
+### Flashing the device
 
 Tuya-Convert comes packages with [Tasmota][6] or [Espurna][7] but you can also use a different firmware which is explained during the flashing process.
 
@@ -60,15 +60,15 @@ Tuya-Convert comes packages with [Tasmota][6] or [Espurna][7] but you can also u
 
 Follow the on screen instructions be sure to put your device into pairing mode at the start of the process.
 
-## After flashing
+### After flashing
 
 I opted to flash my device with Tasmota, which I then flashed the latest standard binary from their release page on Github via the web interface. The reason being that the bundled one is the minimal one and doesn't come with all the support for all the sensors.
 
-### Tasmota Template
+#### Tasmota Template
 
 Once flashed I changed the template to configure the GPIO pins correctly to enable me to use the device properly:
 
-```
+```text
 {"NAME":"Gosund SP111 V","GPIO":[57,255,56,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}
 ```
 

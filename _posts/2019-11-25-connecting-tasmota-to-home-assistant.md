@@ -82,7 +82,7 @@ To understand what kind of information is being published you can view the raw m
 
 ## Displaying sensor stats
 
-If you're using Lovelace as a frontend for your setup I can recommend the [Mini Graph Card][8] extension by [@kalkih][9]. It provides various minimalistic and customisable cards that can be useful for displaying metrics and sensor statistics. 
+If you're using Lovelace as a frontend for your setup I can recommend the [Mini Graph Card][8] extension by [@kalkih][9]. It provides various minimalistic and customisable cards that can be useful for displaying metrics and sensor statistics.
 
 For example you can plot your kWh metics as configured above.
 

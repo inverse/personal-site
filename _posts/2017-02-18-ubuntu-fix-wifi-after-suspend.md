@@ -34,13 +34,14 @@ WantedBy=suspend.target
 WantedBy=hibernate.target
 WantedBy=hybrid-sleep.target
 ```
+
 _Credit go to the authors of the replies on [ask ubuntu thread][0]._
 
 Save and exit nano and then enable the new systemd service:
 
 `sudo systemctl enable wifi-resume.service`
 
-You can subsitute `enable` with `disable` to turn off the service and then remove the file if you find it's not working as expected.
+You can substitute `enable` with `disable` to turn off the service and then remove the file if you find it's not working as expected.
 
 ## Further reading
 

@@ -54,7 +54,6 @@ As you can see from the diagram there are the soldering points exposed which we 
 
 This table describes the way in which you should connect the devise to the FTDI.
 
-
 ![Gosund SP111 open atached](/assets/img/posts/gosund-sp111-open-attached.jpg)
 
 I ended up sharpening the male ends of the jumper cables slightly so that they would fall slightly through the holes, using tape to secure them to the side of the device making it easier to work with.
@@ -71,26 +70,27 @@ To put the device into flashing mode you need to cross `GPIO0` with `GND` for a 
 
 You can easily do this by holding the bridged cable on `GPI0` by hand and removing shortly after. To tell this worked correctly when removed  the red LED turns dimmed, indicating it's in flashing mode.
 
-
 Backup existing firmware (optional):
-```
+
+```bash
 sudo esptool.py --port /dev/ttyUSB0 read_flash 0x00000 0x100000 <name-of-backup>.bin
 ```
+
 _replacing `<name-of-backup>` with something more meaningful like `gosund-sp111-v1.1`_
 
-
 Erasing existing firmware:
-```
+
+```bash
 sudo esptool.py --port /dev/ttyUSB0 erase_flash
 ```
 
 Flashing new firmware
-```
+
+```bash
 sudo esptool.py --port /dev/ttyUSB0 write_flash -fs 1MB -fm dout 0x0 sonoff.bin
 ```
 
 _where `sonoff.bin` is the [latest Tasmota build][9]._
-
 
 Once finished, disconnect cables and assemble device. Follow the [official documentation][8] from here regarding setting up the device.
 
@@ -98,7 +98,7 @@ Once finished, disconnect cables and assemble device. Follow the [official docum
 
 Here is the device template that I used to configure the device:
 
-```
+```text
 {"NAME":"Gosund SP111 V","GPIO":[57,255,56,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}
 ```
 

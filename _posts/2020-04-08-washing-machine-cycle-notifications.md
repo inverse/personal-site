@@ -11,9 +11,9 @@ tags:
 
 In this post I will explain how I hooked up our normal washing machine to provide some power usage insights, such as sending notifications that include the cycle time and power consumption.
 
-I'm using [Home Assistant][0] and leveraging [Node-Red][1] installed via an addon to provide the automation layer. By leveraging the addon it provides seemless integration to query entities and trigger services.
+I'm using [Home Assistant][0] and leveraging [Node-Red][1] installed via an addon to provide the automation layer. By leveraging the addon it provides seem-less integration to query entities and trigger services.
 
-For this setup I used a [Gosund SP111][7] but you could any smart plug that you can feed the data into Home Assistant.
+For this setup I used a [Gosund SP111][7] but you could any power sensing smart plug that you can feed the data into Home Assistant.
 
 ## Setting up the sensors
 
@@ -32,8 +32,7 @@ I flashed the plug with [Tasmota][6] allowing me to push the data via MQTT to be
   unit_of_measurement: W
 ```
 
-Since the power usage changes during the wash cycle I added an additional template based sensor that would siginal if the device was on or off based of the power draw is > 5w and has been on for more than 60 seconds. 
-
+Since the power usage changes during the wash cycle I added an additional template based sensor that would signal if the device was on or off based of the power draw is > 5w and has been on for more than 60 seconds.
 
 ```yaml
 - platform: template
@@ -48,7 +47,7 @@ Since the power usage changes during the wash cycle I added an additional templa
           {% endif %}{% endraw %}
 ```
 
-_You could probably achieve similiar behaviour in Nodered but I wanted to keep this logic in Home Assistant for now._
+_You could probably achieve similar behaviour in Node-Red but I wanted to keep this logic in Home Assistant for now._
 
 ## Notification Side
 
@@ -65,11 +64,9 @@ For this automation you will need to setup 3 nodes.
 
 ![Washing Machine Power Flow](/assets/img/posts/washing-machine-power/flow.png)
 
-
 ### State node
 
 This is the input node that is used to kick things off. It matches the the `sensor.washing_machine_state` entity and is setup as a bool sensor to output only on state cange.
-
 
 ### Function node
 
@@ -87,13 +84,13 @@ if(msg.payload) {
     context.set('savedState', data);
 } else {
     const data = context.get('savedState');
-    
+
     if (data === undefined) {
         return;
     }
-    
+
     const energy = parseFloat(Math.abs(entity.state - data.state)).toFixed(2);
-    
+
     const duration = millisToMinutesAndSeconds(Date.now() - data.startTime);
 
     const payload = {
@@ -102,7 +99,7 @@ if(msg.payload) {
     }
 
     msg.payload = payload;
-    
+
     return msg;
 }
 
@@ -115,9 +112,9 @@ function millisToMinutesAndSeconds(millis) {
 
 ### Service node
 
-Finally once the computation has been done and the payload has been immited to the nofifier. 
+Finally once the computation has been calculated and the payload has been emitted to the notifier service.
 
-The Data for the sevice call consisted of this JSON structure:
+The Data for the service call consisted of this JSON structure:
 
 ```json
 {"message": "Washing machine used {{payload.energy}} kwh and ran for {{payload.duration}} during the last cycle"}
