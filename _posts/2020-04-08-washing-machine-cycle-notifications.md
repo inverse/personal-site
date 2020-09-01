@@ -117,7 +117,9 @@ Finally once the computation has been calculated and the payload has been emitte
 The Data for the service call consisted of this JSON structure:
 
 ```json
+{% raw %}
 {"message": "Washing machine used {{payload.energy}} kwh and ran for {{payload.duration}} during the last cycle"}
+{% endraw %}
 ```
 
 [0]: https://www.home-assistant.io
