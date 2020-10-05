@@ -9,6 +9,8 @@ Hi! I'm Malachi Soord, a Software Engineer based in Berlin who is currently work
 
 This blog is a place for me to write about semi-technical topics.
 
+_Please note: Some  of the URLs for products I write about include affiliate tracking to generate some revenue._
+
 ## Curriculum Vitae
 
 You can obtain a copy of my [Curriculum Vitae](/assets/doc/cv-malachi-soord.pdf).
