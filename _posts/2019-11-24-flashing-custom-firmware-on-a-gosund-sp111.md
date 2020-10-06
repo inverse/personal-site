@@ -57,6 +57,8 @@ This table outlines the way in which you should connect the plug to the FTDI ada
 
 I ended up sharpening the male ends of the jumper cables slightly so that they would fall slightly through the holes, using tape to secure them to the side of the device making it easier to work with.
 
+> **Note** the diagram above is for illustration purposes and missing `GND` being connected.
+
 ![FTDI wired](/assets/img/posts/ftdi-wired.jpg)
 
 Here is the other end of the FTDI wired up showing the two cables wired to `GND` which will be used later for putting the device into flashing mode.
