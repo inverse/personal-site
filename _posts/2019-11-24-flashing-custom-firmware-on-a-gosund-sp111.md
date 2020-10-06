@@ -34,16 +34,15 @@ This time I went with Tasmota as it was well documented, has a big community, an
 
 ## Preparing the device
 
-To be able to flash the device you must first remove a single screw which can be done from the back of the device.
+To be able to flash the device you must first remove a single philips head screw which can be done from the back of the device.
 
 ![Gosund SP111 closed back](/assets/img/posts/gosund-sp111-closed-back.jpg)
 
-Once losened you should be able pop off the top, around the translucent rim.
+Once loosened you should be able pop off the top, around the translucent rim.
 
 ![Gosund SP111 open](/assets/img/posts/gosund-sp111-open.jpg)
 
 As you can see from the diagram there are the soldering points exposed which we must connect the relevant jumper cables too.
-
 
 | FTDI   | Gosund |
 |--------|--------|
@@ -52,7 +51,7 @@ As you can see from the diagram there are the soldering points exposed which we 
 | `RX`   | `TX`   |
 | `TX`   | `RX`   |
 
-This table describes the way in which you should connect the devise to the FTDI.
+This table outlines the way in which you should connect the plug to the FTDI adaptor.
 
 ![Gosund SP111 open atached](/assets/img/posts/gosund-sp111-open-attached.jpg)
 
