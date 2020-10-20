@@ -14,15 +14,20 @@ Without any public API available I found an awesome [post by Benjamin Hanke][8] 
 
 However I noticed there were some aspects missing such as getting the now playing information which would be useful for supporting this device as a Media Player.
 
-After struggling with a variety of emulators that would not load the application due to missing libraries I looked into an alternative solution which lead me to a [blog post by Martin Sauter][3] involving installing `tcpdump` on your rooted Android device and redirecting the pcap dump to [Wireshark][6] on your laptop.
+After struggling with a variety of emulators that would not load the application due to missing libraries I looked into an alternative solution which lead me to a [blog post by Martin Sauter][3] involving installing [`tcpdump`][5] on your rooted Android device and redirecting the pcap dump to [Wireshark][6] on your laptop.
 
 ## Setting up the Android device (rooted)
 
-Install [Termux][4] on your device. Once installed we will need to install [`tcpdump`][5], a tool that allows us to dump traffic from a network. To do this we will first need to install the root repository.
+First install [Termux][4] on your device to allow easily installation of binaries and other applications.
+
+Once installed we will need to install `tcpdump`, a tool that allows us to dump traffic from a network. To do this we will first need to install the root repository that contains the root applications.
 
 ```bash
 pkg install root-repo
-```laptop
+```
+
+Now we can go ahead and install tcpdump itself.
+
 ```bash
 pkg install tcpdump
 ```
