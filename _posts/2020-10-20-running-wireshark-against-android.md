@@ -2,6 +2,7 @@
 layout: post
 title: Running Wireshark against android
 date: 2020-10-20 22:11 +0200
+comments: true
 tags:
 - linux
 - android
