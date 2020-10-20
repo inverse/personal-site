@@ -38,7 +38,7 @@ adb exec-out "tcpdump -i any -U -w - 2>/dev/null" | sudo wireshark -k -S -i -
 This will run tcpdump on the device and return the stream back to the host piping this through to Wireshark.
 
 [0]: https://www.libratone.com/
-[1]: https://www.amazon.de/-/en/Libratone-Wireless-Multiroom-Speaker-Standard/dp/B0150DTEK8
+[1]: https://affiliate.malachisoord.com/t/e28d25e7-812b-4a64-b951-851b197f24fd
 [2]: https://www.home-assistant.io/
 [3]: https://blog.wirelessmoves.com/2017/02/adb-and-tcpdump-on-android-for-live-wireshark-tracing.html
 [4]: https://termux.com/
