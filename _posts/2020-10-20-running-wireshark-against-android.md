@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Running Wireshark against android
+title: Running Wireshark against Android
 date: 2020-10-20 22:11 +0200
 comments: true
 tags:
@@ -13,13 +13,13 @@ I recently purchased some [Libratone][0] [Zipp Mini speakers][1] that were on of
 
 Without any public API available I found an awesome [post by Benjamin Hanke][8] documenting his journey on reverse engineering the basic controls for controlling this device.
 
-However I noticed there were some aspects missing such as getting the now playing information which would be useful for supporting this device as a Media Player.
+However, I noticed there were some aspects missing such as getting the now playing information which would be useful for supporting this device as a Media Player.
 
-After struggling with a variety of emulators that would not load the application due to missing libraries I looked into an alternative solution which lead me to a [blog post by Martin Sauter][3] involving installing [`tcpdump`][5] on your rooted Android device and redirecting the pcap dump to [Wireshark][6] on your laptop.
+After struggling with a variety of emulators that would not load the application due to missing native libraries I looked into an alternative solution which lead me to a [blog post by Martin Sauter][3] involving installing [`tcpdump`][5] on your rooted Android device and redirecting the pcap dump to [Wireshark][6] on your laptop.
 
 ## Setting up the Android device (rooted)
 
-First install [Termux][4] on your device to allow easily installation of binaries and other applications.
+First install [Termux][4] on your rooted device to allow easily installation of binaries and other applications.
 
 Once installed we will need to install `tcpdump`, a tool that allows us to dump traffic from a network. To do this we will first need to install the root repository that contains the root applications.
 
