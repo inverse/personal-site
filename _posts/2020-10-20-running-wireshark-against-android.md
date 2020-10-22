@@ -33,7 +33,7 @@ Now from your Linux computer you need to install [Android Debug Bridge (adb)][7]
 sudo adb devices
 ```
 
-_Note: you must accept the debug request from your device
+_Note: you must accept the debug request from your device_
 
 Next lets enable adb in root mode:
 
