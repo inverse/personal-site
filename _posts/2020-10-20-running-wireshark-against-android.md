@@ -62,7 +62,7 @@ This will run tcpdump on the device and return the stream back to the host pipin
 
 From here you can now inspect all the traffic happening on the device which can be quite noisy. To make it easier to find only the communication between your Android device and the Libratone you can Use an IP filter.
 
-Which in my case is running on `192.168.1.131` and can be applied on the top bare like:
+Which in my case is running on `192.168.1.131` and can be applied on the top bar like:
 
 ```text
 ip.addr == 192.168.1.131
