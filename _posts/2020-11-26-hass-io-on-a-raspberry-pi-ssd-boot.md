@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Hass.io on a Raspberry Pi SSD Boot
+title: Hass.io on a Raspberry Pi with USB SSD Boot
 date: 2020-11-26 22:08 +0100
+comments: true
 tags:
 - home-assistant
 - pi
@@ -11,18 +12,18 @@ My Home Assistant setup recently died due to the SDCard finally giving up after 
 
 ## Equipment needed
 
-- [Raspberry PI3][4]
+- [Raspberry PI 3][4]
 - [SSD][5]
 - [SATA to USB adaptor][6]
 - [SDCard][7] (for enabling USB boot)
 
 ### Create snapshot (for existing setups)
 
-First take a snapshot from the UI. Follow [SuburbanNerd's guide][3] on this topic.
+First take a snapshot from the UI. Follow [SuburbanNerd's guide][3] for more information on this topic.
 
 ### Getting the PI ready for USB Boot
 
-Following the guide from [Stefan][0] on the [Home Assistant forums][1] the steps were relatively straight forward.
+Following the steps from [Stefan][0] on the [Home Assistant forums][1] the process is relatively straight forward.
 
 First download and install [Raspberry PI OS][8] onto an SDCard using a tool such as [balena etcher][2]. Once flashed, place the SDCard into the PI and power it on.
 
@@ -54,7 +55,7 @@ Download the latest compatible Hass.io install for your device.
 
 Connect the SSD to the SATA to USB adaptor and connect this to your PC.
 
-Use a tool such as [balena etcher][2] to flash the hass.io install to the SSD.
+Use a tool such as [balena etcher][2] to flash the Hass.io install to the SSD.
 
 Once flashed, disconnect and connect this to the PI, ensuring that the SDCard is removed.
 
@@ -62,7 +63,7 @@ Power on the PI and wait for it to boot.
 
 Once booted it should be accessible from the network through `http://homeassistant.local:8123`.
 
-After home assistant has been installed you will be greeted by a screen prompting you to setup.
+After Home Assistant has been installed you will be greeted by a screen prompting you to setup.
 
 If you are coming from an existing install you will be able to provide the snapshot downloaded in an earlier step. Finally now wait for the device to reload your existing configuration. This can take a while to do, for me I noticed it took around 20 minutes to restore the device to it's previous state.
 
