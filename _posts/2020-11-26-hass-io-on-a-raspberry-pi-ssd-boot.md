@@ -23,7 +23,7 @@ First take a snapshot from the UI. Follow [SuburbanNerd's guide][3] for more inf
 
 ### Getting the PI ready for USB Boot
 
-Changing PI to boot from USB is uses one-time programmable (OTP) memory. Once this bit has been set, you cannot unset it, that being said you can still boot from an SDCard, it just opens up the possibility to boot from a USB Device too.
+Changing PI to boot from USB uses one-time programmable (OTP) memory. Once this bit has been set, you cannot unset it. That being said you can still boot from an SDCard, it just opens up the possibility to boot from USB devices too.
 
 Following the steps from [Stefan][0] on the [Home Assistant forums][1] the process is relatively straight forward.
 
