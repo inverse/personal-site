@@ -12,7 +12,7 @@ In a previous post titled [Flashing custom firmware on Gosund SP111 devices]({% 
 
 Having purchased what I believed to be the same product turned out to be the lower rated 2300W and look slightly older generation from the PCB which  made it more difficult to flash without soldering due to only having solder pads.
 
-This lead me to try using [Tuya-Convert][0], a firmware replacement solution that does not even require you to disassemble your smart device. 
+This lead me to try using [Tuya-Convert][0], a firmware replacement solution that does not even require you to disassemble your smart device.
 
 While their repo describes how you can achieve this using a docker based solution I didn't have much luck with the in-built WiFi adaptor on my laptop so opted for the Raspberry PI based approach since I had a spare one laying around.
 

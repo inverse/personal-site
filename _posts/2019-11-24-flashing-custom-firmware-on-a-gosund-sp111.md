@@ -112,7 +112,7 @@ Here is the device template that I used to configure the device:
 [1]: https://github.com/xoseperez/espurna
 [2]: https://github.com/ct-Open-Source/tuya-convert
 [3]: https://affiliate.malachisoord.com/t/940fc6b7-d20a-46d7-b6bb-2f6bdcaaed7b
-[4]: https://affiliate.malachisoord.com/t/cb945e08-9e4f-40d2-8870-23ff9012cad0 
+[4]: https://affiliate.malachisoord.com/t/cb945e08-9e4f-40d2-8870-23ff9012cad0
 [5]: https://github.com/arendst/Tasmota/
 [6]: https://esphome.io/
 [7]: https://github.com/espressif/esptool

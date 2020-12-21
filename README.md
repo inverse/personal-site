@@ -20,7 +20,7 @@ My personal site based on [Poole][0], running on [Netify][2].
 
 ### Creating Content
 
-[jekyll-compose][1] has been included to speed up content curration. 
+[jekyll-compose][1] has been included to speed up content curration.
 
 #### New Page
 

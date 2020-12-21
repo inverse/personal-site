@@ -49,12 +49,12 @@ To unify these sensor readings you can use the powerful [Templating platform][7]
 
 ```yaml
 - platform: template
-  sensors: 
+  sensors:
     energy_total_usage:
       friendly_name: Total Energy Usage
       unit_of_measurement: kWh
-      value_template: >-  
-        {% raw %}{{ 
+      value_template: >-
+        {% raw %}{{
           (states.sensor.socket_media_energy.state | float) +
           (states.sensor.socket_desk_energy.state | float) +
           (states.sensor.socket_coffee_energy.state | float) +
@@ -66,8 +66,8 @@ To unify these sensor readings you can use the powerful [Templating platform][7]
     power_total_usage:
       friendly_name: Total Power Usage
       unit_of_measurement: W
-      value_template: >-  
-        {% raw %}{{ 
+      value_template: >-
+        {% raw %}{{
           (states.sensor.socket_media_power.state | float) +
           (states.sensor.socket_desk_power.state | float) +
           (states.sensor.socket_coffee_power.state | float) +
@@ -93,7 +93,7 @@ energy_total_usage_monthly:
 
 ## Visualising
 
-Like in [previous posts]({% post_url 2019-11-25-connecting-tasmota-to-home-assistant %}), I highly recommend the [Mini Graph Card][8] extension by [@kalkih][9]. It provides various minimalistic and customisable cards that can be useful for displaying metrics and sensor statistics. 
+Like in [previous posts]({% post_url 2019-11-25-connecting-tasmota-to-home-assistant %}), I highly recommend the [Mini Graph Card][8] extension by [@kalkih][9]. It provides various minimalistic and customisable cards that can be useful for displaying metrics and sensor statistics.
 
 ![Energy Daily](/assets/img/posts/lovelace-energy-daily.png)
 
@@ -135,7 +135,7 @@ Like in [previous posts]({% post_url 2019-11-25-connecting-tasmota-to-home-assis
   - type: custom:mini-graph-card
     name: Power
     icon: mdi:flash
-    entities: 
+    entities:
       - sensor.power_total_usage
     show:
       graph: bar

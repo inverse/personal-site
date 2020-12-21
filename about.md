@@ -26,7 +26,7 @@ I can be contacted via <a href="mailto:{{site.author.email}}">email</a> or by vi
 				<i class="fab fa-3x fa-bitbucket"></i>
 			</div>
 			Bitbucket
-		</a> 
+		</a>
 	</div>
 	<div class="item">
 		<a href="https://github.com/inverse/">
@@ -34,7 +34,7 @@ I can be contacted via <a href="mailto:{{site.author.email}}">email</a> or by vi
 				<i class="fab fa-3x fa-github"></i>
 			</div>
 			GitHub
-		</a> 
+		</a>
 	</div>
 	<div class="item">
 		<a href="https://stackoverflow.com/users/50913/malachi">
@@ -42,7 +42,7 @@ I can be contacted via <a href="mailto:{{site.author.email}}">email</a> or by vi
 				<i class="fab fa-3x fa-stack-overflow"></i>
 			</div>
 			Stackoverflow
-		</a> 
+		</a>
 	</div>
 	<div class="item">
 		<a href="https://www.linkedin.com/in/malachisoord">
@@ -50,7 +50,7 @@ I can be contacted via <a href="mailto:{{site.author.email}}">email</a> or by vi
 				<i class="fab fa-3x fa-linkedin"></i>
 			</div>
 			LinkedIn
-		</a> 	
+		</a>
 	</div>
 	<div class="item">
 		<a href="https://last.fm/user/inverse.chi">
@@ -60,13 +60,13 @@ I can be contacted via <a href="mailto:{{site.author.email}}">email</a> or by vi
 			Last.fm
 		</a>
 	</div>
-	<div class="item">	
+	<div class="item">
 		<a href="https://www.strava.com/athletes/1126714">
 			<div class="icon">
 				<i class="fab fa-3x fa-strava"></i>
 			</div>
 			Strava
-		</a> 
+		</a>
 	</div>
 	<div class="item">
 		<a href="https://twitter.com/inversechi">
@@ -74,13 +74,13 @@ I can be contacted via <a href="mailto:{{site.author.email}}">email</a> or by vi
 				<i class="fab fa-3x fa-twitter"></i>
 			</div>
 			Twitter
-		</a> 
+		</a>
 	</div>
 	<div class="item">
 		<a href="https://www.facebook.com/malachisoord">
 			<div class="icon">
 				<i class="fab fa-3x fa-facebook"></i>
-			</div>	
+			</div>
 			Facebook
 		</a>
 	</div>

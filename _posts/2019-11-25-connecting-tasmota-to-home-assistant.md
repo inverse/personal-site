@@ -94,7 +94,7 @@ Follow the [installation instructions][10] and then configure your view with a c
   - type: custom:mini-graph-card
     name: Socket Power
     icon: mdi:flash
-    entities: 
+    entities:
       - entity: sensor.socket_7_energy
         name:  Window Lights
       - entity: sensor.socket_8_energy

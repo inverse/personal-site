@@ -51,7 +51,7 @@ _You could probably achieve similar behaviour in Node-Red but I wanted to keep t
 
 ## Notification Side
 
-For the notification side I opted to use the [Telegram integration][8] since it's easy to work with, free, doesn't involve me installing another app as I use it daily, and is pretty rich for other capabilities such as sending videos and images.  
+For the notification side I opted to use the [Telegram integration][8] since it's easy to work with, free, doesn't involve me installing another app as I use it daily, and is pretty rich for other capabilities such as sending videos and images.
 
 ## Setting up Node-Red
 
