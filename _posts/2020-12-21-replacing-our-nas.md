@@ -2,6 +2,11 @@
 layout: post
 title: Replacing our NAS
 date: 2020-12-21 22:51 +0100
+comments: true
+tags:
+- nas
+- home-server
+- self-hosted
 ---
 
 A couple of months ago our old single drive [WD My Cloud Home][0] NAS died. The HDD failed and even shucking the device and trying to connect with a SATA adaptor failed to read the drive. Thankfully nothing important was lost as that was all backed up off site.
