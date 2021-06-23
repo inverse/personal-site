@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Home Assistant on a PI4
+title: Home Assistant on a Pi4
 date: 2021-06-23 22:03 +0200
 comments: true
 tags:
@@ -9,9 +9,9 @@ tags:
 - self-hosted
 ---
 
-I noticed that the PI3 that had been hosting our Home Assistant setup along with a minimal set of addons was really struggling which came apparent with things not being as stable as they should and often requiring reboots.
+I noticed that the Pi3 that had been hosting our Home Assistant setup along with a minimal set of addons was really struggling which came apparent with things not being as stable as they should and often requiring reboots.
 
-Migrating to a PI4 based setup seemed an obvious choice giving the price point, performance, and power usage. I oped for the 8GB model as it would provide enough memory for additional addons that I found to self-host.
+Migrating to a Pi4 based setup seemed an obvious choice giving the price point, performance, and power consumption. I oped for the 8GB model as it would provide enough memory for additional addons that I found to self-host.
 
 ## Requirements
 
@@ -22,7 +22,7 @@ Migrating to a PI4 based setup seemed an obvious choice giving the price point, 
 
 ## Getting the PI ready
 
-You will need to upgrade the PI bootloader in most cases to enable USB boot. I used the [How to Boot Raspberry Pi 4 From a USB SSD or Flash Drive
+You will need to upgrade the Pi bootloader in most cases to enable USB boot. I used the [How to Boot Raspberry Pi 4 From a USB SSD or Flash Drive
 ][0] from Tom's Hardware to get this going.
 
 ## Installing Home Assistant
@@ -35,7 +35,7 @@ Connect the SSD to the SATA to USB adaptor and connect this to your PC.
 
 Use a tool such as [balena etcher][2] to flash the image to the SSD.
 
-Once flashed, disconnect and connect this to the PI, ensuring that the SDCard is removed.
+Once flashed, disconnect and connect this to the Pi, ensuring that the SDCard is removed.
 
 Power on the PI and wait for it to boot.
 
