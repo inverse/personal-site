@@ -5,7 +5,8 @@ date: 2020-11-26 22:08 +0100
 comments: true
 tags:
 - home-assistant
-- pi
+- raspberry-pi
+- self-hosted
 ---
 
 My Home Assistant setup recently died due to the SDCard finally giving up after 3 years of continual use. Thankfully I had a relatively recent snapshot of my setup so getting up and running again was mostly painless. However this time I invested in an SSD and converting my setup to boot from that.

@@ -4,9 +4,9 @@ title: Home Assistant on a Pi4
 date: 2021-06-23 22:03 +0200
 comments: true
 tags:
-- pi
 - home-assistant
 - self-hosted
+- raspberry-pi
 ---
 
 I noticed that the Pi3 that had been hosting our Home Assistant setup along with a minimal set of addons was really struggling which came apparent with things not being as stable as they should and often requiring reboots.
