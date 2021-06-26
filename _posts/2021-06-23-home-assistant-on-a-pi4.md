@@ -29,8 +29,6 @@ You will need to upgrade the Pi bootloader in most cases to enable USB boot. I u
 
 Download the latest compatible Home Assistant [operating system][1] for your device, in my case I chose the 64-bit version to leverage the full 8gb of RAM.
 
-> **Note** I'm currently running the `5.12` release as I had issues going to `5.13` and reported an [issue][3] around this which still hasn't been solved..
-
 Connect the SSD to the SATA to USB adaptor and connect this to your PC.
 
 Use a tool such as [balena etcher][2] to flash the image to the SSD.
