@@ -14,7 +14,7 @@ I was an avid user of custom ROMs for my Android phones when vendors used to sto
 
 Recently I upgraded to a [Xiaomi Redmi Note 10 Pro][9] due to the amazing price for the specifications it detailed and it didn't fail to deliver. However, I found using MIUI an issue, while it was fluid and performant I found it too bloated and there were UI quirks with some applications which were frustrating.
 
-This lead me to take the plunge back into the scene to see how I could go about installing Custom ROMs which lead me back to [XDA]0], and after some research [posting this][1]. I got a really helpful answer directing my to the [Pixel Experience Wiki page][2] explaining how to get into an unlocked state.
+This lead me to take the plunge back into the scene to see how I could go about installing Custom ROMs which lead me back to [XDA][0], and after some research [posting this][1]. I got a really helpful answer directing my to the [Pixel Experience Wiki page][2] explaining how to get into an unlocked state.
 
 The process was fairly simple although required waiting a significant amount of time for the device to be able to be unlocked, presumably to deter people from doing so.
 
