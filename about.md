@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hi! I'm Malachi Soord, a Software Engineer based in Berlin who is currently working @ [GetYourGuide](https://www.getyourguide.com).
+Hi! I'm Malachi Soord, a Software Engineer based in Berlin who is currently working @ [Vinted](https://www.vinted.com/).
 
 # This blog
 
