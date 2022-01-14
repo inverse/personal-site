@@ -25,6 +25,10 @@ nav {
                 text-decoration: none;
                 background: $nav-hover;
             }
+
+            &.theme {
+                padding: 5px 10px;
+            }
         }
     }
 }

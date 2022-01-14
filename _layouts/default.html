@@ -26,6 +26,11 @@
             {% endif %}
           {% endif %}
         {% endfor %}
+        <li>
+          <a href="#" id="themeChange" class="nav-item theme">
+            <i class="fas fa-moon"></i>
+          </a>
+        </li>
         </ul>
       </nav>
 
@@ -38,6 +43,31 @@
         </small>
       </footer>
     </div>
+
+    <script>
+
+
+      function setDarkMode(darkMode) {
+        if (darkMode) {
+          document.body.classList.add("dark-mode");
+        } else {
+          document.body.classList.remove("dark-mode");
+        }
+      }
+
+      function changeTheme() {
+        let darkMode = JSON.parse(localStorage.getItem("darkMode") || false);
+        darkMode = !darkMode;
+        setDarkMode(darkMode);
+        localStorage.setItem("darkMode", darkMode);
+      }
+
+      document.addEventListener("DOMContentLoaded", function(event) {
+        document.getElementById("themeChange").addEventListener("click", changeTheme);
+
+        setDarkMode(JSON.parse(localStorage.getItem("darkMode") || false));
+      });
+    </script>
 
     {% if site.analytics_id %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics_id }}"></script>
@@ -52,6 +82,6 @@
     {% if site.adsense_id and site.ads_on %}
     <script data-ad-client="{{ site.adsense_id }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     {% endif %}
-    <script defer src="https://use.fontawesome.com/releases/v5.11.0/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
   </body>
 </html>

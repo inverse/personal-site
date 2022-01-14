@@ -76,3 +76,23 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
+
+.dark-mode {
+  background: $dark-body-bg;
+
+  .masthead-title {
+    color: $dark-heading-title;
+  }
+
+  nav {
+    background-color: $dark-nav-color;
+  }
+
+  .post-title a {
+    color: $dark-post-title;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $dark-heading-title;
+  }
+}
