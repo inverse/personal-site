@@ -99,4 +99,13 @@ tbody tr:nth-child(odd) th {
   .post-tag {
     background: #000;
   }
+
+  code, .highlight {
+    background-color: #000;
+  }
+
+  a.pagination-item:hover {
+    background-color: #000;
+  }
+
 }
