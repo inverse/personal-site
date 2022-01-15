@@ -16,7 +16,7 @@
       </header>
 
       <nav>
-        <ul>
+        <ul class="menu">
         <li><a href="/" class="nav-item{% if page.url == "/" %} active{% endif %}">Home</a></li>
         {% assign pages_list = site.pages %}
         {% for node in pages_list %}
@@ -26,6 +26,8 @@
             {% endif %}
           {% endif %}
         {% endfor %}
+        </ul>
+        <ul class="controls">
         <li>
           <a href="#" id="themeChange" class="nav-item theme">
             <i class="fas fa-moon"></i>
