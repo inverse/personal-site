@@ -59,11 +59,11 @@ From here I was able to figure out the models that were used and the payloads to
 
 ## Python IOLITE client
 
-Since Home Assistant is written in Python I took it upon myself to write to client in Python. It's currently in WIP form but available on [Github][8].
+Since Home Assistant is written in Python I took it upon myself to write a client in Python. 
 
-The OAuth communication with token refreshing is in place. Along with basic models for communication.
+It's not a full client library but but available on [Github][8]. The OAuth communication with token refreshing is in place. Along with basic models for communication and simple interactions. 
 
-However the whole async websocket communication needs to be built out and then plugged into Home Assistant to be able to work seamlessly.
+Along with this I also started building a [Home Assistant integration][9] to make use of the client. Its very rough around the edges but it does intergrate the valves into home assistant.
 
 Feel free to contribute :)
 
@@ -80,3 +80,4 @@ Feel free to contribute :)
 [6]: http://java-decompiler.github.io/
 [7]: https://ibotpeaches.github.io/Apktool/
 [8]: https://github.com/inverse/python-iolite-client
+[9]: https://github.com/inverse/home-assistant-iolite-component
