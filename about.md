@@ -13,7 +13,7 @@ _Please note: Some  of the URLs for products I write about include affiliate tra
 
 ## Curriculum Vitae
 
-You can obtain a copy of my [Curriculum Vitae](/assets/doc/cv-malachi-soord.pdf).
+You can obtain a copy of my [Curriculum Vitae](https://drive.google.com/file/d/1uEiDr14Q1BgxAfo015vfL2wBz1ifIO5e/view).
 
 ## Contact
 
