@@ -15,8 +15,11 @@ My personal site based on [Poole][0], running on [Netify][2].
 
 ### Steps
 
-- `bundle`
-- `bundle exec jekyll serve --drafts` (`./scripts/start.sh`)
+
+```bash
+bundle
+./scripts/start
+```
 
 ### Creating Content
 
@@ -24,11 +27,15 @@ My personal site based on [Poole][0], running on [Netify][2].
 
 #### New Page
 
-`bundle exec jekyll page "My New Page"`
+```bash
+bundle exec jekyll page "My New Page"
+```
 
 #### New Post
 
-`bundle exec jekyll post "My New Post"`
+```bash
+bundle exec jekyll post "My New Post"
+```
 
 #### New Draft
 
@@ -36,15 +43,21 @@ My personal site based on [Poole][0], running on [Netify][2].
 
 #### Publish Draft
 
-`bundle exec jekyll publish _drafts/my-new-draft.md`
+```bash
+bundle exec jekyll publish _drafts/my-new-draft.md
+```
 
 or specify a specific date on which to publish it
 
-`bundle exec jekyll publish _drafts/my-new-draft.md --date 2014-01-24`
+```bash
+bundle exec jekyll publish _drafts/my-new-draft.md --date 2014-01-24
+```
 
 #### Unpublish Post
 
-`bundle exec jekyll unpublish _posts/2014-01-24-my-new-draft.md`
+```
+bundle exec jekyll unpublish _posts/2014-01-24-my-new-draft.md
+```
 
 [0]: http://getpoole.com/
 [1]: https://github.com/jekyll/jekyll-compose
