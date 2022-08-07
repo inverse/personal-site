@@ -10,7 +10,7 @@ date: 2019-12-05 21:49 +0100
 ---
 We have a couple [Hue Motion Sensors][0] in our apartment to provide some automation for lighting control which work great, albeit a bit expensive.
 
-I wanted to extend our setup for our bedroom and since we already had an [ESP32 NodeMCU][1] device running [ESPHome][2] with a [DHT22][3] Sensor collecting temperature and humidity metrics.
+I wanted to extend our setup for our bedroom and since we already had an [ESP32 NodeMCU][1] device running [ESPHome][2] with a [DHT22][3] Sensor collecting temperature and humidity metrics, extending this felt like the logical choice.
 
 This led me to to discovering some basic [PIR Motion Sensors][11] which can easily be hooked up and report back if motion is detected.
 
