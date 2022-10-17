@@ -48,3 +48,5 @@ vendor/
 
 # Jeykll
 .jekyll-cache/
+
+!/.ruby-version
