@@ -59,6 +59,13 @@ bundle exec jekyll publish _drafts/my-new-draft.md --date 2014-01-24
 bundle exec jekyll unpublish _posts/2014-01-24-my-new-draft.md
 ```
 
+## Image Optimisation
+
+```
+docker build -t image-optimise:local -f tools/image-optimise/Dockerfile  tools/image-optimise/
+docker run -it -v $(pwd):/data image-optimise:local /data
+```
+
 [0]: http://getpoole.com/
 [1]: https://github.com/jekyll/jekyll-compose
 [2]: https://www.netlify.com
