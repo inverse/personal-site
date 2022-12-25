@@ -2,6 +2,11 @@
 layout: post
 title: Adding more sensors to an ESP32
 date: 2022-12-25 16:11 +0100
+comments: true
+tags:
+- esp32
+- nodemcu
+- sensors
 ---
 
 I've been running an [ESP32 NodeMCU][0] in the bedroom for motion, temperature, and humidity for a while and have wanted to extend it's functionality by adding light sensing too,  in order to improve the motion light control to trigger when the lux is a certain level vs the current functional, but limited mode based on the position of the sun.

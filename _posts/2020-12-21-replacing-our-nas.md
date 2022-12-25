@@ -11,7 +11,7 @@ tags:
 
 A couple of months ago our old single drive [WD My Cloud Home][0] NAS died. The HDD failed and even shucking the device and trying to connect with a SATA adaptor failed to read the drive. Thankfully nothing important was lost as that was all backed up off site.
 
-This lead to to searching for a replacement device which had more redundancy built into avoid such situations. I ultimately ended up purchasing a [Synology DS218][1] as it featured 2 drives and enough compute power to be future proof if I ever decided to self host some other applications along side.
+This lead to to searching for a replacement device which had more redundancy built into avoid such situations. I ultimately ended up purchasing a [Synology DS218][1] as it featured 2 drives and enough compute power to be future proof if I ever decided to self-host some other services.
 
 ## Choosing the right drives
 
@@ -21,8 +21,7 @@ At first I purchased some [8 TB Ironwolf Pro][3] drives which once installed it 
 
 After lots of researching I ultimately decided to try some [6TB WD Red Plus (WD60EFRX)][4] drives as lots of people were reporting relatively silent operation and this was what was in the WD My Cloud which was super quiet.
 
-Just be careful to check the model which you have purchased as WD also sell NAS grade drives which use SMR technology compared to the more commonly used CMR technology. With WD SMR technology [reportedly][6] being very sub-par for a NAS setup.
-
+Just be careful to check the model which you have purchased as WD also sell NAS grade drives which use SMR technology compared to the more commonly used CMR technology. With WD SMR technology [reportedly][6] being sub-par for a NAS setup. 
 An easy way to identify this from what i've researched is through the product numbers
 
 | Technology   | Model |
