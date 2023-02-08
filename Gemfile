@@ -11,4 +11,4 @@ gem 'jekyll-sitemap'
 gem 'jekyll-feed'
 gem 'jekyll-compose', group: [:jekyll_plugins]
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
