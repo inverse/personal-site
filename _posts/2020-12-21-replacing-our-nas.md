@@ -21,7 +21,7 @@ At first I purchased some [8 TB Ironwolf Pro][3] drives which once installed it 
 
 After lots of researching I ultimately decided to try some [6TB WD Red Plus (WD60EFRX)][4] drives as lots of people were reporting relatively silent operation and this was what was in the WD My Cloud which was super quiet.
 
-Just be careful to check the model which you have purchased as WD also sell NAS grade drives which use SMR technology compared to the more commonly used CMR technology. With WD SMR technology [reportedly][6] being sub-par for a NAS setup. 
+Just be careful to check the model which you have purchased as WD also sell NAS grade drives which use SMR technology compared to the more commonly used CMR technology. With WD SMR technology [reportedly][6] being sub-par for a NAS setup.
 An easy way to identify this from what i've researched is through the product numbers
 
 | Technology   | Model |
