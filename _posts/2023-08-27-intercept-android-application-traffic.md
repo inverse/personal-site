@@ -15,7 +15,7 @@ Unless you're debugging your own application in which you can modify your applic
 
 # Solution
 
-The solution I went with was to use [HTTP Toolkit][1] with an Android Virtual Device setup using Android Studio. 
+The solution I went with was to use [HTTP Toolkit][1] with an Android Virtual Device setup using Android Studio.
 
 > Make sure the version being run is below Android 14 as there are some significant security changes made in this version.
 

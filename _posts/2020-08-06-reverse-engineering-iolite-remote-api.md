@@ -59,9 +59,9 @@ From here I was able to figure out the models that were used and the payloads to
 
 ## Python IOLITE client
 
-Since Home Assistant is written in Python I took it upon myself to write a client in Python. 
+Since Home Assistant is written in Python I took it upon myself to write a client in Python.
 
-It's not a full client library but but available on [Github][8]. The OAuth communication with token refreshing is in place. Along with basic models for communication and simple interactions. 
+It's not a full client library but but available on [Github][8]. The OAuth communication with token refreshing is in place. Along with basic models for communication and simple interactions.
 
 Along with this I also started building a [Home Assistant integration][9] to make use of the client. Its very rough around the edges but it does intergrate the valves into home assistant.
 

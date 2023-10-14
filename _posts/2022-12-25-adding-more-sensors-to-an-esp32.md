@@ -25,7 +25,7 @@ Overview of the whole enclosure:
 
 ![Overview](/assets/img/posts/adding-more-sensors-to-an-esp32/overview.jpg)
 
-ESPHome WebUI: 
+ESPHome WebUI:
 
 ![ESPHome WebUI](/assets/img/posts/adding-more-sensors-to-an-esp32/esphome.png)
 
