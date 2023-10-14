@@ -110,7 +110,7 @@ Follow the [installation instructions][10] and then configure your view with a c
 [1]: https://www.home-assistant.io/
 [2]: https://www.home-assistant.io/docs/mqtt/
 [3]: https://github.com/arendst/Tasmota/
-[4]: http://mqtt-explorer.com/
+[4]: https://mqtt-explorer.com/
 [5]: https://www.home-assistant.io/integrations/template/
 [6]: https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm?hl=en
 [7]: https://tasmota.github.io/docs/#/Home

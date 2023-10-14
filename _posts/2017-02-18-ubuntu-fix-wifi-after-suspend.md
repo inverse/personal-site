@@ -48,6 +48,6 @@ You can substitute `enable` with `disable` to turn off the service and then remo
 - [Systemd Wikipedia entry][1]
 - [Understanding and using systemd][2]
 
-[0]: http://askubuntu.com/questions/761180/wifi-doesnt-work-after-suspend-after-16-04-upgrade
+[0]: https://askubuntu.com/questions/761180/wifi-doesnt-work-after-suspend-after-16-04-upgrade
 [1]: https://en.wikipedia.org/wiki/Systemd
 [2]: https://www.linux.com/learn/understanding-and-using-systemd

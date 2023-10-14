@@ -77,7 +77,7 @@ Feel free to contribute :)
 [3]: https://developer.android.com/studio/command-line/adb
 [4]: https://github.com/pxb1988/dex2jar
 [5]: https://stackoverflow.com/questions/9812896/converting-apk-to-jar
-[6]: http://java-decompiler.github.io/
+[6]: https://java-decompiler.github.io/
 [7]: https://ibotpeaches.github.io/Apktool/
 [8]: https://github.com/inverse/python-iolite-client
 [9]: https://github.com/inverse/home-assistant-iolite-component

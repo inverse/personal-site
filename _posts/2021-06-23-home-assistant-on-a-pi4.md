@@ -37,7 +37,7 @@ Once flashed, disconnect and connect this to the Pi, ensuring that the SDCard is
 
 Power on the PI and wait for it to boot.
 
-Once booted it should be accessible from the network through `http://homeassistant.local:8123`.
+Once booted it should be accessible from the network through `https://homeassistant.local:8123`.
 
 After Home Assistant has been installed you will be greeted by a screen prompting you to setup.
 
