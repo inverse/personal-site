@@ -78,6 +78,6 @@ Once flashed I changed the template to configure the GPIO pins correctly to enab
 [3]: https://www.amazon.de/exec/obidos/ASIN/B0054PSES6/hexagon05-21/
 [4]: https://www.raspberrypi.org/downloads/raspbian/
 [5]: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
-[6]: https://tasmota.github.io/docs/#/Home
+[6]: https://tasmota.github.io/docs/
 [7]: https://github.com/xoseperez/espurna
 [8]: https://www.balena.io/etcher/

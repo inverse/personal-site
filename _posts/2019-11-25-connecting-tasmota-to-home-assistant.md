@@ -113,7 +113,7 @@ Follow the [installation instructions][10] and then configure your view with a c
 [4]: https://mqtt-explorer.com/
 [5]: https://www.home-assistant.io/integrations/template/
 [6]: https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm?hl=en
-[7]: https://tasmota.github.io/docs/#/Home
+[7]: https://tasmota.github.io/docs/
 [8]: https://github.com/kalkih/mini-graph-card
 [9]: https://github.com/kalkih
 [10]: https://github.com/kalkih/mini-graph-card#install
