@@ -54,8 +54,8 @@ I installed the [glances][8] addon to get an easier overview of resource utilisa
 [1]: https://github.com/home-assistant/operating-system/releases
 [2]: https://www.balena.io/etcher/
 [3]: https://github.com/home-assistant/operating-system/issues/1306
-[4]: https://affiliate.malachisoord.com/t/723ee767-8d22-443a-b427-be15757ce858
-[5]: https://affiliate.malachisoord.com/t/27d86c77-e3e8-4e21-abc9-2be97e2003b4
-[6]: https://affiliate.malachisoord.com/t/2eef12ce-e94f-450a-a475-e7db6be7806a
-[7]: https://affiliate.malachisoord.com/t/bd3ee124-3a2c-4ce0-a6d6-9537aa0fa1e0
+[4]: https://www.amazon.com/exec/obidos/ASIN/B0899VXM8F/hexagon014-20/
+[5]: https://www.amazon.com/exec/obidos/ASIN/B073JYVKNX/hexagon014-20/
+[6]: https://www.amazon.com/exec/obidos/ASIN/B07G3YNLJB/hexagon014-20/
+[7]: https://www.amazon.com/exec/obidos/ASIN/B07S9CKV7X/hexagon014-20/
 [8]: https://github.com/hassio-addons/addon-glances

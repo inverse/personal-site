@@ -74,8 +74,8 @@ If you are coming from an existing install you will be able to provide the snaps
 [1]: https://community.home-assistant.io/
 [2]: https://www.balena.io/etcher/
 [3]: https://suburbannerd.com/hassiobackup/
-[4]: https://affiliate.malachisoord.com/t/c373281f-2a9e-42af-bc1e-db0f01ae12b1
-[5]: https://affiliate.malachisoord.com/t/2eef12ce-e94f-450a-a475-e7db6be7806a
-[6]: https://affiliate.malachisoord.com/t/bd3ee124-3a2c-4ce0-a6d6-9537aa0fa1e0
-[7]: https://affiliate.malachisoord.com/t/27d86c77-e3e8-4e21-abc9-2be97e2003b4
+[4]: https://www.amazon.com/exec/obidos/ASIN/B07P4LSDYV/hexagon014-20/
+[5]: https://www.amazon.com/exec/obidos/ASIN/B07G3YNLJB/hexagon014-20/
+[6]: https://www.amazon.com/exec/obidos/ASIN/B07S9CKV7X/hexagon014-20/
+[7]: https://www.amazon.com/exec/obidos/ASIN/B073JYVKNX/hexagon014-20/
 [8]: https://www.raspberrypi.org/software/operating-systems/

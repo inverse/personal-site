@@ -55,7 +55,7 @@ adb install <my-apk.apk>
 
 - [Android Police - Sideloading without developer mode][1]
 
-[0]: https://affiliate.malachisoord.com/t/2d8e02d6-7715-4970-b379-cb7261a359a7
+[0]: https://www.amazon.com/exec/obidos/ASIN/B0856QVM2F/hexagon014-20/
 [1]: https://www.androidpolice.com/2019/12/26/chrome-os-80-adds-ability-to-sideload-android-apps-without-developer-mode-but-doesnt-make-it-easy/
 [2]: https://www.f-droid.org/
 [3]: https://support.google.com/chromebook/answer/9145439?hl=en

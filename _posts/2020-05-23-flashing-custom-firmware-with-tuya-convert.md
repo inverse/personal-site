@@ -73,9 +73,9 @@ Once flashed I changed the template to configure the GPIO pins correctly to enab
 ```
 
 [0]: https://github.com/ct-Open-Source/tuya-convert
-[1]: https://affiliate.malachisoord.com/t/c373281f-2a9e-42af-bc1e-db0f01ae12b1
-[2]: https://affiliate.malachisoord.com/t/27d86c77-e3e8-4e21-abc9-2be97e2003b4
-[3]: https://affiliate.malachisoord.com/t/940fc6b7-d20a-46d7-b6bb-2f6bdcaaed7b
+[1]: https://www.amazon.com/exec/obidos/ASIN/B07P4LSDYV/hexagon014-20/
+[2]: https://www.amazon.com/exec/obidos/ASIN/B073JYVKNX/hexagon014-20/
+[3]: https://www.amazon.de/exec/obidos/ASIN/B0054PSES6/hexagon05-21/
 [4]: https://www.raspberrypi.org/downloads/raspbian/
 [5]: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
 [6]: https://tasmota.github.io/docs/#/Home

@@ -71,7 +71,7 @@ ip.addr == 192.168.1.131
 That's it for now. I will update with more once I have figured out what network calls are relevant!
 
 [0]: https://www.libratone.com/
-[1]: https://affiliate.malachisoord.com/t/e28d25e7-812b-4a64-b951-851b197f24fd
+[1]: https://www.amazon.com/exec/obidos/ASIN/B072BRZFCY/hexagon014-20/
 [2]: https://www.home-assistant.io/
 [3]: https://blog.wirelessmoves.com/2017/02/adb-and-tcpdump-on-android-for-live-wireshark-tracing.html
 [4]: https://developer.android.com/studio/debug/dev-options

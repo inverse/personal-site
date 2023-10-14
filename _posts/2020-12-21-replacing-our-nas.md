@@ -35,10 +35,10 @@ Where XX specifies the size of the drive which in my case was 60 indicating 6TB.
 
 - [CMR vs SMR][5]
 
-[0]: https://affiliate.malachisoord.com/t/053a2e24-0881-4e08-a4ec-3dba2cb16adf
-[1]: https://affiliate.malachisoord.com/t/3a822a2d-cffe-45b3-b686-52c763267609
+[0]: https://www.amazon.com/exec/obidos/ASIN/B076CTK55W/hexagon014-20/
+[1]: https://www.amazon.com/exec/obidos/ASIN/B077PJX8TH/hexagon014-20/
 [2]: https://www.synology.com/en-global/compatibility
-[3]: https://affiliate.malachisoord.com/t/c0cc9bd4-43f6-46b7-a611-2723454eacd1
-[4]: https://affiliate.malachisoord.com/t/18b9168b-e1bd-45de-992c-29971aa8a5c6
+[3]: https://www.amazon.com/exec/obidos/ASIN/B07H289S79/hexagon014-20/
+[4]: https://www.amazon.com/exec/obidos/ASIN/B00EHBERSE/hexagon014-20/
 [5]: https://www.buffalotech.com/blog/cmr-vs-smr-hard-drives-in-network-attached-storage-nas
 [6]: https://arstechnica.com/gadgets/2020/06/western-digitals-smr-disks-arent-great-but-theyre-not-garbage/

@@ -50,4 +50,4 @@ I've been using this ROM for over 6 weeks and it's been amazing once I ironed ou
 [6]: https://www.reddit.com/user/mastorofpuppies/
 [7]: https://camera.aeonax.com/
 [8]: https://www.celsoazevedo.com/files/android/google-camera/
-[9]: https://affiliate.malachisoord.com/t/a10437df-15cc-417e-b0dc-6d8342262737
+[9]: https://www.amazon.com/exec/obidos/ASIN/B08Y8MDMF4/hexagon014-20/

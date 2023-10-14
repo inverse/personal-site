@@ -75,4 +75,4 @@ Both are pretty feature rich, however Yatse feels more intuitive and provides so
 [10]: https://en.wikipedia.org/wiki/Consumer_Electronics_Control
 [11]: https://kodi.tv/download/
 [12]: https://kodi.wiki/
-[13]: https://affiliate.malachisoord.com/t/c373281f-2a9e-42af-bc1e-db0f01ae12b1
+[13]: https://www.amazon.com/exec/obidos/ASIN/B07P4LSDYV/hexagon014-20/

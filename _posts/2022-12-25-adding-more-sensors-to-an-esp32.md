@@ -35,5 +35,5 @@ ESPHome WebUI:
 - [ESPHome based PIR motion sensor setup][1]
 
 
-[0]: https://affiliate.malachisoord.com/t/fd3c736b-3c34-4107-abd7-f1e3d2ae3dd3
+[0]: https://www.amazon.com/exec/obidos/ASIN/B07Q576VWZ/hexagon014-20/
 [1]: {% post_url 2019-12-05-esphome-based-pir-motion-sensor-setup %}
