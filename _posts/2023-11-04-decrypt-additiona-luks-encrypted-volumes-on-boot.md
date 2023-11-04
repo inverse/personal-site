@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Decrypt more LUKS encrypted volumes on boot
+title: Decrypt additional LUKS encrypted volumes on boot
 date: 2023-11-04 11:21 +0100
 tags:
 - linux
