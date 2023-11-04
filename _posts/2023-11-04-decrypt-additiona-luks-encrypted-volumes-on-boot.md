@@ -16,7 +16,7 @@ The installer provides a way to easily created a LUKS encrypted drive for the sy
 
 ## Setting up the drive
 
-The first step was to format the drive as `EXT4`` and encrypted it using the Gnome disk utility. 
+The first step was to format the drive as `EXT4` and encrypted it using the Gnome disk utility. 
 
 ## Automating the decryption.
 
