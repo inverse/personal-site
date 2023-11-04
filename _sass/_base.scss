@@ -93,6 +93,12 @@ tbody tr:nth-child(odd) th {
 
   nav {
     background-color: $dark-nav-color;
+
+    a {
+      &:hover {
+        background: $dark-nav-hover;
+      }
+    }
   }
 
   .post-title a {
