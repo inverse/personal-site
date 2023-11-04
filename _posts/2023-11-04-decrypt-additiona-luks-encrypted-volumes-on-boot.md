@@ -8,20 +8,23 @@ tags:
 - luks
 ---
 
-I recently got a new PC which has multiple drives that I wanted to encrypt and decrypt these on boot.
+I recently got a new PC which has multiple drives that I wanted to encrypt and decrypt these automatically on boot.
 
 My distribution of choice is [EndevourOS][0] as it provides an easy way to get going with an arch based system.
 
-The installer provides a way to easily created LUKS encrypted drive for the system but I wanted to add additional drives in with the same security.
+The installer provides a way to easily created a LUKS encrypted drive for the system but I wanted to add additional drives in with the same security.
 
 ## Setting up the drive
 
-I first formatted the drive as EXT4 and encrypted it using the gnome disk utility. 
+The first step was to format the drive as `EXT4`` and encrypted it using the Gnome disk utility. 
 
 ## Automating the decryption.
 
-I would need to add the key file that is being used by the main drive to the additional drive. For me this was as the root of the volume at `/crypto_keyfile.bin`. I identified this by running `sudo cat /etc/crypttab`.
+Next would be to add the key file that is being used by the main drive to the additional drive. For me this was as the root of the volume at `/crypto_keyfile.bin`.
 
+This identified this by running `sudo cat /etc/crypttab` and finding the reference to the keyfile.
+
+Adding the key:
 
 ```bash
 sudo cryptsetup luksAddKey /dev/sda1 /crypto_keyfile.bin
