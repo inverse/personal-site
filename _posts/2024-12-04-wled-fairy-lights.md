@@ -29,7 +29,7 @@ Once installed I went about connecting the device to the to the Wifi network fol
 
 After the device was added to my network I went around configuring the device for the LED's I had. Below is the main change I made for the LEDs.
 
-![WLED LED config](/assets/img/posts/wled/nodemcu_pin_connect.png)
+![WLED LED config](/assets/img/posts/wled/wled_led_config.png)
 
 the next step would be to wire up the power supply to the LED cable and splicing this so that it could be used for powering the ESP32. This was quite straight forward using the cable connectors,  jumper wires, and the provided power input from the LED cable.
 
