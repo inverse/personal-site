@@ -9,9 +9,9 @@ tags:
 - luks
 ---
 
-I recently got a new PC which has multiple drives that I wanted to encrypt and decrypt these automatically on boot.
+I recently upgraded to a new PC which has multiple drives that I wanted to encrypt and decrypt these automatically on boot.
 
-My distribution of choice is [EndevourOS][0] as it provides an easy way to get going with an arch based system.
+My distribution of choice is [EndevourOS][0] as it provides an easy way to get started with an arch based system.
 
 The installer provides a way to easily created a LUKS encrypted drive for the system but I wanted to add additional drives in with the same security.
 
@@ -92,7 +92,7 @@ tmpfs                                     /tmp           tmpfs   defaults,noatim
 /dev/mapper/luks-978ed2e3-f056-44a9-91ce-d91576047abe  /mnt/stuff ext4    rw,relatime   0    2
 ```
 
-And that was it - when I rebooted my machine I could see the drive being decrypted and was available at the defined mount point as `/mnt/stuff`.
+And that was it, once I rebooted the computer I could see the drive being decrypted and was available at the defined mount point as `/mnt/stuff`.
 
 
 [0]: https://endeavouros.com/
