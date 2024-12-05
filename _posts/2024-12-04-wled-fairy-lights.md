@@ -7,6 +7,8 @@ tags:
 - esp32
 - nodemcu
 - lights
+- wS2812b
+- wled
 ---
 
 The [WLED][0] project is something I have been meaning to use for a while but never got around to experimenting with until recently when I purchased some [WS2812B Fairy Lights][1] to decorate our living room with. The setup was easier than expected and the capabilities of this platform far exceeded my expectations.
@@ -42,6 +44,9 @@ Finally was to wire up the controller by connecting the GND and 5V pins to the r
 
 _Note: consult your particular NodeMCU chip for it's pinout as it may be different to the one I used._
 
+## Show time!
+
+<img src="/assets/img/posts/wled/show_time.webp" alt="Show time!">
 
 
 [0]: https://kno.wled.ge/
