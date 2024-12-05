@@ -32,5 +32,5 @@ After the AVD rebooted I opened up HTTP Toolkit and hit the Android device via A
 [1]: https://httptoolkit.com/
 [2]: https://httptoolkit.com/blog/intercepting-android-https/
 [3]: https://github.com/shroudedcode/apk-mitm
-[4]: https://github.com/newbit1/rootAVD
+[4]: https://gitlab.com/newbit/rootAVD
 [5]: https://github.com/topjohnwu/Magisk
