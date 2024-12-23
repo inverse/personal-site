@@ -1,7 +1,8 @@
 {% if page.comments %}
 <script>
 
-  const giscusTheme = localStorage.getItem("darkMode") ? "dark" : "light";
+  const giscusTheme = JSON.parse(localStorage.getItem("darkMode")) ? "dark" : "light";
+
   const giscusAttributes = {
     "src": "https://giscus.app/client.js",
     "data-repo": "inverse/personal-site",
@@ -9,6 +10,7 @@
     "data-category": "General",
     "data-category-id": "DIC_kwDOBAPdp84CldlL",
     "data-mapping": "pathname",
+    "data-strict": "0",
     "data-reactions-enabled": "1",
     "data-emit-metadata": "0",
     "data-theme": giscusTheme,
@@ -19,6 +21,6 @@
   
   const giscusScript = document.createElement("script");
   Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-  document.body.appendChild(giscusScript);cument.body.appendChild(giscusScript);
+  document.querySelector("main").appendChild(giscusScript);
 </script>
 {% endif %}
