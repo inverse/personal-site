@@ -1,17 +1,24 @@
 {% if page.comments %}
-<script src="https://giscus.app/client.js"
-        data-repo="inverse/personal-site"
-        data-repo-id="MDEwOlJlcG9zaXRvcnk2NzM2MjIxNQ=="
-        data-category="General"
-        data-category-id="DIC_kwDOBAPdp84CldlL"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
+<script>
+
+  const giscusTheme = localStorage.getItem("darkMode") ? "dark" : "light";
+  const giscusAttributes = {
+    "src": "https://giscus.app/client.js",
+    "data-repo": "inverse/personal-site",
+    "data-repo-id": "MDEwOlJlcG9zaXRvcnk2NzM2MjIxNQ==",
+    "data-category": "General",
+    "data-category-id": "DIC_kwDOBAPdp84CldlL",
+    "data-mapping": "pathname",
+    "data-reactions-enabled": "1",
+    "data-emit-metadata": "0",
+    "data-theme": giscusTheme,
+    "data-lang": "en",
+    "crossorigin": "anonymous",
+    "async": "",
+  };
+  
+  const giscusScript = document.createElement("script");
+  Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+  document.body.appendChild(giscusScript);cument.body.appendChild(giscusScript);
 </script>
 {% endif %}

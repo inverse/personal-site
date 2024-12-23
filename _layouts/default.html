@@ -48,6 +48,22 @@
 
     <script>
 
+      function changeGiscusTheme(darkMode) {
+        const theme = darkMode ? 'dark' : 'light'
+    
+        function sendMessage(message) {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+    
+        sendMessage({
+          setConfig: {
+            theme: theme
+          }
+        });
+      }
+
       function isSystemDarkMode() {
         return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
       }
@@ -59,13 +75,13 @@
           document.body.classList.remove("dark-mode");
         }
         localStorage.setItem("darkMode", darkMode);
+        changeGiscusTheme(darkMode);
       }
 
       function changeTheme() {
         let darkMode = JSON.parse(localStorage.getItem("darkMode"));
         darkMode = !darkMode;
         setDarkMode(darkMode);
-
       }
 
       document.addEventListener("DOMContentLoaded", function(event) {
