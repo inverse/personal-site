@@ -17,7 +17,7 @@ The installer provides a way to easily created a LUKS encrypted drive for the sy
 
 ## Setting up the drive
 
-The first step was to format the drive as `EXT4` and encrypted it using the Gnome disk utility. 
+The first step was to format the drive as `EXT4` and encrypted it using the Gnome disk utility.
 
 ## Automating the decryption.
 
@@ -45,7 +45,7 @@ malachi@pulsar ~ $ sudo blkid -t TYPE=crypto_LUKS
 Next was adding this to `/etc/crypttab` to automate the decryption.
 
 ```bash
-malachi@pulsar ~ $ sudo cat /etc/crypttab 
+malachi@pulsar ~ $ sudo cat /etc/crypttab
 # /etc/crypttab: mappings for encrypted partitions.
 #
 # Each mapped device will be created in /dev/mapper, so your /etc/fstab
@@ -72,7 +72,7 @@ The final step is to mount the now decrypted volume by adding an entry for this 
 
 
 ```bash
-malachi@pulsar ~ $ cat /etc/fstab 
+malachi@pulsar ~ $ cat /etc/fstab
 # /etc/fstab: static file system information.
 #
 # Use 'blkid' to print the universally unique identifier for a device; this may
