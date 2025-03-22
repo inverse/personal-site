@@ -1,0 +1,36 @@
+name: CI
+
+on: 
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  pre_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v3
+      - name: Setup Pre-commit
+        uses: pre-commit/action@v3.0.1
+      - name: Run Pre-Commit
+        run: bundle exec pre-commit run --all-files
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.213.0
+        with:
+          bundler-cache: true
+
+      - name: Install Dependencies
+        run: bundle install
+
+      - name: Run Server Script
+        run: ./scripts/server

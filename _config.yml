@@ -1,6 +1,5 @@
 # Permalinks
 permalink: pretty
-
 # Setup
 title: Malachi Soord
 tagline: In a beautiful place out in the country
@@ -10,19 +9,15 @@ ads_on: false
 adsense_id: ca-pub-1828124334332563
 timezone: Europe/Berlin
 url: https://www.malachisoord.com
-
-
 # Assets
 sass:
   sass_dir: _sass
   style: :compressed
-
 # About/contact
 author:
   name: Malachi Soord
   url: https://www.malachisoord.com
   email: me@malachisoord.com
-
 # Gems
 plugins:
   - jekyll-paginate

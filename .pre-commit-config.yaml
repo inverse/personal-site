@@ -7,3 +7,14 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
       - id: trailing-whitespace
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.36.2
+    hooks:
+      - id: yamllint
+        files: "^\\.github/workflows/.*\\.yml$"
+        args: [--format, parsable]
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.16.0
+    hooks:
+      - id: yamlfmt
+        files: "^\\.github/workflows/.*\\.yml$"
