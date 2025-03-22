@@ -9,7 +9,7 @@ tags:
 - security
 ---
 
-Last year, our landlord replaced our [IOLite][0]-controlled heating system with standard manually operated valves. Returning to manual control was inconvenient, so I sought a solution that would provide similar functionality while integrating seamlessly with [Home Assistant][1]—without the need for reverse engineering, as was required with IOLite—while also allowing local control.
+Last year, our landlord replaced our [IOLite][0] controlled heating system with the standard manually operated valves. Returning to manual control was inconvenient, so I sought a solution that would provide similar functionality while integrating seamlessly with [Home Assistant][1],without the need for reverse engineering, as was required with IOLite, but also also allowing local control for full offline goodness.
 
 This led to a recommendation for the [Tado X][2] product line, which colleagues at work spoke highly of. Notably, it supports Matter integration, making it an appealing choice.
 
