@@ -21,9 +21,9 @@ Curious about their authentication handling, I investigated further and found th
 
 > What happens if I change my password?
 
-While I knew JWTs are not inherently revocable, in theory, a password reset should invalidate the refresh token.
+While I knew JWTs are not inherently revocable, in theory, a password reset should invalidate the refresh token used for issuing new tokens.
 
-However, I discovered a security flaw: **the refresh token remained valid indefinitely, even after a password reset**, allowing it to issue new access tokens indefinitely.
+However, I discovered a security flaw: the refresh token remained valid indefinitely, even after a password reset, allowing it be used to issue new tokens with a way for the user to sop this. 
 
 ### Reporting the Issue
 
