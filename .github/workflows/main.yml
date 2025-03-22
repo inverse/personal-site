@@ -14,8 +14,6 @@ jobs:
         uses: actions/setup-python@v3
       - name: Setup Pre-commit
         uses: pre-commit/action@v3.0.1
-      - name: Run Pre-Commit
-        run: bundle exec pre-commit run --all-files
   build:
     runs-on: ubuntu-latest
     steps:
