@@ -30,11 +30,12 @@ However, I discovered a security flaw: **the refresh token remained valid indefi
 Unfortunately, Tado lacks a straightforward method for reporting security issues. Instead, everything had to be triaged through their standard customer support channels.
 
 #### Timeline:
-- **31.12.2024** – First contact with customer support regarding the issue.
-- **21.01.2025** – Follow-up on my original security report.
-- **12.02.2025** – [Official deprecation][7] of the insecure password flow, announced in the [PyTado][8] repo and Home Assistant, along with migration guidelines and a deprecation timeline.
 
-While it was good to see transparency around the API sunset, the communication and support could have been improved. Understanding Home Assistant's release cycle better might have helped minimize disruptions, as many users were affected before a stable release was available.
+- **31.12.2024** - First contact with customer support regarding the issue.
+- **21.01.2025** – Follow-up on my original security report.
+- **12.02.2025** – [Official deprecation][7] of the insecure password flow, announced in the [PyTado][8] repo and on [Home Assistant][9], along with migration guidelines and a deprecation timeline.
+
+While it was good to see transparency around the API sunset, the communication and support could have been improved. Understanding Home Assistant's release cycle better might have helped minimize disruptions, which going by the public information available is used on [3.4%] of active installs.
 
 ### Reflections
 
@@ -54,3 +55,4 @@ Tado, perhaps it's time to publish an [official security policy][10]?
 [8]: https://github.com/wmalgadey/PyTado/issues/155
 [9]: https://github.com/home-assistant/core/issues/138518
 [10]: https://securitytxt.org/
+[11]: https://www.home-assistant.io/integrations/tado/
