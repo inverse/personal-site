@@ -1,4 +1,15 @@
-Last year, our landlord replaced our [IOLite][0]-controlled heating system with standard manually operated valves. Returning to manual control was inconvenient, so I sought a solution that would provide similar functionality while integrating seamlessly with [Home Assistant][1]—without the need for reverse engineering, as was required with IOLite—while also allowing local control. 
+---
+layout: post
+title: Uncovering security flaws in JWT flows
+date: 2025-03-22 23:36 +0100
+comments: true
+tags:
+- jwt
+- tado
+- security
+---
+
+Last year, our landlord replaced our [IOLite][0]-controlled heating system with standard manually operated valves. Returning to manual control was inconvenient, so I sought a solution that would provide similar functionality while integrating seamlessly with [Home Assistant][1]—without the need for reverse engineering, as was required with IOLite—while also allowing local control.
 
 This led to a recommendation for the [Tado X][2] product line, which colleagues at work spoke highly of. Notably, it supports Matter integration, making it an appealing choice.
 
@@ -29,7 +40,7 @@ While it was good to see transparency around the API sunset, the communication a
 
 When reaching out to members of Tado’s engineering team, I found them to be open and transparent. They acknowledged that they had been pushing for this issue to be addressed for a long time. Their willingness to engage in dialogue was refreshing and encouraging—especially as someone interested in infosec but not an expert.
 
-Props to the engineers for their engagement with the community! At no point did I feel discouraged from inspecting the system; in fact, I was encouraged to look further. 
+Props to the engineers for their engagement with the community! At no point did I feel discouraged from inspecting the system; in fact, I was encouraged to look further.
 
 Tado, perhaps it's time to publish an [official security policy][10]?
 
