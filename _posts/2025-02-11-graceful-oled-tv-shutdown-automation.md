@@ -4,7 +4,6 @@ title: Graceful OLED TV shutdown automation
 date: 2025-02-11 20:30 +0100
 comments: true
 tags:
-tags:
 - home-automation
 - home-assistant
 ---
