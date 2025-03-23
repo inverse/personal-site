@@ -34,20 +34,18 @@ Using [jwt-cli][6] to inspect the token didn't reveal anything unusual. But this
 
 > What happens if I change my password?
 
-While **JWTs are not inherently revocable**, in theory, a password reset should **invalidate the refresh token** used to issue new tokens.
+While JWTs are not inherently revocable, in theory, a password reset should invalidate the refresh token used to issue new tokens.
 
 ### The Security Flaw
 
-I discovered a **critical security flaw**:
+I discovered the critical security flaw:
 
-➡️ Even **after a password reset**, the refresh token remained valid **indefinitely**.
-➡️ This meant attackers (or anyone with access to the token) could continue issuing new tokens **without the user’s ability to stop it**.
-
----
+➡️ Even after a password reset, the refresh token remained valid indefinitely.
+➡️ This meant attackers (or anyone with access to the token) could continue issuing new tokens without the user's ability to stop it.
 
 ## Reporting the Issue
 
-Unfortunately, Tado **lacked a dedicated security reporting process**. Everything had to go through **customer support**.
+Unfortunately, Tado lacked a dedicated security reporting process. Everything had to go through customer support.
 
 ### Timeline of Events
 
@@ -55,18 +53,15 @@ Unfortunately, Tado **lacked a dedicated security reporting process**. Everythin
 - **Jan 21, 2025** - Follow-up on my original security report.
 - **Feb 12, 2025** - [Official deprecation][7] of the insecure password flow, announced in the [PyTado][8] repo and on [Home Assistant][9], along with migration guidelines and a deprecation timeline.
 
-While it was great to see **transparency around the API sunset**, the communication process could have been smoother. **Better coordination with Home Assistant's release cycle** might have helped minimize disruption for users. Esepcially considering according to reported stats around [3.4%][11] use this setup.
----
+While it was great to see transparency around the API sunset, the communication process could have been smoother. Better coordination with Home Assistant's release cycle might have helped minimize disruption for users. Especially considering according to reported stats around [3.4%][11] use this setup.
 
 ## Reflections
 
-When reaching out to **Tado's engineering team**, I found them to be **open and transparent**. They acknowledged that they had been pushing for a fix for a long time. Their willingness to engage in dialogue was **refreshing and encouraging**, especially for someone interested in **infosec** but not an expert.
+When reaching out to Tado's engineering team directly, I found them to be open and transparen. They acknowledged that they were aware of the weakness had been pushing for a fix for a long time. Their willingness to engage in dialogue was refreshing and encouraging, especially for someone interested in infosec but not an expert.
 
-💡 **Props to the engineers** for engaging with the community! At no point did I feel discouraged from inspecting the system—on the contrary, I was encouraged to look further.
+💡 Props to the engineers for engaging with the community! At no point did I feel discouraged from inspecting the system—on the contrary, I was encouraged to look further.
 
-🚀 **Tado, perhaps it's time to publish an [official security policy][10]?**
-
----
+🚀 Tado, perhaps it's time to publish an [official security policy][10] to make the triage process easier?
 
 ### References
 
