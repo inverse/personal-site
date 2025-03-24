@@ -63,7 +63,7 @@ When reaching out to Tado's engineering team directly, I found them to be open a
 
 🚀 Tado, perhaps it's time to publish an [official security policy][10] to make the triage process easier?
 
-## Further Reading 
+## Further Reading
 
 - [OAuth Password Flow][14] (legacy)
 - [Device Authentication Grant)[15]
