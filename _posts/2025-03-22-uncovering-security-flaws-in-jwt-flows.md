@@ -14,7 +14,7 @@ Last year, our landlord replaced our [IOLite][0]-controlled heating system with 
 - Provided similar functionality
 - Integrated seamlessly with [Home Assistant][1]
 - Allowed local control for offline use
-- Required no reverse engineering (unlike [IOLite]({% post_url _posts/2020-08-06-reverse-engineering-iolite-remote-api %}))
+- Required no reverse engineering (unlike [IOLite]({% post_url 2020-08-06-reverse-engineering-iolite-remote-api %}))
 
 This led me to the [Tado X][2] product line, which colleagues at work highly recommended. Notably, it supports **Matter integration**, making it an appealing choice.
 

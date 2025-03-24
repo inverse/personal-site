@@ -25,5 +25,5 @@ jobs:
           bundler-cache: true
       - name: Install Dependencies
         run: bundle install
-      - name: Run Server Script
-        run: ./scripts/server
+      - name: Run Build
+        run: bundle exec jekyll build --drafts
