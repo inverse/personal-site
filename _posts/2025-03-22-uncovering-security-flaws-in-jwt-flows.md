@@ -13,8 +13,8 @@ Last year, our landlord replaced our [IOLite][0]-controlled heating system with 
 
 - Provided similar functionality
 - Integrated seamlessly with [Home Assistant][1]
-- Allowed **local control** for offline use
-- Required **no reverse engineering** (unlike [IOLite]({% post_url _posts/2020-08-06-reverse-engineering-iolite-remote-api %}))
+- Allowed local control for offline use
+- Required no reverse engineering (unlike [IOLite]({% post_url _posts/2020-08-06-reverse-engineering-iolite-remote-api %}))
 
 This led me to the [Tado X][2] product line, which colleagues at work highly recommended. Notably, it supports **Matter integration**, making it an appealing choice.
 
@@ -63,7 +63,10 @@ When reaching out to Tado's engineering team directly, I found them to be open a
 
 🚀 Tado, perhaps it's time to publish an [official security policy][10] to make the triage process easier?
 
-### References
+## Further Reading 
+
+- [OAuth Password Flow][14] (legacy)
+- [Device Authentication Grant)[15]
 
 [0]: https://iolite.de/en/
 [1]: https://www.home-assistant.io/
@@ -78,3 +81,5 @@ When reaching out to Tado's engineering team directly, I found them to be open a
 [11]: https://www.home-assistant.io/integrations/tado/
 [12]: https://www.npmjs.com/package/ngstorage
 [13]: https://angularjs.org/
+[14]: https://datatracker.ietf.org/doc/html/rfc8628
+[15]: https://oauth.net/2/grant-types/password/
