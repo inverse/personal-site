@@ -57,7 +57,7 @@ While it was great to see transparency around the API sunset, the communication 
 
 ## Reflections
 
-When reaching out to Tado's engineering team directly, I found them to be open and transparen. They acknowledged that they were aware of the weakness had been pushing for a fix for a long time. Their willingness to engage in dialogue was refreshing and encouraging, especially for someone interested in infosec but not an expert.
+When reaching out to Tado's engineering team directly, I found them to be open and transpareny. They acknowledged that they were aware of the weakness had been pushing for a fix for a long time. Their willingness to engage in dialogue was refreshing and encouraging, especially for someone interested in infosec but not an expert.
 
 💡 Props to the engineers for engaging with the community! At no point did I feel discouraged from inspecting the system—on the contrary, I was encouraged to look further.
 
