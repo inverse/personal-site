@@ -9,20 +9,20 @@ tags:
 - security
 ---
 
-Last year, our landlord replaced our [IOLite][0]-controlled heating system with standard manually operated valves. Returning to manual control was inconvenient, so I sought a solution, that:
+Last year, our landlord replaced our [IOLite][0]-controlled heating system with standard manual operated valves. Returning to manual control was inconvenient, so I sought a solution, that:
 
 - Provided similar functionality
 - Integrated seamlessly with [Home Assistant][1]
 - Allowed local control for offline use
 - Required no reverse engineering (unlike [IOLite]({% post_url 2020-08-06-reverse-engineering-iolite-remote-api %}))
 
-This led me to the [Tado X][2] product line, which colleagues at work highly recommended. Notably, it supports **Matter integration**, making it an appealing choice.
+This led me to the [Tado X][2] product line, which colleagues at work highly recommended. Notably, it supports Matter integration, making it an appealing choice.
 
 <!--truncate-->
 
 ## Setup & Discovery
 
-Setting up Tado was straightforward. After reading this [forum article][4], I opted for the **Matter integration**, which worked flawlessly after pairing each device with the provided hub.
+Setting up Tado was straightforward, After reading this [forum article][4], I opted for the Matter integration, which worked flawlessly after pairing each device with the provided hub. Native Tado X outside of matter is currently limited, but the library maintainers are adding support in the future.
 
 Alongside its native app, Tado provides a [Web UI][5] for remote home control via a browser.
 
@@ -57,7 +57,7 @@ While it was great to see transparency around the API sunset, the communication 
 
 ## Reflections
 
-When reaching out to Tado's engineering team directly, I found them to be open and transpareny. They acknowledged that they were aware of the weakness had been pushing for a fix for a long time. Their willingness to engage in dialogue was refreshing and encouraging, especially for someone interested in infosec but not an expert.
+When reaching out to Tado's engineering team directly, I found them to be open and transparent. They acknowledged that they were aware of the weakness had been pushing for a fix for a long time. Their willingness to engage in dialogue was refreshing and encouraging, especially for someone interested in infosec but not an expert.
 
 💡 Props to the engineers for engaging with the community! At no point did I feel discouraged from inspecting the system—on the contrary, I was encouraged to look further.
 
@@ -68,12 +68,18 @@ When reaching out to Tado's engineering team directly, I found them to be open a
 - [OAuth Password Flow][14] (legacy)
 - [Device Authentication Grant][15]
 
+## Buying
+
+- [From the supplier direct][16]
+- [Tink -often have great deals][17]
+- [From Amazon[18]]
+
 [0]: https://iolite.de/en/
 [1]: https://www.home-assistant.io/
 [2]: https://www.tado.com/en
 [4]: https://community.home-assistant.io/t/using-tado-smart-thermostat-x-through-matter/736576
 [5]: https://app.tado.com/
-[6]: https://github.com/mike-engel/jwt-cli
+[6]: https://github.com/mikeengel/jwt-cli
 [7]: https://support.tado.com/en/articles/8565472-how-do-i-authenticate-to-access-the-rest-api
 [8]: https://github.com/wmalgadey/PyTado/issues/155
 [9]: https://github.com/home-assistant/core/issues/138518
@@ -83,3 +89,6 @@ When reaching out to Tado's engineering team directly, I found them to be open a
 [13]: https://angularjs.org/
 [14]: https://datatracker.ietf.org/doc/html/rfc8628
 [15]: https://oauth.net/2/grant-types/password/
+[16]: https://shop.tado.com/
+[17]: https://www.tink.de/b/tado
+[18]: https://amzn.to/4hRC10Z
