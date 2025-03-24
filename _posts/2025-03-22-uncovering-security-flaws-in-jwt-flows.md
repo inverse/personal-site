@@ -66,7 +66,7 @@ When reaching out to Tado's engineering team directly, I found them to be open a
 ## Further Reading
 
 - [OAuth Password Flow][14] (legacy)
-- [Device Authentication Grant)[15]
+- [Device Authentication Grant][15]
 
 [0]: https://iolite.de/en/
 [1]: https://www.home-assistant.io/
