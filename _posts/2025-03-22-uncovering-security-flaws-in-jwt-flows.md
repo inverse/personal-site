@@ -72,7 +72,7 @@ When reaching out to Tado's engineering team directly, I found them to be open a
 
 - [From the supplier direct][16]
 - [Tink -often have great deals][17]
-- [From Amazon[18]]
+- [From Amazon][18]
 
 [0]: https://iolite.de/en/
 [1]: https://www.home-assistant.io/
