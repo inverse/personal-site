@@ -49,19 +49,19 @@ Unfortunately, Tado lacked a dedicated security reporting process. Everything ha
 
 ### Timeline of Events
 
-- **Dec 31, 2024** - First contact with customer support regarding the issue.
-- **Jan 21, 2025** - Follow-up on my original security report.
-- **Feb 12, 2025** - [Official deprecation][7] of the insecure password flow, announced in the [PyTado][8] repo and on [Home Assistant][9], along with migration guidelines and a deprecation timeline.
+- `31.12.2024` - First contact with customer support regarding the issue.
+- `21.01.2025` - Follow-up on my original security report to find out how it was being handled.
+- `12.02.2025` - [Official deprecation][7] of the insecure password flow, announced in the [PyTado][8] repo and on [Home Assistant][9], along with migration guidelines and a deprecation timeline.
 
-While it was great to see transparency around the API sunset, the communication process could have been smoother. Better coordination with Home Assistant's release cycle might have helped minimize disruption for users. Especially considering according to reported stats around [3.4%][11] use this setup.
+While it was great to see transparency around the API sunset, the communication process could have been smoother. Better coordination with Home Assistant's release cycle might have helped minimize disruption for users. Especially considering according to reported stats around [3.4%][11] use this integration and would be affected.
 
 ## Reflections
 
-When reaching out to Tado's engineering team directly, I found them to be open and transparent. They acknowledged that they were aware of the weakness had been pushing for a fix for a long time. Their willingness to engage in dialogue was refreshing and encouraging, especially for someone interested in infosec but not an expert.
+When reaching out to Tado's engineering team directly, I found them to be open and transparent. They acknowledged that they were aware of the weakness had been pushing for a fix for a long time. Their willingness to engage in dialogue was refreshing and encouraging, especially for someone interested in infosec but not an expert in that field.
 
 💡 Props to the engineers for engaging with the community! At no point did I feel discouraged from inspecting the system—on the contrary, I was encouraged to look further.
 
-🚀 Tado, perhaps it's time to publish an [official security policy][10] to make the triage process easier?
+🚀 Tado, perhaps it's time to publish an [official security policy][10] to make the triage process easier? I'm not expecting some sort of bug bounty program, just a way to easier report security issues directly to the relevant folks.
 
 ## Further Reading
 
