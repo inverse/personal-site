@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t image-optimise:local -f tools/image-optimise/Dockerfile  tools/image-optimise/
+docker run -it -v $(pwd):/data image-optimise:local /data
