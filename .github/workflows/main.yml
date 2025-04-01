@@ -20,7 +20,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.213.0
+        uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
       - name: Install Dependencies
