@@ -15,10 +15,8 @@ My personal site based on [Poole][0], running on [Netify][2].
 
 ### Steps
 
-
 ```bash
-bundle
-./scripts/start
+./scripts/server
 ```
 
 ### Creating Content
@@ -39,7 +37,9 @@ bundle exec jekyll post "My New Post"
 
 #### New Draft
 
-`bundle exec jekyll draft "My new draft"`
+```bash
+bundle exec jekyll draft "My new draft"
+```
 
 #### Publish Draft
 
@@ -55,15 +55,14 @@ bundle exec jekyll publish _drafts/my-new-draft.md --date 2014-01-24
 
 #### Unpublish Post
 
-```
+```bash
 bundle exec jekyll unpublish _posts/2014-01-24-my-new-draft.md
 ```
 
 ## Image Optimisation
 
-```
-docker build -t image-optimise:local -f tools/image-optimise/Dockerfile  tools/image-optimise/
-docker run -it -v $(pwd):/data image-optimise:local /data
+```bash
+./scripts/image-optimise
 ```
 
 [0]: https://getpoole.com/
