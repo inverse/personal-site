@@ -28,7 +28,7 @@ Alongside its native app, Tado provides a [Web UI][5] for remote home control vi
 
 ### Investigating Authentication
 
-Curious about how authentication was handled here, I inspected the system and found that token information was stored in **local storage** under the variable `ngStorage-token`, Implying the framework in use was [AngularJS][13] based leveraging [ngstorage][12].
+Curious about how authentication was handled here, I inspected the system and found that token information was stored in local storage under the variable `ngStorage-token`, Implying the framework in use was [AngularJS][13] based leveraging [ngstorage][12].
 
 Using [jwt-cli][6] to inspect the token didn't reveal anything unusual. But this raised an important question:
 
@@ -40,8 +40,8 @@ While JWTs are not inherently revocable, in theory, a password reset should inva
 
 I discovered the critical security flaw:
 
-➡️ Even after a password reset, the refresh token remained valid indefinitely.
-➡️ This meant attackers (or anyone with access to the token) could continue issuing new tokens without the user's ability to stop it.
+- Even after a password reset, the refresh token remained valid indefinitely.
+- This meant attackers (or anyone with access to the token) could continue issuing new tokens without the user's ability to stop it.
 
 ## Reporting the Issue
 
