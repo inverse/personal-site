@@ -3,7 +3,9 @@ layout: page
 title: About
 ---
 
-Hi! I'm Malachi Soord, a Software Engineer based in Berlin who is currently working @ [Vinted](https://www.vinted.com/) working on building out their logistics network (Vinted Go)[https://vintedgo.com/]. I'm interested in Home Automation and working on projects to ✨ simplify ✨ things.
+Hi! I'm Malachi Soord, a Software Engineer based in Berlin who is currently working @ [Vinted](https://www.vinted.com) working on building out their logistics network ar part of [Vinted Go](https://vintedgo.com).
+
+I'm interested in Home Automation and working on projects to ✨ simplify ✨ things.
 
 # This blog
 
