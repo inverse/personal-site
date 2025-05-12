@@ -76,7 +76,7 @@ When reaching out to Tado's engineering team directly, I found them to be open a
 [2]: https://www.tado.com/en
 [4]: https://community.home-assistant.io/t/using-tado-smart-thermostat-x-through-matter/736576
 [5]: https://app.tado.com/
-[6]: https://github.com/mikeengel/jwt-cli
+[6]: https://github.com/mike-engel/jwt-cli
 [7]: https://support.tado.com/en/articles/8565472-how-do-i-authenticate-to-access-the-rest-api
 [8]: https://github.com/wmalgadey/PyTado/issues/155
 [9]: https://github.com/home-assistant/core/issues/138518
