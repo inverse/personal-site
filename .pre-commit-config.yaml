@@ -8,7 +8,7 @@ repos:
       - id: check-added-large-files
       - id: trailing-whitespace
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.37.0
+    rev: v1.37.1
     hooks:
       - id: yamllint
         files: "^\\.github/(workflows/.*\\.yml|dependabot\\.yml)$"
