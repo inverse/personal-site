@@ -19,10 +19,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
+      - name: Install toolchain
+        uses: jdx/mise-action@v2
       - name: Install Dependencies
         run: bundle install
       - name: Run Build
