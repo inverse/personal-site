@@ -12,6 +12,7 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-feed'
     gem 'jekyll-compose'
+    gem 'jekyll-minifier'
 end
 
 gem "webrick", "~> 1.9"
