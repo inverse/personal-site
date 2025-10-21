@@ -8,7 +8,7 @@ tags:
 - home-assistant
 ---
 
-A while back we upgraded our TV to a Philips OLED Ambilight model similar to the [Philips Ambilight 55OLED759](https://www.amazon.com/exec/obidos/ASIN/B0D3VM2HGM/hexagon014-20/). The difference going from LED to OLED was impressive but there is a software feature that soon became rather annoying in that the TV would from time to time prompt you to let it refresh itself to improve the life of the OLED display, which given that we turned the TV off insteaf of putting it into standby gave it little time to perform it's refresh program. 
+A while back we upgraded our TV to a Philips OLED Ambilight model similar to the [Philips Ambilight 55OLED759](https://www.amazon.com/exec/obidos/ASIN/B0D3VM2HGM/hexagon014-20/). The difference going from LED to OLED was impressive but there is a software feature that soon became rather annoying in that the TV would from time to time prompt you to let it refresh itself to improve the life of the OLED display, which given that we turned the TV off insteaf of putting it into standby gave it little time to perform it's refresh program.
 
 It was only recently when my father visited and told me how he resolved this behaviour on his OLED TV with automation that put the TV into standby for 10 minutes before switching off the smart plug.
 
