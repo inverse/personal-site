@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
   {% include head.html %}
-
   <body>
-
     <div class="container content">
       <header class="masthead">
         <a href="{{ site.baseurl }}/" title="Home">
@@ -14,7 +11,6 @@
         </div>
         </a>
       </header>
-
       <nav>
         <ul class="menu">
         <li><a href="/" class="nav-item{% if page.url == "/" %} active{% endif %}">Home</a></li>
@@ -35,7 +31,6 @@
         </li>
         </ul>
       </nav>
-
       <main>
         {{ content }}
       </main>
@@ -47,7 +42,6 @@
     </div>
 
     <script>
-
       function changeGiscusTheme(darkMode) {
         const theme = darkMode ? 'dark' : 'light'
 
@@ -56,7 +50,6 @@
           if (!iframe) return;
           iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
         }
-
         sendMessage({
           setConfig: {
             theme: theme
@@ -103,6 +96,6 @@
     {% if site.adsense_id and site.ads_on %}
     <script data-ad-client="{{ site.adsense_id }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     {% endif %}
-    <script defer src="https://use.fontawesome.com/releases/v6.5.1/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v7.0.1/js/all.js"></script>
   </body>
 </html>
