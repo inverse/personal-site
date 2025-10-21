@@ -16,6 +16,8 @@ jobs:
         uses: pre-commit/action@v3.0.1
   build:
     runs-on: ubuntu-latest
+    env:
+        MISE_IDIOMATIC_VERSION_FILE_ENABLE_TOOLS: ruby
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
