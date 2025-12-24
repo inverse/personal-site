@@ -16,7 +16,7 @@ repos:
         files: "^\\.github/(workflows/.*\\.yml|dependabot\\.yml)$"
         args: [--format, parsable]
   - repo: https://github.com/google/yamlfmt
-    rev: v0.19.0
+    rev: v0.20.0
     hooks:
       - id: yamlfmt
         files: "^\\.github/(workflows/.*\\.yml|dependabot\\.yml)$"
