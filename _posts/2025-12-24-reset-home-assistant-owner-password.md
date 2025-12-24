@@ -2,6 +2,9 @@
 layout: post
 title: Reset Home Assistant owner password
 date: 2025-12-24 12:40 +0100
+tags:
+- home-assistant
+- recovery
 ---
 
 I recently had to reset the owner account on my Home Assistant instance after forgetting the password.
