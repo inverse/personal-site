@@ -16,20 +16,27 @@ nav {
         display: inline-block;
 
         a {
-            font-size: 1.25em;
-            padding: 5px;
+            font-size: 1.1em;
+            padding: 0.45rem 0.9rem;
             margin:5px 0;
             display: inline-block;
             border-radius: 5px;
             color: white;
+            background-color: rgba(255, 255, 255, 0.12);
+            transition: background-color 0.2s ease, color 0.2s ease;
 
-            &:hover {
+            &:hover,
+            &:focus {
                 text-decoration: none;
                 background: $nav-hover;
             }
 
+            &.active {
+                background-color: rgba(0, 0, 0, 0.18);
+            }
+
             &.theme {
-                padding: 5px 10px;
+                padding: 0.45rem 0.75rem;
             }
         }
     }
