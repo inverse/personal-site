@@ -8,6 +8,11 @@
   padding-right: 1.5rem;
   margin-left:  auto;
   margin-right: auto;
+
+  @media (min-width: $large-breakpoint) {
+    padding-left:  2rem;
+    padding-right: 2rem;
+  }
 }
 
 footer {
