@@ -1,5 +1,5 @@
 [tools]
-pre-commit = "4.3.0"
+pre-commit = "4.5.1"
 
 [hooks]
 postinstall = "pre-commit install"
