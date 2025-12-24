@@ -12,8 +12,6 @@ I recently had to reset the owner account on my Home Assistant instance after fo
 
 Thankfully Home Assistant provides [comprehensive documentation][0] that walks through several recovery options.
 
-<!--truncte-->
-
 The notes below capture the exact flow I used on a Home Assistant OS install, where the supervisor runs Home Assistant inside a managed container.
 
 Following the [container command line documentation][1], the steps I needed were fairly similar: first SSH to the device (via the [SSH add-on][2]).
