@@ -2,6 +2,7 @@
 layout: post
 title: Reset Home Assistant owner password
 date: 2025-12-24 12:40 +0100
+comments: true
 tags:
 - home-assistant
 - recovery
@@ -9,7 +10,11 @@ tags:
 
 I recently had to reset the owner account on my Home Assistant instance after forgetting the password.
 
-Thankfully Home Assistant provides [comprehensive documentation][0] that walks through several recovery options. The notes below capture the exact flow I used on a Home Assistant OS install, where the supervisor runs Home Assistant inside a managed container.
+Thankfully Home Assistant provides [comprehensive documentation][0] that walks through several recovery options.
+
+<!--truncte-->
+
+The notes below capture the exact flow I used on a Home Assistant OS install, where the supervisor runs Home Assistant inside a managed container.
 
 Following the [container command line documentation][1], the steps I needed were fairly similar: first SSH to the device (via the [SSH add-on][2]).
 
