@@ -6,6 +6,20 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
   <meta name="theme-color" content="#37646f" />
+  <script>
+    // Apply the saved/system dark mode before first paint to avoid a flash of light theme.
+    window.isSystemDarkMode = function () {
+      return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    };
+    window.getInitialDarkMode = function () {
+      var stored = localStorage.getItem('darkMode');
+      if (stored === null) return isSystemDarkMode();
+      try { return JSON.parse(stored); } catch (e) { return isSystemDarkMode(); }
+    };
+    if (getInitialDarkMode()) {
+      document.documentElement.classList.add('dark-mode');
+    }
+  </script>
   {% seo %}
   {% feed_meta %}
 </head>
