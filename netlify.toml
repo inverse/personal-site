@@ -4,3 +4,8 @@
 
 [build.environment]
   JEKYLL_ENV = "production"
+
+[[redirects]]
+  from = "/feed.xml"
+  to = "/atom.xml"
+  status = 301
