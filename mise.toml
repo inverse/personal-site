@@ -1,3 +1,6 @@
+[settings]
+ruby.compile = false
+
 [tools]
 pre-commit = "4.6.1"
 
