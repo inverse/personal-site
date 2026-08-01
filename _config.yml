@@ -26,3 +26,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-minifier
+feed:
+  path: atom.xml
