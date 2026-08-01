@@ -26,7 +26,8 @@
         <ul class="controls">
         <li>
           <a href="#" id="themeChange" class="nav-item theme" aria-label="Toggle dark mode" title="Toggle dark mode">
-            <i class="fas fa-moon" id="themeIcon"></i>
+            <i class="fas fa-moon" id="themeIconMoon"></i>
+            <i class="fas fa-sun" id="themeIconSun"></i>
           </a>
         </li>
         </ul>
@@ -60,10 +61,6 @@
       function setDarkMode(darkMode) {
         document.documentElement.classList.toggle('dark-mode', darkMode);
         localStorage.setItem('darkMode', darkMode);
-        const themeIcon = document.getElementById('themeIcon');
-        if (themeIcon) {
-          themeIcon.className = darkMode ? 'fas fa-sun' : 'fas fa-moon';
-        }
         changeGiscusTheme(darkMode);
       }
 
