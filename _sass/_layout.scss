@@ -2,6 +2,8 @@
 //
 // Styles for managing the structural hierarchy of the site.
 
+@use "variables" as *;
+
 .container {
   max-width: $max-container-width;
   padding-left:  1.5rem;

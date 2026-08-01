@@ -13,8 +13,6 @@ url: https://www.malachisoord.com
 sass:
   sass_dir: _sass
   style: compressed
-  silence_deprecations:
-    - import
 # About/contact
 author:
   name: Malachi Soord

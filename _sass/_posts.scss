@@ -3,6 +3,8 @@
 // Each post is wrapped in `.post` and is used on default and post layouts. Each
 // page is wrapped in `.page` and is only used on the page layout.
 
+@use "variables" as *;
+
 .page,
 .post {
   margin: 1em 0;
