@@ -25,8 +25,8 @@
         </ul>
         <ul class="controls">
         <li>
-          <a href="#" id="themeChange" class="nav-item theme">
-            <i class="fas fa-moon"></i>
+          <a href="#" id="themeChange" class="nav-item theme" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <i class="fas fa-moon" id="themeIcon"></i>
           </a>
         </li>
         </ul>
@@ -57,29 +57,26 @@
         });
       }
 
-      function isSystemDarkMode() {
-        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      }
-
       function setDarkMode(darkMode) {
-        if (darkMode) {
-          document.body.classList.add("dark-mode");
-        } else {
-          document.body.classList.remove("dark-mode");
+        document.documentElement.classList.toggle('dark-mode', darkMode);
+        localStorage.setItem('darkMode', darkMode);
+        const themeIcon = document.getElementById('themeIcon');
+        if (themeIcon) {
+          themeIcon.className = darkMode ? 'fas fa-sun' : 'fas fa-moon';
         }
-        localStorage.setItem("darkMode", darkMode);
         changeGiscusTheme(darkMode);
       }
 
       function changeTheme() {
-        let darkMode = JSON.parse(localStorage.getItem("darkMode"));
-        darkMode = !darkMode;
-        setDarkMode(darkMode);
+        setDarkMode(!getInitialDarkMode());
       }
 
-      document.addEventListener("DOMContentLoaded", function(event) {
-        document.getElementById("themeChange").addEventListener("click", changeTheme);
-        setDarkMode(JSON.parse(localStorage.getItem("darkMode") || isSystemDarkMode()));
+      document.addEventListener('DOMContentLoaded', function(event) {
+        document.getElementById('themeChange').addEventListener('click', function(e) {
+          e.preventDefault();
+          changeTheme();
+        });
+        setDarkMode(getInitialDarkMode());
       });
     </script>
 

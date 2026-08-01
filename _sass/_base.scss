@@ -18,6 +18,7 @@ html {
   font-family: $root-font-family;
   font-size: $root-font-size;
   line-height: $root-line-height;
+  color-scheme: light;
 
   @media (min-width: $large-breakpoint) {
     font-size: $large-font-size;
@@ -77,11 +78,16 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-.dark-mode {
+html.dark-mode {
+  color-scheme: dark;
+}
+
+html.dark-mode body {
   background: $dark-body-bg;
-
   color: $dark-body-color;
+}
 
+.dark-mode {
   .masthead-title {
     color: $dark-heading-title;
 
@@ -89,7 +95,6 @@ tbody tr:nth-child(odd) th {
       color: $dark-body-color;
     }
   }
-
 
   nav {
     background-color: $dark-nav-color;
