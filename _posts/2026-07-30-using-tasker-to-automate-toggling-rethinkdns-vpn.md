@@ -13,6 +13,8 @@ tags:
 ---
  For years I've leveraged [Adguard Home](https://adguard.com/en/adguard-home/overview.html) on my home network to manage ad and tracker blocking. But once I leave my home network, all that improved internet experience is lost. One option I'd used previously was to use a VPN to connect to my home network, which would route my phone's DNS through AdGuard again. While that worked, it added the additional overhead and speed limitations of going via my home internet connection.
 
+<!-- more -->
+
 [RethinkDNS](https://rethinkdns.com/app) is an open-source Android app that fills that gap by bringing DNS-level content blocking, a proper application firewall, and anti-censorship capabilities directly to your device. Unlike many DNS-based blockers that only handle DNS resolution, RethinkDNS runs a local VPN on your phone that intercepts all traffic, giving it the ability to both resolve DNS securely and block apps from accessing the network entirely.
 
 ## Automating RethinkDNS with Tasker

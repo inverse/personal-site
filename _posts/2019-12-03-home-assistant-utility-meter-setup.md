@@ -9,6 +9,8 @@ date: 2019-12-03 22:36 +0100
 ---
 In our house we have a few older generation [Teckin SP22][6]'s running [Espurna][4] and newer [Gosund SP111][5] running [Tasmota][3] that all publish their energy statistics via MQTT to Home Assistant.
 
+<!-- more -->
+
 I wanted a unified way to visualise the daily and monthly energy usage of these devices to better grasp how much energy we are consuming.
 
 Home Assistant provides a [Utility Meter][0] component that allows exactly that behaviour, with the granularity of even providing peak and off-peak tariffs if your energy provider offer such.

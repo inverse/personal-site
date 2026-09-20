@@ -8,8 +8,9 @@ tags:
 - home-server
 - self-hosted
 ---
-
 A couple of months ago our old single drive [WD My Cloud Home][0] NAS died. The HDD failed and even shucking the device and trying to connect with a SATA adaptor failed to read the drive. Thankfully nothing important was lost as that was all backed up off site.
+
+<!-- more -->
 
 This lead to to searching for a replacement device which had more redundancy built into avoid such situations. I ultimately ended up purchasing a [Synology DS218][1] as it featured 2 drives and enough compute power to be future proof if I ever decided to self-host some other services.
 

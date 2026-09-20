@@ -8,8 +8,9 @@ tags:
 - home-assistant
 - node-red
 ---
-
 In this post I will explain how I hooked up our normal washing machine to provide some power usage insights, such as sending notifications that include the cycle time and power consumption.
+
+<!-- more -->
 
 I'm using [Home Assistant][0] and leveraging [Node-Red][1] installed via an addon to provide the automation layer. By leveraging the addon it provides seem-less integration to query entities and trigger services.
 

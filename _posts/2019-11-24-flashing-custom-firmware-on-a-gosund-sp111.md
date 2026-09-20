@@ -8,8 +8,10 @@ tags:
 - smart-plug
 date: 2019-11-24 21:00 +0100
 ---
-
 We have some older generation [Teckin SP22][4]'s which I previously flashed with [Espurna][1]. They have since changed the model
+
+<!-- more -->
+
 making it harder to flash due to the removal of the 4 screws on the back. People online reported some levels of success using [Tuya Convert]
 [2], but I wanted something that I could flash via serial.
 

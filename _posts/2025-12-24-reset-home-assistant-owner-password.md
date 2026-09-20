@@ -7,8 +7,9 @@ tags:
 - home-assistant
 - recovery
 ---
-
 I recently had to reset the owner account on my Home Assistant instance after forgetting the password.
+
+<!-- more -->
 
 Thankfully Home Assistant provides [comprehensive documentation][0] that walks through several recovery options.
 

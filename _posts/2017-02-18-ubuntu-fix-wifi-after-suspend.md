@@ -8,8 +8,9 @@ tags:
 - dell-xps-15
 - wifi
 ---
-
 I'm running a fresh install Ubuntu Gnome 16.10 on my XPS 15 and I noticed that whenever I put the laptop in suspend I was unable to connect to my WiFi network upon resume.
+
+<!-- more -->
 
 Looking online it appears that I am not alone with this [problem][0]. Following the discussion found that restarting the network-manager service fixed this.
 
