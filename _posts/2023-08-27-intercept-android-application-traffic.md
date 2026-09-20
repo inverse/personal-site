@@ -8,8 +8,9 @@ tags:
 - mitm
 - traffic
 ---
-
 It's been a while since I've had the need to intercept traffic from an Android when things were a lot less secure and you could just use a tool such as [Charles Proxy][0] as a proxy between your device.
+
+<!-- more -->
 
 Unless you're debugging your own application in which you can modify your applications trust anchors to allow user signed certificates it can be problematic. There are tools such as [apk-mitm][3] but I didn't have much luck with using it and the patched application kept crashing on my device.
 

@@ -8,8 +8,9 @@ tags:
 - encryption
 - luks
 ---
-
 I recently upgraded to a new PC which has multiple drives that I wanted to encrypt and decrypt these automatically on boot.
+
+<!-- more -->
 
 My distribution of choice is [EndevourOS][0] as it provides an easy way to get started with an arch based system.
 

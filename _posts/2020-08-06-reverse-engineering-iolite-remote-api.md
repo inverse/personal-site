@@ -8,8 +8,9 @@ tags:
 - reverse-engineering
 - smart-home
 ---
-
 Our landlords installed a smart heating system into our apartment around 2 years ago. Consisting of a wall mounted tablet and some RF controlled radiator valves to allow us to control these on a schedule or via the control panel in the hall.
+
+<!-- more -->
 
 ![Tablet](/assets/img/posts/reverse-iolite/tablet.png)
 

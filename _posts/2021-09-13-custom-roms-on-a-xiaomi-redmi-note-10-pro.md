@@ -9,8 +9,9 @@ tags:
 - custom-roms
 - gcam
 ---
-
 I was an avid user of custom ROMs for my Android phones when vendors used to stop providing updates or included too much bloat with their releases.  However that stopped when I got a Moto X4 which was for me the right balance and it performed well.
+
+<!-- more -->
 
 Recently I upgraded to a [Xiaomi Redmi Note 10 Pro][9] due to the amazing price for the specifications it detailed and it didn't fail to deliver. However, I found using MIUI an issue, while it was fluid and performant I found it too bloated and there were UI quirks with some applications which were frustrating.
 

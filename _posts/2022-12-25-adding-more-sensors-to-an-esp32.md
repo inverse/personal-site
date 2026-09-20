@@ -8,8 +8,9 @@ tags:
 - nodemcu
 - sensors
 ---
-
 I've been running an [ESP32 NodeMCU][0] in the bedroom for motion, temperature, and humidity for a while and have wanted to extend it's functionality by adding light sensing too,  in order to improve the motion light control to trigger when the lux is a certain level vs the current functional, but limited mode based on the position of the sun.
+
+<!-- more -->
 
 I had initially been putting this off as I wasn't sure how best to spice the jumper wires since the device only had 2x ground and 2x 3v3 power pins. However decided try. The process was fairly simple and involved:
 

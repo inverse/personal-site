@@ -7,8 +7,9 @@ tags:
 - linux
 - raspberry-pi
 ---
-
 [Kodi][0] is an open source piece of software designed to provide a media center experience for your video, music, pictures, and applications. It runs of many different platforms including Linux, MacOS, Windows, and Android.
+
+<!-- more -->
 
 This article will cover my experience setting up a media center like experience, specifically using the [OSMC][1] pre-built distribution on a Raspberry PI.
 

@@ -8,8 +8,9 @@ tags:
 - android
 - wireshark
 ---
-
 I recently purchased some [Libratone][0] [Zipp Mini speakers][1] that were on offer and wanted a way to control these through [Home Assistant][2].
+
+<!-- more -->
 
 Without any public API available I found an awesome [post by Benjamin Hanke][8] documenting his journey on reverse engineering the basic controls for controlling this device.
 

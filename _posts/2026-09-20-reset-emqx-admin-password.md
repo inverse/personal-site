@@ -11,6 +11,8 @@ tags:
 
 I recently forgot the password for the admin dashboard on my EMQX instance running on Home Assistant OS and needed to reset it.
 
+<!-- more -->
+
 Thankfully EMQX ships a built-in CLI that makes this easy without restarting anything.
 
 First, shell into the running EMQX container. Since addons use a unique ID you can look it up by filtering the running containers:

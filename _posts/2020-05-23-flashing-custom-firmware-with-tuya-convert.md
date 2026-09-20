@@ -7,8 +7,9 @@ tags:
 - home-automation
 - smart-plug
 ---
-
 In a previous post titled [Flashing custom firmware on Gosund SP111 devices]({% post_url 2019-11-24-flashing-custom-firmware-on-a-gosund-sp111 %}) I wrote about how I achieved this by connecting the device to a serial connection.
+
+<!-- more -->
 
 Having purchased what I believed to be the same product turned out to be the lower rated 2300W and look slightly older generation from the PCB which  made it more difficult to flash without soldering due to only having solder pads.
 

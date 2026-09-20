@@ -10,8 +10,9 @@ tags:
 - wS2812b
 - wled
 ---
-
 The [WLED][0] project is something I have been meaning to use for a while but never got around to experimenting with until recently when I purchased some [WS2812B Fairy Lights][1] to decorate our living room with. The setup was easier than expected and the capabilities of this platform far exceeded my expectations.
+
+<!-- more -->
 
 From being able to leverage the vast array of preset colours, setup custom playlist, easy integration with Home Assistant, multiple controller synchronization, and more.
 

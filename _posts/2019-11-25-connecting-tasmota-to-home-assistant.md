@@ -12,6 +12,8 @@ date: 2019-11-25 22:06 +0100
 ---
 Leading on from a previous post regarding [Flashing custom firmware on Gosund SP111 devices]({% post_url 2019-11-24-flashing-custom-firmware-on-a-gosund-sp111 %}).
 
+<!-- more -->
+
 This post explains how to connect devices running [Tasmota][3] to [Home Assistant][1], allowing both control and integrating sensors if your device has power sensing capabilities such as the [Gosund SP111][0].
 
 This post assumes that you have a working Home Assistant setup already configured with MQTT __without discovery enabled__. If you haven't already got this setup please follow their [official documentation][2].

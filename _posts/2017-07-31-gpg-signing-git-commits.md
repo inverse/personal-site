@@ -8,8 +8,9 @@ tags:
 - gpg
 - security
 ---
-
 GNU Privacy Guard (GnuPG or GPG) is the free and open source implementation of the [OpenPGP protocol][3], that allows you to encrypt and sign your data and communication.
+
+<!-- more -->
 
 In the context of git, this allows users to verify that data is coming from a trusted source.
 

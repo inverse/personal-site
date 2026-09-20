@@ -8,8 +8,9 @@ tags:
 - self-hosted
 - raspberry-pi
 ---
-
 I noticed that the Pi3 that had been hosting our Home Assistant setup along with a minimal set of addons was really struggling which came apparent with things not being as stable as they should and often requiring reboots.
+
+<!-- more -->
 
 Migrating to a Pi4 based setup seemed an obvious choice giving the price point, performance, and power consumption. I oped for the 8GB model as it would provide enough memory for additional addons that I found to self-host.
 

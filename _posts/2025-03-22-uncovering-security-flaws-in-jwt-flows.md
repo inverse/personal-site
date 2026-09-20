@@ -18,7 +18,7 @@ Last year, our landlord replaced our [IOLite][0]-controlled heating system with 
 
 This led me to the [Tado X][2] product line, which colleagues at work highly recommended. Notably, it supports Matter integration, making it an appealing choice.
 
-<!--truncate-->
+<!-- more -->
 
 ## Setup & Discovery
 
